@@ -28,8 +28,8 @@ from matplotlib.lines import Line2D
 #  1. DOMAIN AND FORMATTING
 # ══════════════════════════════════════════════════
 
-X = np.linspace(120, 270, 1200)
-"""Longitude axis: 120°E to 90°W (continuous coordinates)."""
+DEFAULT_X = np.linspace(120, 270, 1200)
+"""Default longitude axis: 120°E to 90°W."""
 
 LON_TICKS  = [120, 150, 180, 210, 240, 270]
 LON_LABELS = ["120°E", "150°E", "180°", "150°W", "120°W", "90°W"]
@@ -75,20 +75,38 @@ def gradient(x, A, x0, w):
 #  3. DIAGNOSTICS
 # ══════════════════════════════════════════════════
 
+#def find_zero_crossings(xv, yv):
+#    """
+#    Return longitudes where yv changes sign (linear interpolation).
+#
+#    These are the points where the zero isallobar crosses the equator
+#    in the 1-D profile.
+#    """
+#    s = np.sign(yv)
+#    out = []
+#    for i in np.where(np.diff(s) != 0)[0]:   # [0] unpacks the tuple
+#        x_zero = xv[i] - yv[i] * (xv[i + 1] - xv[i]) / (yv[i + 1] - yv[i])
+#        out.append(x_zero)
+#    return out
+
 def find_zero_crossings(xv, yv):
     """
     Return longitudes where yv changes sign (linear interpolation).
-
-    These are the points where the zero isallobar crosses the equator
-    in the 1-D profile.
+    
+    Handles edge cases where data points land exactly on zero.
     """
     s = np.sign(yv)
     out = []
     for i in np.where(np.diff(s) != 0)[0]:   # [0] unpacks the tuple
-        x_zero = xv[i] - yv[i] * (xv[i + 1] - xv[i]) / (yv[i + 1] - yv[i])
-        out.append(x_zero)
+        dy = yv[i + 1] - yv[i]
+        if abs(dy) < 1e-15:                   # both points effectively zero
+            x_zero = 0.5 * (xv[i] + xv[i + 1])
+        else:
+            x_zero = xv[i] - yv[i] * (xv[i + 1] - xv[i]) / dy
+        # filter near-duplicate crossings (within 0.1° of previous)
+        if not out or abs(x_zero - out[-1]) > 0.1:
+            out.append(x_zero)
     return out
-
 
 def get_regime(dpbar, A1, A2):
     """
@@ -119,9 +137,12 @@ C_DP   = "teal"       # Δp
 C_GRAD = "purple"     # ∂p/∂x
 
 
+    if X is None:
+        X = DEFAULT_X
+
 def plot_scenario(dpbar, scenario_title="", subtitle="",
                   A1=3.5, A2=4.2, x0=185.0, w=22.0, base=1010.0,
-                  savepath=None):
+                  X=None, savepath=None):
     """
     Produce the four-panel Bjerknes diagnostic figure for one scenario.
 
