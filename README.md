@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository provides a computational exploration of the **Bjerknes Mechanism**, the fundamental feedback loop driving the El Niño-Southern Oscillation (ENSO). The project implements diagnostic tools to identify and classify shifts in equatorial Pacific dynamics, directly connecting atmospheric feedback physics to observable ocean-atmosphere interactions.
+This repository provides a computational exploration of the **Bjerknes Mechanism**, the fundamental positive feedback loop driving the El Niño-Southern Oscillation (ENSO).  At the heart of Bjerknes's 1969 thesis is a specific causal chain: an anomalously great heat supply from the equatorial ocean intensifies the ascending branch of the Hadley circulation, which subsequently maintains a greater-than-normal flux of angular momentum to the midlatitude westerlies. 
 
-Designed as both a technical tutorial and a research-grade diagnostic framework, this work bridges climate dynamics theory and practical applications in climate risk modeling and catastrophe insurance assessment.
+This project implements diagnostic tools—tracking zero isallobars and pressure gradient maxima—to detect "regime-aware" shifts in this causal chain, bridging climate dynamics theory and practical applications in catastrophe risk modeling. 
 
 ## Scientific Foundation
 
@@ -17,10 +17,10 @@ This repository operationalizes Bjerknes's diagnostic framework by:
 
 ## Key Objectives
 
-- **Scientific Foundation:** Visualize the interaction between equatorial SST anomalies, pressure gradients, and atmospheric tendencies within the Bjerknes feedback loop.
-- **Diagnostic Tool:** Implement numerical diagnostics (zero isallobars and gradient maxima identification) to identify transitions in Walker Circulation regime.
-- **Regime Classification:** Explicitly classify ENSO states into four discrete regimes—**Cold (La Niña)**, **Warm (El Niño)**, **Transition (Mixed/Neutral)**, and **Damping (Feedback Suppressed)**—based on basin-wide pressure anomalies and feedback strength.
-- **Experimental Climate Scenarios:** Simulate how basin-wide pressure anomalies (Δp̄) and SST forcing trigger shifts between regimes under different atmospheric parameterizations.
+- **Mapping Causal Chains:** Visualize the connection between equatorial sea surface temperature (SST) anomalies, the Hadley circulation's intensity, and the resulting flux of angular momentum to the midlatitude westerlies.
+- **Diagnostic Probes:** Utilize geometric diagnostics (isallobaric nodes vs. spatial pressure maxima) to probe the stability of the Walker circulation across different climate regimes.
+- **Regime Classification:** Explicitly classify ENSO states into four discrete regimes—Cold (La Niña), Warm (El Niño), Transition, and Damping—to demonstrate how regime-dependent errors propagate through risk chains.
+- **Experimental Climate Scenarios:** Simulate how basin-wide pressure anomalies ($\Delta\bar{p}$) and changes in the cold tongue width ($w$) shift the equatorial Pacific between these regimes, reflecting oceanic memory and lag asymmetry.  
 
 ## Contents
 
