@@ -14,9 +14,22 @@ def lon_fmt(v):
     if abs(v - 180) < 0.01: return "180°"
     return f"{v:.0f}°E" if v < 180 else f"{360 - v:.0f}°W"
 
-def pressure(x, A, x0, w, base):
-    return base - A * np.tanh((x - x0) / w)
+#def pressure(x, A, x0, w, base):
+#    return base - A * np.tanh((x - x0) / w)
 
+def pressure(x, A, x0, w, base, shift=0.0):
+    """
+    x: longitude
+    A: amplitude of the see-saw
+    x0: center point (anchor)
+    w: width
+    base: mean pressure
+    shift: antisymmetric see-saw term (the SO component)
+    """
+    # The 'shift' term creates the see-saw (high in west, low in east)
+    # The tanh function naturally anchors around x0
+    return base - (A + shift) * np.tanh((x - x0) / w)
+    
 def gradient(x, A, x0, w):
     return -(A / w) * (1.0 / np.cosh((x - x0) / w)) ** 2
 
@@ -38,6 +51,17 @@ def get_regime(dpbar, A1, A2):
     if abs(dpbar) > abs(dA): return "B (No crossing)"
     if abs(dpbar) < 1e-5:    return "A (Coincident)"
     return "C (East of max)" if dpbar > 0 else "D (West of max)"
+
+def integrated_forcing(A, x0, w, x_start=120, x_end=270):
+    """
+    Computes the total integrated easterly forcing by integrating 
+    the absolute pressure gradient over the Pacific basin.
+    """
+    x = np.linspace(x_start, x_end, 1000)
+    g = gradient(x, A, x0, w)
+    # The absolute value ensures we capture the magnitude of forcing 
+    # regardless of sign, representing the total atmospheric energy input
+    return np.trapz(np.abs(g), x)
 
 C_PT, C_PTD, C_DP, C_GRAD = "#1f77b4", "#e8593c", "teal", "purple"
 
