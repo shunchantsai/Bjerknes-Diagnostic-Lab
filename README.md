@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository provides a computational exploration of the **Bjerknes Mechanism**, the fundamental feedback loop driving the El Niño-Southern Oscillation (ENSO). The project implements diagnostic tools to identify and classify shifts in equatorial Pacific dynamics, directly connecting atmospheric feedback physics to observable ocean-atmosphere interactions.
+This repository provides a computational exploration of the **Bjerknes Mechanism**, the fundamental positive feedback loop driving the El Niño-Southern Oscillation (ENSO).  At the heart of Bjerknes's 1969 thesis is a specific causal chain: an anomalously great heat supply from the equatorial ocean intensifies the ascending branch of the Hadley circulation, which subsequently maintains a greater-than-normal flux of angular momentum to the midlatitude westerlies. 
 
-Designed as both a technical tutorial and a research-grade diagnostic framework, this work bridges climate dynamics theory and practical applications in climate risk modeling and catastrophe insurance assessment.
+This project implements diagnostic tools—tracking zero isallobars and pressure gradient maxima—to detect "regime-aware" shifts in this causal chain, bridging climate dynamics theory and practical applications in catastrophe risk modeling. 
 
 ## Scientific Foundation
 
@@ -16,6 +16,7 @@ This repository operationalises Bjerknes's diagnostic framework by:
 - Classifying the state of the system into discrete ENSO regimes based on feedback strength and sign
 
 ## Key Objectives
+
 
 - **Diagnostic Clarity:** Separate the *temporal* zero isallobar (where pressure stopped changing) from the *spatial* gradient maximum (where the pressure field is steepest right now). These are mathematically independent; conflating them induces regime-dependent errors in ENSO phase classification.
 - **Mathematical Framework:** Implement a four-regime taxonomy (Scenarios A–D) based on the relationship between the temporal node and spatial peak, controlled by two parameters: the see-saw amplitude and a basin-wide pressure offset.
