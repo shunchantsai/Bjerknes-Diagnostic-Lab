@@ -44,6 +44,31 @@ meridional teleconnection requires a warm-vs-cold contrast that the zonal node-g
 framing does not supply. The two notebooks are perpendicular views of one taxonomy, not
 identical scenarios — a point each notebook states explicitly.
 
+## Scientific Framework: Structure vs. Magnitude
+
+The ENSO teleconnection is not about SST magnitude. It's about SST pattern structure 
+relative to a maintained cold baseline. Our diagnostics probe this via two perpendicular 
+axes: the **gradient's location and strength** (Notebook 1, zonal) and its **downstream 
+jet response** (Notebook 2, meridional).
+
+The foundation is geographic. Bjerknes (1969) noted that the Pacific's equatorial cold 
+anomaly is unique among ocean basins—spanning ~85° of longitude with anomalies exceeding 
+−8°C off Peru, far more extensive than the Atlantic or Indian Ocean. This cold water is 
+not passive; it is actively maintained by upwelling (southeast trade winds), westward 
+cold-water advection, and air-sea coupling. **The Pacific's cold baseline is the stage 
+on which ENSO plays.**
+
+Given that cold baseline, SST anomalies (warm El Niño, cold La Niña) sit *relative to* 
+it and develop meridional structure. This is why the gradient matters: without a fixed 
+cold reference, a warm basin might be uniformly warm (Scenario B). The cold baseline 
+ensures that anomalies have spatial structure.
+
+**Scenario B is the keystone.** It is the warmest SST state yet produces the weakest 
+teleconnection in Part 2 — precisely because it removes the meridional gradient. 
+Equivalently, in Part 1's zonal view, the basin-wide offset erases the node entirely. 
+**This proves: structure (gradient) beats magnitude.** Our diagnostics assume that 
+cold-water structure exists—and show what happens when anomalies sit on top of it.
+
 ## A note on scope
 
 Both notebooks are **idealized diagnostics, not GCMs or calibrated models**. The fields are
