@@ -1,1 +1,8 @@
+# PDFs — article draft (unpublished) and source paper (copyright)
+*.pdf
+
+# Jupyter / Python cruft
 .ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
