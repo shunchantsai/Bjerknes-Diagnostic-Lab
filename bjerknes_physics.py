@@ -17,7 +17,8 @@ from matplotlib.lines import Line2D
 
 # --- Setup and Utilities ---
 DEFAULT_X = np.linspace(120, 270, 1200)
-# Bjerknes's four isallobar maps cross the equator at 175E, 170W(=190E), 168E, 178E
+# Bjerknes's four isallobaric-change maps (Fig. 3–6: the years 1963–1967) cross 
+# the equator at 175E, 170W(=190E), 168E, 178E
 # -> mean ~178E, "a little west of the dateline on the average". Use this as the
 # canonical cold-year node / gradient-maximum longitude.
 X0_COLD = 178.0
