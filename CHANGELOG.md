@@ -2,6 +2,31 @@
 
 All notable changes to the `01_Bjerknes_Zonal_Diagnostic.ipynb` notebook are documented here.
 
+## [2026-07-03] — NB1 Phase A: Bjerknes verification + content edits
+
+**Session type:** Content (Phase A deep-read → Phase 3.5 verification → Phase 4 edits).
+Structural edits identified in the same pass are listed separately below.
+
+### Changed (content)
+- **§4 X0_COLD provenance — now text-verified against Bjerknes (1969).** OCR of the
+  scanned source confirms the four equatorial zero-isallobar crossings stated in Bjerknes's
+  prose (175°E, 170°W, 168°E, 178°E; mean 177.75°E ≈ 178°E). Removed the "not yet verified /
+  digitize the figures" framing; noted that the node–gradient coincidence is Bjerknes's own
+  stated observation.
+- **§Trap 3 (145°W) — precision + attribution.** Now "westerly surface winds occasionally
+  observed at 145°W on the Equator in November 1957 (Bjerknes 1969, citing Austin 1960)."
+- **§1 coincidence claim — softened to hypothesis.** The "empirically rare" statement now
+  reads as the notebook's own working conjecture, not an established observational result.
+
+### Added
+- **Sadler (1959) reference** (Proc. 9th Pacific Science Congress, Vol. 13, 6–11) to the
+  References cell — closes a source cited in §7 but previously missing from the list.
+
+### Changed (structural)
+- Intro: signpost distinguishing the two dualities (node/gradient vs thermal/rotational);
+  removed a dangling "Sadler's observation" attribution (full cited version kept in §7);
+  CAT paragraph now back-references the downstream chain instead of restating it.
+
 ---
 
 ## [2026-07-03] — NB1 Structural Content Overhaul + Phase 5 Exam
