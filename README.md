@@ -116,8 +116,10 @@ mechanistic understanding and an honest, legible account of one causal chain.
 ## Contents
 
 - `01_Bjerknes_Zonal_Diagnostic.ipynb` — Part 1: the zonal node-vs-gradient diagnostic.
-- `02_Hadley_Jet_Meridional_Teleconnection.ipynb` — Part 2: the meridional jet teleconnection atlas (self-contained; defines its own field generators).
-- `bjerknes_physics.py` — the physics and diagnostic functions imported by **Part 1**. (Part 2 is self-contained and does not use this module.)
+- `02_Hadley_Jet_Meridional_Teleconnection.ipynb` — Part 2: the meridional jet teleconnection atlas.
+- `bjerknes_physics.py` — zonal Walker physics and diagnostic functions, imported by **Part 1**.
+- `teleconnection_physics.py` — meridional Hadley/jet field generators, imported by **Part 2**.
+- `test_bjerknes_physics.py`, `test_teleconnection_physics.py` — physics-claim test suites (numpy-only; `pytest` or `python <file>`).
 
 ## Getting Started
 
