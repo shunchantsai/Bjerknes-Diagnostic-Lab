@@ -1,6 +1,30 @@
 # Changelog — Bjerknes-Diagnostic-Lab
 
-All notable changes to the `01_Bjerknes_Zonal_Diagnostic.ipynb` notebook are documented here.
+All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
+
+## [2026-07-04] — Repo engineering (Steps 1–3): reproducibility, output hygiene, NB2 modularization
+
+**Session type:** Engineering (repo-level: environment, git hygiene, module extraction, tests).
+No notebook *science* changed — NB2's physics is unchanged (keystone check: peak |−∂p/∂φ| A = 0.327, B = 0.000 hPa/°lat).
+
+### Added
+- **`requirements.txt`** — pinned runtime dependencies (`numpy==2.5.0`, `matplotlib==3.11.0`), verified to execute both notebooks end-to-end in a fresh Python 3.12 virtual environment (`e3ebf03`).
+- **`.gitattributes` + nbstripout filter** — notebook outputs stripped from git while kept in the working copy; ~95% drop in committed notebook size, readable diffs (`698c288`).
+- **README "Figures" section** — embeds the four-scenario meridional atlas + Bjerknes Fig 8, restoring on-page figures after output-stripping (`1621c20`).
+- **`test_bjerknes_physics.py`** — 13 physics-claim tests for the zonal module (regime taxonomy, node/gradient coincidence, structure-beats-magnitude width discrimination, oceanic memory); numpy-only, pytest or standalone (`db0c6e2`).
+- **`teleconnection_physics.py`** — meridional Hadley/jet field generators (`gen_sst`, `gen_pressure`, `gen_hadley`, `gen_zonal_wind`, `gen_momentum_flux`) extracted from NB2 as pure functions (output shape from the passed grid; no hidden globals) (`4dc628b`).
+- **`test_teleconnection_physics.py`** — 10 physics-claim tests for the meridional module, including the Scenario-B keystone (uniform SST → zero meridional pressure gradient) as an executable assertion (`4dc628b`).
+
+### Changed
+- **NB2 imports its generators** from `teleconnection_physics.py` instead of defining them inline, and reuses `gen_pressure` in the A-vs-B force panel (removing the duplicated `_sst_profile` / `_p_anom` helpers). Runs top-to-bottom unchanged (`4dc628b`).
+- **README** — corrected the dependency list (pandas was never imported); rewrote Getting Started as a pinned-venv setup; updated Contents for the new module and both test suites.
+- **CHANGELOG scope** — this log now tracks the whole repository, not just NB1.
+
+### Verified
+- Both notebooks execute clean (`Restart & Run All`) in a fresh environment from `requirements.txt`.
+- Full test suite: **23 passed** (13 zonal + 10 meridional); Scenario-B keystone green.
+
+---
 
 ## [2026-07-03] — NB1 Phase A: Bjerknes verification + content edits
 
