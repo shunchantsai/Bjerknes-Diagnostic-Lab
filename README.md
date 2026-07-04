@@ -85,8 +85,21 @@ mechanistic understanding and an honest, legible account of one causal chain.
 
 ## Getting Started
 
-Requires Python 3.x with `numpy`, `matplotlib`, and `pandas`. Open either notebook in
-Jupyter and run all cells; each is self-documenting and regenerates its figures from scratch.
+Requires **Python 3.12** with the versions pinned in [`requirements.txt`](requirements.txt)
+(`numpy`, `matplotlib` — that is the complete set; nothing else is imported). Set up a clean
+environment and launch Jupyter:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+pip install notebook               # Jupyter, to open the notebooks
+jupyter notebook
+```
+
+Open either notebook and choose **Kernel → Restart & Run All**; each is self-documenting and
+regenerates its figures from scratch. Both notebooks are verified to execute top-to-bottom, with
+no errors, in a fresh environment built from `requirements.txt`.
 
 ## Reference
 

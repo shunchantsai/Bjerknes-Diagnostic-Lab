@@ -1,0 +1,17 @@
+# Bjerknes-Diagnostic-Lab — pinned runtime dependencies
+#
+# Verified: notebooks 01 and 02 both execute end-to-end (Kernel > Restart &
+# Run All, no errors) in a fresh virtual environment on Python 3.12 with
+# exactly these versions.
+#
+# pandas is intentionally NOT listed — it is never imported by either notebook
+# or by bjerknes_physics.py.
+#
+# Reproduce a clean environment:
+#   python3 -m venv .venv
+#   source .venv/bin/activate      # Windows: .venv\Scripts\activate
+#   pip install -r requirements.txt
+#   pip install notebook           # Jupyter itself, to open the notebooks
+
+numpy==2.5.0
+matplotlib==3.11.0
