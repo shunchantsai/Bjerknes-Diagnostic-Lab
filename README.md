@@ -69,6 +69,42 @@ Equivalently, in Part 1's zonal view, the basin-wide offset erases the node enti
 **This proves: structure (gradient) beats magnitude.** Our diagnostics assume that 
 cold-water structure exists—and show what happens when anomalies sit on top of it.
 
+## Figures
+
+The four ENSO regimes as the meridional **ENSO → Hadley → jet** atlas (Part 2). Every panel set is
+the same three-part anatomy — equator-to-pole SST forcing (left) → pressure anomaly and Hadley
+overturning (centre) → upper-tropospheric jet (right) — so the four read as variations on one
+structure rather than four unrelated plots.
+
+**A — Strong El Niño (the reference).** Sharp meridional SST gradient → vigorous Hadley cell →
+intense subtropical jet. A high-index winter, and the yardstick for the rest.
+
+![Scenario A — Strong El Niño](Scenario_A.png)
+
+**B — Basin-wide warm offset (the keystone).** The warmest state of the four, yet the weakest
+teleconnection: a uniform-warm basin has no meridional gradient, so there is no driver. Structure
+beats magnitude, made visible.
+
+![Scenario B — Basin-wide warm offset](Scenario_B.png)
+
+**C — Cold La Niña, node displaced east.** A weak, sign-flipped gradient suppresses the overturning;
+the jet is pale and disorganized. A low-index winter.
+
+![Scenario C — Cold La Niña, node displaced east](Scenario_C.png)
+
+**D — Cold La Niña, node displaced west.** The most spatially disrupted case — the weakest jet of
+the four.
+
+![Scenario D — Cold La Niña, node displaced west](Scenario_D.png)
+
+**Vertical closure (Part 1).** The model reproduces the defining feature of Bjerknes's own Figure 8:
+the zonal pressure gradient *reverses sign with height*, "scissoring" the isobaric surfaces — the
+physical closure of the Walker cell.
+
+![Bjerknes Figure 8 — vertical scissoring of the isobaric surfaces](bjerknes_figure_8.png)
+
+---
+
 ## A note on scope
 
 Both notebooks are **idealized diagnostics, not GCMs or calibrated models**. The fields are
