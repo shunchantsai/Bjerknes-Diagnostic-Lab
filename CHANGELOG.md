@@ -2,6 +2,22 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-06] — NB2 Phase A (Session 2, STRUCTURAL): caveats moved after their figures
+
+**Session type:** Structural (whole-cell moves only — no prose changed; verified by source diff).
+
+### Changed (structural)
+- Moved **"Why this framing is worth foregrounding"** to directly after the title (was an unnumbered §2/§3 interlude), co-locating the motivation with the intro.
+- Moved the **"off-equator ascent"** and **"jet-pinned"** caveats out of §5 (they preceded any figure) to just after Scenario A's figure — each caveat now follows the figure it explains.
+
+### Verified
+- Pure reorder: cell count unchanged (27), no cell source altered; Restart & Run All clean; 23/23 tests green (no module change).
+
+### Deferred (Session 3, CONTENT)
+- Trim the "gradient > magnitude" restatements to ≤2; add an anomaly-vs-total line at Scenario B; number the two remaining unnumbered sections.
+
+---
+
 ## [2026-07-05] — NB2 Phase A (Session 1, CONTENT): full §1–§10 read, §6 re-scope + accuracy fixes
 
 **Session type:** Content (Phase A deep-read → Phase 3.5 verify → Phase 4 edits → Phase 5 exam).
