@@ -2,6 +2,39 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-05] — NB2 Phase A (Session 1, CONTENT): §6 re-scope + accuracy fixes
+
+**Session type:** Content (Phase A deep-read → Phase 3.5 verify → Phase 4 edits → Phase 5 exam).
+Structural findings deferred to a Session 2 (STRUCTURAL).
+
+### Changed (content)
+- **§6 "Why this framing is worth foregrounding" — rewritten (P1-a).** Removed an inaccurate claim
+  (the operational standard ENSO index is the SST-based Niño 3.4 / ONI, *not* a single pressure-based
+  index; SOI is secondary) and an internal contradiction with cell 0 (the node-vs-gradient question is
+  NB1's). Re-scoped to NB2's actual question: does the jet respond to SST *magnitude* or *structure*?
+- **§4 pressure equation — `c_p` → `SCALE_P` (P1-d).** The scaling constant was mislabeled as the
+  thermodynamic specific heat $c_p$; it is the §2 tuning knob (0.6 hPa/°C·km). Renamed, defined, and
+  now matches the code symbol.
+- **§2 tuning-knob caveat de-duplicated (P1-b);** cell 5 owns the full caveat, cell 3 points forward.
+- **Z_MID altitude mislabel corrected (P1-c):** 7 km is mid-troposphere (~500 hPa), not the
+  boundary-layer / free-troposphere transition.
+- **Axis precision (P1-e):** Scenario B's missing gradient named *meridional (north–south)* where
+  previously "horizontal," removing a zonal-vs-meridional ambiguity.
+
+### Verified (Phase 3.5)
+- Standard-ENSO-index claim checked against NOAA / IRI sources (→ P1-a).
+- Held & Hou (1980) citation confirmed genuine.
+- Test suite unchanged: 23/23 green (no module change).
+
+### Deferred
+- **Structural (Session 2):** relocate the anomaly / meridional-axis explanation adjacent to the
+  Scenario-B figure and the A-vs-B force panel; consolidate the "structure beats magnitude" restatements
+  (cells 0, 7, 14) to ≤2; reorder cell 14's off-equator subtitle out of §5. *Content is present; the
+  problem is placement.*
+- **Blocked (verify first):** cell 5 "±5–15 hPa"; cell 14 Bjerknes quote (verify vs OCR).
+
+---
+
 ## [2026-07-04] — Repo engineering (Steps 1–3): reproducibility, output hygiene, NB2 modularization
 
 **Session type:** Engineering (repo-level: environment, git hygiene, module extraction, tests).
