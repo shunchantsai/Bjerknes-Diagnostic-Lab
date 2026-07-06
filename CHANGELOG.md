@@ -2,7 +2,7 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
-## [2026-07-05] — NB2 Phase A (Session 1, CONTENT): §6 re-scope + accuracy fixes
+## [2026-07-05] — NB2 Phase A (Session 1, CONTENT): full §1–§10 read, §6 re-scope + accuracy fixes
 
 **Session type:** Content (Phase A deep-read → Phase 3.5 verify → Phase 4 edits → Phase 5 exam).
 Structural findings deferred to a Session 2 (STRUCTURAL).
@@ -20,18 +20,30 @@ Structural findings deferred to a Session 2 (STRUCTURAL).
   boundary-layer / free-troposphere transition.
 - **Axis precision (P1-e):** Scenario B's missing gradient named *meridional (north–south)* where
   previously "horizontal," removing a zonal-vs-meridional ambiguity.
+- **Scope note de-staled (P1-f):** the ∂p/∂φ vector overlay was flagged as an "open" future refinement,
+  but the A-vs-B force panel (§7) already delivers it; note rewritten to say so.
+- **§5 "±5–15 hPa" corrected (P1-g):** real ENSO SLP anomalies are only a few hPa — the SCALE_P row now
+  states the magnitudes are illustrative, not calibrated (former BLOCKED item).
+- **§9 wording (P1-h):** split-D / wavy-jet refinements reframed from "deferred" to "left to the prose on
+  principle," matching the note on scope (the axisymmetric model doesn't generate them).
+- **§10 parallelism (P1-i):** Scenario D's one-liner now names it "sign-flipped," like C.
+- **§10 closing (P1-j):** added a one-line takeaway returning to the thesis + the NB1↔NB2 angular-momentum hand-off.
+- **§10 taxonomy note (P1-k):** flags the A/B/C/D set as a constructed diagnostic; B is an idealized control, not an observed state.
 
 ### Verified (Phase 3.5)
 - Standard-ENSO-index claim checked against NOAA / IRI sources (→ P1-a).
 - Held & Hou (1980) citation confirmed genuine.
 - Test suite unchanged: 23/23 green (no module change).
+- **Cell 14 Bjerknes quote verified verbatim** against the 1969 paper (MWR 97(3), §4 "The Walker Circulation").
+- **"±5–15 hPa" refuted** (Bjerknes's own ±1.5 mb / ~5–6 mb; the SOI is a normalized index) → fixed in P1-g.
+- **[G3] 4-scenario taxonomy** confirmed a *construct* (not Bjerknes's); observed ENSO diversity (EP/CP flavors) supports the pattern-over-magnitude framing; B is an idealized control.
 
 ### Deferred
 - **Structural (Session 2):** relocate the anomaly / meridional-axis explanation adjacent to the
   Scenario-B figure and the A-vs-B force panel; consolidate the "structure beats magnitude" restatements
   (cells 0, 7, 14) to ≤2; reorder cell 14's off-equator subtitle out of §5. *Content is present; the
   problem is placement.*
-- **Blocked (verify first):** cell 5 "±5–15 hPa"; cell 14 Bjerknes quote (verify vs OCR).
+- **Both former BLOCKED items cleared** in Phase 3.5 (Bjerknes quote verified verbatim; ±5–15 hPa fixed → P1-g).
 
 ---
 
