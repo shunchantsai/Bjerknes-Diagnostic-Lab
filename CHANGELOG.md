@@ -2,6 +2,24 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-07] — NB2 Phase A (Session 3, CONTENT): trim thesis repetition, anomaly reminder
+
+**Session type:** Content (small, scoped from Session 2's deferred list). **Closes NB2 Phase A.**
+
+### Changed (content)
+- **Thesis de-duplicated (P3-a, P3-b):** "gradient beats magnitude" was stated ~6×; removed the two intro pre-announcements (cell 1's closing line; the slogan in cell 0's Scenario-B blockquote), so the claim is now *earned* at Scenario B (§7) and *landed* at the synthesis (§10) — two homes, not six. The intro poses the puzzle without spoiling it.
+- **Anomaly-vs-total reminder at Scenario B (P3-c):** added a point-of-use line — these are anomaly fields; B removes only the *anomalous* meridional gradient, so what collapses is the ENSO-driven *change*, not the atmosphere's background Hadley cell. (Addresses the confusion the Phase-5 exam surfaced.)
+
+### Not done (by design)
+- Numbering the two unnumbered interludes ("Why this framing" preamble, "A note on scope" aside): left as intentional interludes — structural and unnecessary here.
+
+### Verified
+- Markdown-only edits; Restart & Run All clean; 23/23 tests green (no module/code change).
+
+**NB2 Phase A (Deep Read & Comprehension) complete** — Sessions 1 (content) · 2 (structural) · 3 (content).
+
+---
+
 ## [2026-07-06] — NB2 Phase A (Session 2, STRUCTURAL): caveats moved after their figures
 
 **Session type:** Structural (whole-cell moves only — no prose changed; verified by source diff).
