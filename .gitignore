@@ -11,3 +11,6 @@ __pycache__/
 
 # Downloaded datasets — never committed; provenance documented in notebooks/tracker
 data/
+
+# Local source archive — third-party material (bulletins, discussion figures, web snapshots); cited, not redistributed
+references/
