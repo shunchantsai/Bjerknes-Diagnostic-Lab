@@ -64,23 +64,27 @@
       domain [95–145°E, 5°S–20°N]: Maritime box extends to 10°S so Java/Bali/Timor are
       included (Figure 2A's GLDAS subset clips at 5°S and misses them).
 - [x] **D.2** IRI maproom → "Access the dataset used to create this map" → paste URL into
-      `DATASET_URL`. https://iridl.ldeo.columbia.edu/maproom/Global/Forecasts/NMME_Seasonal_Forecasts/Precipitation_ELR.html
-- [x] **D.3** Section-G cells pasted into NB3. Remaining hygiene (do with D.2):
-      - [ ] B3 stays after 2A (decided 10 Jul: adjacency to Figure 2A context).
+      `DATASET_URL`. https://iridl.ldeo.columbia.edu/maproom/Global/Forecasts/.
+      NMME_Seasonal_Forecasts/Precipitation_ELR.html
+      (resolved via Expert Mode; see G)
+- [ ] **D.3** Section-G cells pasted into NB3. Remaining hygiene (do with D.2):
+      - [x] B3 stays after 2A (decided 10 Jul: adjacency to Figure 2A context).
       - [ ] Add comment to B3 config: `# NOTE: order (W, S, E, N) — different from set_extent's [W, E, S, N]`.
       - [ ] Four-panel figure cell: **use cartopy coastlines** (matches Figure 2A style;
             cartopy already imported/used in this notebook — prior "no cartopy" decision reversed).
+            - cell written 10 Jul (session notes); insert after dry run confirms dim order; gated on 
+            license approval (H.8).
 
 ## E · 15 July or after — NB3 run (one session, one commit)
 
-- [ ] E.1 Confirm maproom shows the 15 July issuance.
+- [ ] E.1 Confirm dataset page (G, root URL) shows F axis extended to Jul 2026 (= run-day check H.4).
 - [ ] E.2 Run top to bottom; read GRID CHECK and NaN CHECK PASS/FAIL lines.
 - [ ] E.3 Four-panel figure renders (ASO/SON/OND/NDJ), cartopy coastlines,
       box outlines, dominant-tercile hatching.
 - [ ] E.4 Paste computed sentence into Google Doc at [COMPUTED FIGURE SLOT] + footnote
       (IRI forecast, issued 15 July 2026, dataset URL, accessed run date).
-- [ ] E.5 Test the brief's "northern Australia" claim against the ASO/SON/OND/NDJ panel; record
-      outcome in notebook markdown.
+- [ ] E.5 Test the brief's "northern Australia" claim against the NDJ 2026–27 panel (closest to the
+      brief's original DJF target; see H.2)
 - [ ] E.6 Commit (single scope: "NB3 Task B3: IRI tercile computation + figure"), CHANGELOG,
       tick tracker, replace project-folder PDF again if article text changed.
 
