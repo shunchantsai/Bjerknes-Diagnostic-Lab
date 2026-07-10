@@ -10,6 +10,7 @@
 - [ ] **0.1** Fresh PDF export attached for review sessions. *(working — keep doing it)*
 - [x] **0.2** After today's C.2 edits: export fresh PDF and **replace the stale project-folder copy**
       (delete old `Github_5__El_Nino.pdf` in project knowledge, upload new).
+- [x] **0.3** Repo is public: Claude can review pushed state directly via clone on request (scoped checks, not full-repo reads); uploads only needed for uncommitted WIP and article PDFs.
 
 ---
 
@@ -67,10 +68,11 @@
       `DATASET_URL`. https://iridl.ldeo.columbia.edu/maproom/Global/Forecasts/.
       NMME_Seasonal_Forecasts/Precipitation_ELR.html
       (resolved via Expert Mode; see G)
-- [ ] **D.3** Section-G cells pasted into NB3. Remaining hygiene (do with D.2):
+- [x] **D.3** Section-G cells pasted into NB3. Remaining hygiene (do with D.2):
       - [x] B3 stays after 2A (decided 10 Jul: adjacency to Figure 2A context).
-      - [ ] Add comment to B3 config: `# NOTE: order (W, S, E, N) — different from set_extent's [W, E, S, N]`.
-      - [ ] Four-panel figure cell: **use cartopy coastlines** (matches Figure 2A style;
+      - [x] Add comment to B3 config: `# NOTE: order (W, S, E, N) — different from set_extent's [W, 
+         E, S, N]`.
+      - [x] Four-panel figure cell: **use cartopy coastlines** (matches Figure 2A style;
             cartopy already imported/used in this notebook — prior "no cartopy" decision reversed).
             - cell written 10 Jul (session notes); insert after dry run confirms dim order; gated on 
             license approval (H.8).
@@ -90,7 +92,7 @@
 
 ## F · Standing decisions (do not re-litigate)
 
-- Four-panel seasons: ASO/SON/OND/NDJ 2026, single 15-Jul issuance.
+- Four-panel seasons: ASO/SON/OND 2026 / NDJ 2026–27, single 15-Jul issuance.
 - Land-masking: GLDAS validity mask if GRID CHECK passes; else all-cells-with-label.
 - **Cartopy: YES** for the four-panel figure (reversed 10 Jul — already a notebook dependency,
   used by Figure 2A; visual consistency wins).
