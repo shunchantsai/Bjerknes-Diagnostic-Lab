@@ -8,3 +8,6 @@ __pycache__/
 .DS_Store
 
 .Rhistory
+
+# Downloaded datasets — never committed; provenance documented in notebooks/tracker
+data/
