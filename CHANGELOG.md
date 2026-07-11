@@ -2,6 +2,16 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-11] 
+
+- NB3 download cell: urllib fetch replaced with validate-only cell (magic-byte
+  check for CDF/\x89HDF before netCDF4 open). Trigger: dry-run attempt saved the
+  dlauth login page as the .nc; poisoned file deleted; browser-download is now
+  the documented path.
+- NB3 structure: B3 block relocated after Task 2E and renamed Task 2F (article
+  cross-reference in section header), restoring 2A–2F sequence.
+
+
 ## [2026-07-10] — NB3 promoted to deliverable; IRI data access resolved; two gates discovered
 
 **Session type:** Engineering/prep (Task B3 pre-staging — tracker items D.2 + D.3).

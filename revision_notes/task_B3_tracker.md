@@ -2,7 +2,7 @@
 **Repo location:** `revision_notes/task_B3_tracker.md`
 **Created:** 2026-07-09 · **Updated:** 2026-07-10 · **Owner:** Shun-Chan
 **Rule:** work top to bottom. One checkbox at a time. Nothing here needs to be held in your head.
-
+**Rule:** every sitting ends with a two-minute reconcile pass — tick what's done, amend what changed, log the session.
 ---
 
 ## 0 · Sync protocol (fixes "we see different things")
@@ -141,7 +141,7 @@
 | IRI Precipitation Terciles maproom | https://iridl.ldeo.columbia.edu/maproom/Global/Forecasts/NMME_Seasonal_Forecasts/Precipitation_ELR.html |
 | IRI ENSO Quick Look | https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/ |
 
-## G · Data access — resolved (10 Jul 2026)
+## G · Data access
 
 - DATASET_URL (root): https://iridl.ldeo.columbia.edu/SOURCES/.IRI/.FD/.NMME_Seasonal_Forecast/.Precipitation_ELR/
 - Download URL (dry run, Jun 2026 issuance): root + .prob/X/92/155/RANGE/Y/-20/25/RANGE/F/%28Jun%202026%29/VALUES/data.nc
@@ -156,6 +156,7 @@
   (dlauth) — urllib/curl receive the login page as HTML. Workflow: download
   data.nc in a logged-in browser, move to data/. Notebook cell validates magic
   bytes and opens; it does not download.
+- 11 Jul: Dry-run attempt surfaced that the rewritten download cell (designed in prior session) was never applied to the notebook — old urllib version ran, saved dlauth HTML as the .nc. Fixed; committed 11 Jul (this commit). Lesson: designed edits are not done edits; verify the artifact matches the design record before running. Dry run itself remains gated on license approval (ref f8725d…).
 
 ## H · Risks & run-day checks (15 Jul)
 
