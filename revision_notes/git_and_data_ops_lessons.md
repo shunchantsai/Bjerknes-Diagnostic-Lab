@@ -1,4 +1,11 @@
-What I learned — 2026-07-10 (git, files, notebooks, terminal)
+## 11/07/26 — commit messages describe the diff, not the day
+
+Follow-up commit (980d4a6) reused the previous commit's message verbatim —
+message describes the wrong changes. Rule: write the message after
+`git diff --staged`, describing what's actually staged; if the follow-up
+lands within minutes and nothing was pushed yet, `git commit --amend` instead.
+
+## 10/07/26 (git, files, notebooks, terminal)
 
 1. Git only knows what's committed. git log --since returning nothing meant three days of work existed only in the working tree — invisible to history, to GitHub, and to any backup. Corollary: the template→NB3 "rename" was never a rename to git, because the original was never committed; it entered history as a plain add. The changelog must describe what the repository saw, not what happened on disk.
 2. Untracked files accumulate silently and need triage, not bulk-add. One git status revealed five distinct categories mixed together: deliverables that should have been committed long ago (LICENSE, Figure 2A), data inputs that must never be committed (GLDAS .nc4), provenance recipes worth keeping in a named folder (data_provenance/), third-party material that can't legally be redistributed from a public repo (references/ — bulletins, snapshots), and junk (HTTP_services.cgi). Each category gets a different verb: commit, ignore, relocate-and-commit, ignore-with-backup, delete.
