@@ -4,8 +4,10 @@
 # Run All, no errors) in a fresh virtual environment on Python 3.12 with
 # exactly these versions.
 #
-# pandas is intentionally NOT listed — it is never imported by either notebook
-# or by bjerknes_physics.py.
+# Scope: complete for notebooks 01–02 and both physics modules. Notebook 03
+# (in progress) carries additional geospatial dependencies (cartopy, netCDF4,
+# xarray, pandas, and others); these will be pinned here when it is finalized.
+# pandas is intentionally not listed for 01–02 — neither notebook imports it.
 #
 # Reproduce a clean environment:
 #   python3 -m venv .venv

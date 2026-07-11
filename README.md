@@ -1,9 +1,6 @@
 # Bjerknes Diagnostic Lab: ENSO Dynamics on Two Axes
 
-A two-part computational study of the El Niño–Southern Oscillation, built around a single
-idea from Bjerknes (1969): the equatorial Pacific pressure see-saw, and how its structure
-propagates outward to shape mid-latitude weather. The two notebooks examine the *same*
-ENSO regime taxonomy along the two perpendicular axes of the system — the **zonal**
+A computational study of the El Niño–Southern Oscillation in two diagnostic parts and one applied part, built around a single idea from Bjerknes (1969): the equatorial Pacific pressure see-saw, and how its structure propagates outward to shape mid-latitude weather. The two notebooks examine the *same* ENSO regime taxonomy along the two perpendicular axes of the system — the **zonal**
 (east–west, Walker) axis and the **meridional** (north–south, Hadley-to-jet) axis.
 
 ## The two parts
@@ -24,6 +21,16 @@ the subtropical jet. Its central finding is that it is the **meridional SST grad
 magnitude, that drives the teleconnection** — the warmest uniform state produces the weakest
 jet. A three-panel anatomy (SST forcing → pressure + Hadley circulation → jet) is built once
 and reused across all four scenarios.
+
+**Part 3 (in progress) — `03_SEAsia_Drought_Data_Processing.ipynb` (the applied layer).**
+The data-processing companion to a forthcoming applied article on the 2026–27 El Niño,
+connecting the diagnostic framework of Parts 1–2 to observed and forecast impacts:
+GLDAS soil-moisture analysis of the 1997–98 analog (complete; Figure 2A) and a
+probabilistic precipitation outlook for Southeast Asia from IRI/NMME tercile forecasts
+(pending — the forecast dataset is license-gated, with access approval in progress).
+Unlike Parts 1–2, this notebook processes external observational and forecast data and
+carries additional geospatial dependencies (cartopy, netCDF4, xarray, and others), which
+will be pinned in `requirements.txt` when the notebook is finalized.
 
 ## How the two parts connect
 
@@ -117,6 +124,11 @@ mechanistic understanding and an honest, legible account of one causal chain.
 
 - `01_Bjerknes_Zonal_Diagnostic.ipynb` — Part 1: the zonal node-vs-gradient diagnostic.
 - `02_Hadley_Jet_Meridional_Teleconnection.ipynb` — Part 2: the meridional jet teleconnection atlas.
+- `03_SEAsia_Drought_Data_Processing.ipynb` — Part 3 (in progress): applied data
+  processing for the El Niño 2026–27 article. Runs top-to-bottom given `data/` inputs
+  (see `data_provenance/` for acquisition recipes); no test suite — it is a data-processing
+  pipeline whose checks are inline (grid, NaN, and magic-byte validation cells) rather
+  than a physics module with claim tests.
 - `bjerknes_physics.py` — zonal Walker physics and diagnostic functions, imported by **Part 1**.
 - `teleconnection_physics.py` — meridional Hadley/jet field generators, imported by **Part 2**.
 - `test_bjerknes_physics.py`, `test_teleconnection_physics.py` — physics-claim test suites (numpy-only; `pytest` or `python <file>`).
@@ -136,8 +148,7 @@ jupyter notebook
 ```
 
 Open either notebook and choose **Kernel → Restart & Run All**; each is self-documenting and
-regenerates its figures from scratch. Both notebooks are verified to execute top-to-bottom, with
-no errors, in a fresh environment built from `requirements.txt`.
+regenerates its figures from scratch. Notebooks 01 and 02 are verified to execute top-to-bottom, with no errors, in a fresh environment built from requirements.txt. Notebook 03 (in progress) additionally requires external data in data/ — see data_provenance/.
 
 ## Reference
 
