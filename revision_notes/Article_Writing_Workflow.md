@@ -52,6 +52,11 @@ spot the *other* kind of work, log it and move on — don't do it now.
    - **CONFIRM** → replace the tag with the real citation, log it in the Sources Ledger, or
    - **HOLD** → move the item to the Hold List with a trigger date/event; leave a visible `[HELD: …]` marker in the text.
 4. **Log** — one line in the Revision Log; update the Sources Ledger / Hold List.
+5. **Close (two-minute reconcile pass)** — tick what's done in the tracker, amend
+   what changed, log the session, then run `git status` to confirm "done" means
+   committed and pushed, not edited. No sitting closes with an unclean working
+   tree unless the deviation is logged. (Fixed closing ritual — same status as
+   Restart & Run All for notebooks.)
 
 ---
 

@@ -156,7 +156,8 @@
   (dlauth) — urllib/curl receive the login page as HTML. Workflow: download
   data.nc in a logged-in browser, move to data/. Notebook cell validates magic
   bytes and opens; it does not download.
-- 11 Jul: Dry-run attempt surfaced that the rewritten download cell (designed in prior session) was never applied to the notebook — old urllib version ran, saved dlauth HTML as the .nc. Fixed; committed 11 Jul (this commit). Lesson: designed edits are not done edits; verify the artifact matches the design record before running. Dry run itself remains gated on license approval (ref f8725d…).
+- 11 Jul: Dry-run attempt surfaced that the rewritten download cell (designed in prior session) was never applied to the notebook — old urllib version ran, saved dlauth HTML as the .nc. Fixed; committed 11 Jul (evening commit, combined with 2F move). Lesson 1: designed edits are not done edits; verify the artifact matches the design record before running. Lesson 2 (caught same day): the tracker itself asserted "committed" before git log showed it — the reconcile pass must include git status; "done" means committed and pushed, not edited.
+
 
 ## H · Risks & run-day checks (15 Jul)
 
