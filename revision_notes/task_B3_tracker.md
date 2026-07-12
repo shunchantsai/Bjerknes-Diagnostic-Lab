@@ -1,6 +1,6 @@
 # Task B3 Tracker — 2026–27 Probabilistic Outlook
 **Repo location:** `revision_notes/task_B3_tracker.md`
-**Created:** 2026-07-09 · **Updated:** 2026-07-10 · **Owner:** Shun-Chan
+**Created:** 2026-07-09 · **Updated:** 2026-07-13 · **Owner:** Shun-Chan
 **Rule:** work top to bottom. One checkbox at a time. Nothing here needs to be held in your head.
 **Rule:** every sitting ends with a two-minute reconcile pass — tick what's done, amend what changed, log the session.
 ---
@@ -103,6 +103,8 @@
 - Mainland SE Asia = "mix of below- to above-normal" (bulletin verbatim), not "no dominant tercile".
 - CPC monthly discussions quote **relative** weekly indices (Fig. 2 caption, confirmed 11 Jun
   and replicated 9 Jul). IRI Quick Look quotes traditional. Never compare across without labeling.
+- NB4 is dead-window work only: the NB3 production run preempts NB4 the moment IRI license
+  f8725d… approves (see H.8–H.9). Literature sessions 2–4 are NOT blocked behind NB4.
 
 ## Q · Queued content & study items (not blocking Task B3)
 
@@ -124,22 +126,11 @@
       or literature read at source.
 - [ ] **Q.5** Publication-day freshness pass: latest weekly indices for the wedge sentence
       (labeled traditional AND relative), latest discussion issuance, all access dates.
-
-## Reference URLs
-
-| What | URL |
-|---|---|
-| CPC ENSO Diagnostic Discussion (html) | https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml |
-| CPC ENSO Diagnostic Discussion (pdf, Fig. 2 caption) | https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.pdf |
-| CPC ENSO strength probabilities (75% NDJ / 81% OND table) | https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/ |
-| RONI observed history (NOT the forecast table) | https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/ |
-| Weekly Niño — traditional table | https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for |
-| Weekly Niño — relative table | https://www.cpc.ncep.noaa.gov/data/indices/rel_wksst9120.txt |
-| WMO GSCU JAS 2026 | https://wmo.int/media/update/global-seasonal-climate-update-july-august-september-2026 |
-| ASEANCOF-26 page + bulletin | https://asmc.asean.org/events-twenty-sixth-session-of-the-asean-climate-outlook-forum-aseancof-26/ |
-| ASMC rolling seasonal outlook (perishable) | https://asmc.asean.org/asmc-seasonal-outlook/ |
-| IRI Precipitation Terciles maproom | https://iridl.ldeo.columbia.edu/maproom/Global/Forecasts/NMME_Seasonal_Forecasts/Precipitation_ELR.html |
-| IRI ENSO Quick Look | https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/ |
+- [ ] **Q.6** PROPOSED BUILD: NB4 — `04_Ropelewski_Halpert_Atlas_Method.ipynb`, synthetic-first
+      RH87 method replication (spec inputs + rationale: `revision_notes/2026-07-12_lit_session1_
+      RH87_notes.md`, Outputs Queue item c). Skeleton file exists locally, UNCOMMITTED —
+      intentional, awaiting design session. Tick when the Block B STRUCTURAL design session
+      is held and NB4 gets its own notes file + CHANGELOG entry.
 
 ## G · Data access
 
@@ -194,3 +185,19 @@
    unverified data source to hit the date — the computed sentence is the
    quantification of record and its provenance is the point. Article's other
    sections are unaffected; 13 Jul footnote sitting proceeds as planned.
+
+## Reference URLs
+
+| What | URL |
+|---|---|
+| CPC ENSO Diagnostic Discussion (html) | https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml |
+| CPC ENSO Diagnostic Discussion (pdf, Fig. 2 caption) | https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.pdf |
+| CPC ENSO strength probabilities (75% NDJ / 81% OND table) | https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/strengths/ |
+| RONI observed history (NOT the forecast table) | https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/ |
+| Weekly Niño — traditional table | https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for |
+| Weekly Niño — relative table | https://www.cpc.ncep.noaa.gov/data/indices/rel_wksst9120.txt |
+| WMO GSCU JAS 2026 | https://wmo.int/media/update/global-seasonal-climate-update-july-august-september-2026 |
+| ASEANCOF-26 page + bulletin | https://asmc.asean.org/events-twenty-sixth-session-of-the-asean-climate-outlook-forum-aseancof-26/ |
+| ASMC rolling seasonal outlook (perishable) | https://asmc.asean.org/asmc-seasonal-outlook/ |
+| IRI Precipitation Terciles maproom | https://iridl.ldeo.columbia.edu/maproom/Global/Forecasts/NMME_Seasonal_Forecasts/Precipitation_ELR.html |
+| IRI ENSO Quick Look | https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/ |
