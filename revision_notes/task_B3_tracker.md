@@ -37,6 +37,18 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
         ⚠ AND ON READING IT: Gaupp CONTRADICTS the sentence — dependence can raise OR LOWER aggregate risk, and MITIGATES it for wheat/maize/soybean; dependence structure shows no significant change. GAUPP IS DROPPED. Sentence rewritten around Singh et al. 2022 (Nat Clim Chang, 10.1038/s41558-021-01276-3 — the PUBLISHED version, not the preprint).
       - ⚠ SCOPE: 4/4 sampled footnotes were defective. AUDIT EVERY FOOTNOTE, not just these. Every DOI resolves. Every URL opens to the claimed title. Every title matches the page. Every number comes from a table. Every citation supports THAT sentence's claim.
       - fn 4 ACCESS DATE IS STALE: the article says "accessed June 17, 2026" on a page that updates monthly. Re-access and re-date.
+      - RESOLUTIONS (verified 15 Jul, paste into Doc — confirm each DOI resolves first):
+      - fn 6 → Sarhadi et al. 2018, Sci. Adv. 4, eaau3487, 10.1126/sciadv.aau3487.
+      - fn 7 → Singh et al. 2022, Nat Clim Chang 12, 163-170, 10.1038/s41558-021-01276-3.
+        Numbers (from OSTI accepted ms, NOT preprint): ~68% compound droughts under ENSO
+        (El Niño alone ~46%); ~22% rise in ENSO frequency → ~70% rise in compound droughts
+        (263→448). Teleconnections LARGELY STATIONARY — frame frequency/severity, not pattern.
+      - fn 1 → Abrams et al., Recalibrating Climate Risk. Supports "models underestimate"
+        ONLY. Split sentence: SST-rise clause needs IPCC AR6 WG1; CAT-model clause needs an
+        industry source or gets narrowed.
+      - fn 4 → number from CPC/IRI numeric table, labelled MODEL PLUME (not CPC official);
+        attribution "© 2002-2026 IRI, CC BY 4.0"; refresh access date.
+      - STILL TODO: audit every OTHER footnote; verify Singh numbers on OSTI page.
 - [ ] **B.2** Read Saji et al. 1999 before citing 1997–98 positive-IOD co-occurrence.
       [VERIFY] bracket stays in doc until done.
 - [ ] **B.3** FIGURE 2A CONTRADICTS ITS OWN CITATION (Solander et al. 2020, HESS 24, 2303-2322)
@@ -51,6 +63,14 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
       ⚠ EARTHDATA re-activated 14 Jul (account appears to have lapsed). TEST the bearer-token flow on ONE file before queuing ~114 (38 yrs × OND months).
       ⚠ UNITS: NB3's /100 conversion (kg/m² → m³/m³ for a 10 cm layer) is arithmetically right, but Solander's Table 3 gives no units. Confirm volumetric in their methods.
       ⇒ DIFFERENT FAILURE CLASS from fn 1/4/6/7: the citation is correct and the FIGURE is wrong. A verified number can still sit under a false claim. Verifying the source is necessary and NOT sufficient — verify that the artifact computes what the prose says.
+- 15 Jul UPDATE:
+      - The article's Fig 2A paragraph STILL mislocates the drought (says "driest over
+        mainland" as a drought finding, while Solander's -0.07 is the MARITIME Cluster 2
+        anomaly). Raw map shows climatology, not drought. Paragraph rewrite required (below).
+      - ⚠ VERIFY BEFORE SHIPPING: the article claims -0.07 is "consistent across 1997-98 and
+        2015-16." Solander Table 3 Cluster 2 OND = -0.07 (1997-98) vs -0.17 (2015-16). NOT
+        consistent — differ >2x. If that's the row, the "stable across events" claim is FALSE.
+      - Notebook cell 5 prose already corrected 15 Jul; article Doc must match.
 
 ## C · CPC July discussion + perishable snapshots
 
@@ -257,7 +277,15 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
    licence would not have enabled a 14 Jul run.
    DEAD-WINDOW WORK, in priority order: E.0 (synthetic validation of NB3) → B.1 (footnote
    audit + Figure 2A) → Q.6 (NB4). NB4 IS LAST. See Section F.
-
+10. LICENCE HAS NO ETA (IRI short-staffed, confirmed 14 Jul — prior estimates void).
+    The article is now LICENCE-INDEPENDENT: its claims rest on RH87 base rates + mechanism
+    (in hand), not the IRI forecast. NB3 production is an indefinite background wait, drop-in
+    ready via the validated synthetic pipeline. All other work (B.1, B.3, NB4, non-forecast
+    sections) resequenced ahead of it. The July ELR issuance fills ONE section; its FRAMING
+    depends on timing — FORECAST if the licence clears soon, else RETROSPECTIVE VALIDATION of
+    the prior forecast (a different epistemic object: state it validates a forecast, not
+    describes a known outcome). Issuance is archived issuance-stamped, retrievable either way.
+    Forecast section carries a marked placeholder until data arrives.
 
 ## Reference URLs
 
