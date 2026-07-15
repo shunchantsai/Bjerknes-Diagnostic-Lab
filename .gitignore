@@ -14,3 +14,7 @@ data/
 
 # Local source archive — third-party material (bulletins, discussion figures, web snapshots); cited, not redistributed
 references/
+*.html
+*_files/
+*.html
+*_files/
