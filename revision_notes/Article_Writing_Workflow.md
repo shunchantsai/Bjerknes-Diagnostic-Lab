@@ -113,3 +113,51 @@ Some facts have a shelf-life — current Niño 3.4, forecast probabilities, grai
 - Run **READ / COLLECT** sessions to pre-stage the Hold List's sources — so July 9–10 is a fast VERIFY, not a scramble.
 - Read ahead for the *next* drafting target (Section 2) and populate the Sources Ledger with its citations, so drafting is assembly, not research.
 - **Do not draft ahead of a scheduled co-draft session** — prep the ground; write together.
+
+## Citation verification protocol
+*Adopted 2026-07-14, after an audit found four of four sampled footnotes defective.*
+
+### A citation is a premise. Own it.
+
+**What the audit found:**
+- **fn 6** — a fabricated title bolted onto a real, unrelated URL. The link pointed to the
+  ECB *Environmental Statement 2025*, a report on the ECB's own carbon footprint, canteen
+  waste and building emissions. The cited title did not exist. **Worse than the placeholder
+  it replaced: silently broken, and it looked finished.**
+- **fn 7** — correct authors, journal, volume, pages and year; **fabricated title and DOI.**
+  That combination is the signature of a generated citation: correct scaffolding, invented
+  identifiers. And on reading the real paper (Gaupp et al. 2020), it **contradicted the
+  sentence it was supporting.** Dropped entirely.
+- **fn 1** — source real, but it concerns **IAM damage functions**, while the sentence claimed
+  **catastrophe models**. Category slippage: the exact error the target reader spots first.
+- **fn 4** — a percentage **read off a plot**, attributed to the wrong product (the IRI
+  model-based plume, not the CPC official forecast) on a stale access date.
+- **Figure 2A** — a *different failure class*: the citation was correct (Solander's −0.07
+  verified against Table 3) and **the figure was wrong** — it plots raw absolute soil
+  moisture, so it renders climatology and was being read as drought, producing a caption
+  that states the opposite of its own source.
+
+### The migration pattern
+The shortcut moves to wherever hasn't been defended yet:
+1. Phase 1 reading questions → generated.
+2. A 19-row results table → machine-transcribed.
+3. **Article footnotes → generated.**
+
+Each time, it appeared in the place the discipline had not yet reached. **Footnotes are the
+worst of the three: they are the article's public epistemic surface.** A reader who clicks
+one DOI, finds it fabricated, and stops reading — that ends the piece, and with it the very
+claim to rigour the piece is making.
+
+### The rule
+- Every DOI resolves. Every URL opens to the thing it claims. Every title matches the page.
+- Every number comes from a **table**, never a figure.
+- Every citation supports **that sentence's** specific claim, not an adjacent one.
+- **Read the paper.** Two of these defects were only visible from the full text.
+- **Verifying the source is necessary and not sufficient.** Also verify that your own artifact
+  computes what your prose says it computes.
+
+### The through-line
+Every failure in this project — the generated questions, the machine-transcribed table, the
+fabricated footnotes, the figure cell written but never inserted, the raw-values map read as
+an anomaly — is the same failure: **something entered an artifact without a witness.**
+The fix is never a new tool. It is: *own the premise.*
