@@ -86,11 +86,11 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
       `DATASET_URL`. https://iridl.ldeo.columbia.edu/maproom/Global/Forecasts/.
       NMME_Seasonal_Forecasts/Precipitation_ELR.html
       (resolved via Expert Mode; see G)
-- [ ] **D.3** Section-G cells pasted into NB3. Remaining hygiene (do with D.2):
+- [x] **D.3** Section-G cells pasted into NB3. Remaining hygiene (do with D.2):
       - [x] B3 stays after 2A (decided 10 Jul: adjacency to Figure 2A context).
       - [x] Add comment to B3 config: `# NOTE: order (W, S, E, N) — different from set_extent's [W, 
          E, S, N]`.
-      - [ ] Four-panel figure cell: **use cartopy coastlines** (matches Figure 2A style; cartopy already imported/used in this notebook — prior "no cartopy" decision reversed).
+      - [x] Four-panel figure cell: **use cartopy coastlines** (matches Figure 2A style; cartopy already imported/used in this notebook — prior "no cartopy" decision reversed).
             - cell written 10 Jul (session notes); insert after dry run confirms dim order; gated on license approval (H.8).
 
 ## E · 15 July or after — NB3 run (one session, one commit)
