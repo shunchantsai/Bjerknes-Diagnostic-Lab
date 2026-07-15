@@ -1,3 +1,27 @@
+
+
+## 15/07/26 — decouple the deliverable from the blocked dependency
+When NB3's data access stalled with no ETA, the reflex was "wait for approval." Better:
+ask what the deliverable actually depends on. The article's CLAIMS rest on RH87 base
+rates + mechanism (in hand); the IRI forecast fills one section whose FRAMING (live
+forecast vs. retrospective validation) depends on timing, but whose PLACE in the article
+is fixed. Reframing made the article licence-independent — the blocker sets the tense of
+one paragraph, not the critical path. Rule: when blocked, separate what the work needs
+from what it merely wants; a dependency with no ETA should be made a drop-in, not a gate.
+
+## 15/07/26 — a "done" edit is a claim; verify the artifact, not the record
+
+Across one commit session, five edits recorded as done pointed at the wrong file,
+wrong path, wrong cell, or nothing: (1) the notebook staged was the pre-rebuild
+version; (2) build artifacts (.html/_files) were about to be committed; (3) the
+lessons file was untracked and at a different path than assumed; (4) the 14 Jul
+lesson was deleted from CHANGELOG but never written to the lessons file; (5) a
+tracker block was duplicated, not moved. Every one was caught by a grep or a
+Restart-and-Run-All BEFORE it committed. Rule: after any edit, run a witness that
+inspects the artifact itself (grep -c, git diff --stat, show --stat, a full run) —
+never trust the memory of having made the change. A commit message is a premise.
+
+
 ## 14/07/26 — a diagnosis that explains the symptom is not necessarily the cause
 
 On 10 Jul, urllib/curl against IRIDL returned HTML instead of NetCDF. Diagnosis:
