@@ -1,3 +1,27 @@
+## 14/07/26 — a diagnosis that explains the symptom is not necessarily the cause
+
+On 10 Jul, urllib/curl against IRIDL returned HTML instead of NetCDF. Diagnosis:
+the dlauth login gate. That fully explained the symptom, so it looked confirmed,
+and the workflow was rebuilt around it ("download logged-in in the browser"). It
+was incomplete — behind the login gate sat a LICENCE gate (protected domain
+iri.columbia.edu/terms/forecast/1). Confirmed 14 Jul only by testing the download
+end-to-end while fully authenticated: redirected to /auth/credential?...&realm=
+iri.columbia.edu/terms/forecast/1. Being logged in was never sufficient.
+- A hypothesis that accounts for the symptom is one candidate cause, not THE cause.
+- Test the whole path; don't reason about it. Four days of workflow were built
+  around a gate that wasn't the binding one, because the binding one was never probed.
+- Corollary: the same failure produced a phantom ref id. f8725d… sits in the tracker
+  with no confirmation email in any inbox — a single-source, unverifiable claim.
+
+## 14/07/26 — designed edits are not done edits (3rd occurrence)
+
+NB3's four-panel figure cell was "written 10 Jul" — in the session NOTES, never
+inserted into the notebook. Tracker D.3 was ticked [x]. In reality cells 19-20 were
+comment placeholders, and there was no extraction cell and no GRID CHECK cell: half
+the pipeline did not exist, so the dry run would have failed even with valid data.
+The reconcile pass must OPEN THE ARTIFACT, not just the record of the artifact.
+(1st: 11 Jul, download cell never applied. 2nd: D.3 phantom tick. This is the 3rd.)
+
 ## 11/07/26 — commit messages describe the diff, not the day
 
 Follow-up commit (980d4a6) reused the previous commit's message verbatim —

@@ -2,18 +2,17 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
-## [2026-07-11] 
+## [2026-07-14]
 
-- NB3 download cell: urllib fetch replaced with validate-only cell (magic-byte
-  check for CDF/\x89HDF before netCDF4 open). Trigger: dry-run attempt saved the
-  dlauth login page as the .nc; poisoned file deleted; browser-download is now
-  the documented path.
-- NB3 structure: B3 block relocated after Task 2E and renamed Task 2F (article
-  cross-reference in section header), restoring 2A–2F sequence.
-- README + requirements: claims scoped to reflect NB3 — Part 3 stanza and
-  Contents entry added, execution and dependency-completeness claims scoped
-  to notebooks 01–02.
-
+- NB3 Task 2F: added extraction, GRID CHECK, stats loop, four-panel figure, sentence
+  emitter; cells reordered into dependency order. (Cells 19–20 had been comment
+  placeholders despite D.3 being ticked.)
+- NB3: `make_synthetic_elr.py` — structure-only ELR NetCDF generator for dead-window
+  validation while the IRI licence is pending.
+- Tracker: licence gate confirmed uncleared (H.6/H.8/H.9/G); B.1 escalated to full
+  footnote audit; B.3 added (Figure 2A contradicts Solander); Q.3 promoted; D.3 unticked.
+- Article_Writing_Workflow.md: citation verification protocol added.
+- git_and_data_ops_lessons.md: 14 Jul — symptom vs cause; designed edits (3rd).
 
 ## [2026-07-10] — NB3 promoted to deliverable; IRI data access resolved; two gates discovered
 
