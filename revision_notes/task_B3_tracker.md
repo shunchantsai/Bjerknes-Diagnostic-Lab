@@ -28,6 +28,33 @@
 ## B · Deferred but blocks publication
 
 - [ ] **B.1** FOOTNOTE AUDIT — ESCALATED 14 Jul. Not a "re-verification sitting": an audit of four footnotes found FOUR DEFECTS. Assume nothing is verified until it is.
+- [ ] B.1.n  Sections 3–6 are BRIEF, not prose. Brief embeds unsourced numbers that MUST
+      be verified at primary source before promotion to prose: rice production (2 Mt gain
+      1997–98 / 15 Mt loss 2015–16 / 400,000 ha Indonesia — candidate sources: FAO, IRRI,
+      national stats; NOT yet located); 20–30% rice price rise 1997–98 (candidate: FAO/World
+      Bank commodity data); 0.5–2.0% GDP drag "World Bank estimates" (no document identified
+      — treat as UNSOURCED CLAIM until the actual World Bank report is found and read).
+      Rule: no number crosses from brief to prose without a read source. NOTE: ASEANCOF-26
+      Annex C (ESCAP IBF) provides CURRENT-cycle rice exposure numbers (e.g. Indonesia 95.4%
+      / 50.8 Mt of production exposed to below-normal rainfall, JJA 2026) — citable for
+      forward-looking exposure framing; NOT a substitute for the historical figures.
+- [x] B.1.n+1  fn 17 ("more than six models agree on below-normal") VERIFIED 16 Jul against
+      ASMC Seasonal Forecast Jul–Sep 2026 (updated 6 Jul) — states >6 models predict
+      below-normal as dominant tercile over southern ASEAN region. Footnote label updated
+      Jun–Aug → Jul–Sep 2026; archived PDF confirmed = this version.
+- [ ] B.1.n+2  fn 12/16 (WMO GSCU: ~+2.0°C by JAS, narrow spread; IOD +0.6°C JAS) — verify
+      against WMO GSCU page/PDF, archive copy.
+- [ ] B.1.n+3  fn 15 (11 Jun discussion: near/below-avg convection over Indonesia) — verify
+      against archived June discussion.
+- [ ] B.1.n+4  fn 2 weekly Niño values (+0.94 May → ~+1.7 wk of 17 Jun traditional) — verify
+      against CPC .for/.txt series.
+- [x] B.1.n+5  fn 5 75% NDJ re-verified on live strengths page 16 Jul (user check) — update
+      access date in fn 5 to 16 Jul; archive page PDF.
+- [x] B.1.n+6  fn 11 (81% OND) provenance VERIFIED 16 Jul: figure appears in 9 Jul discussion
+      text itself.
+- [x] B.1.n+7  fn 6 Singh + fn 7 Sarhadi identities & numbers verified at source 16 Jul;
+      fn 7 misattribution repaired by Section 1 paragraph merge (stationarity/22% → Singh,
+      severity → Sarhadi).
       - fn 1 (Abrams et al., "Recalibrating Climate Risk", Green Futures Solutions): source REAL, but concerns IAM damage functions / NGFS scenarios — NOT catastrophe models. CATEGORY SLIPPAGE. Sentence over-loaded: makes 3 claims (tropical SST rise / shifted extremes / CAT-model calibration) on one citation. SPLIT the sentence.
       - fn 4 (97–98%): number was READ OFF A PLOT. Phrasing traced to NOAA CRW text, not IRI.
         ⚠ PRODUCT TRAP: 97–98% is the CCSR/IRI **model-based plume** (mid-month), NOT the **CPC Official Probabilistic Forecast** (early-month, human consensus). Different products, different numbers. Numeric tables: cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/ 
@@ -46,11 +73,23 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
       - fn 1 → Abrams et al., Recalibrating Climate Risk. Supports "models underestimate"
         ONLY. Split sentence: SST-rise clause needs IPCC AR6 WG1; CAT-model clause needs an
         industry source or gets narrowed.
-      - fn 4 → number from CPC/IRI numeric table, labelled MODEL PLUME (not CPC official);
-        attribution "© 2002-2026 IRI, CC BY 4.0"; refresh access date.
+      - fn 5 (was fn 4) → 97–98% RESOLVED 16 Jul: sourced to IRI EXPERT ASSESSMENT prose (June 2026 update, enso-iri_update tab), NOT the model plume. Season corrected: 99% through OND–DJF; 97–98% is JFM–FMA 2027, not NDJ. Product label fixed model-plume → expert-assessment. Number now from text, not a plot.
       - STILL TODO: audit every OTHER footnote; verify Singh numbers on OSTI page.
-- [ ] **B.2** Read Saji et al. 1999 before citing 1997–98 positive-IOD co-occurrence.
-      [VERIFY] bracket stays in doc until done.
+- [x] B.1.n+8  fn 3 duplicate sentence DELETED 16 Jul (confirmed in export). The fn-1 split
+      stands (SST + loss sentences under fn 1 + fn 2); the old unsplit "...raised mean tropical
+      SST, shifted loss distributions, amplified extremes... [3]" sentence is gone. Old fn 3
+      renumbered — current fn 3 is the IRI Quick Look.
+- [ ] B.1.n+9  fn 1 IPCC AR6 — [VERIFY] live. DECISION MADE 16 Jul: KEEP "tropical SST"
+      (path b). The SPM headline ("...warmed the atmosphere, ocean, and land") is too
+      general — it supports "ocean," not "tropical SST" specifically. ACTION: read the
+      SST-specific statement in a WG1 chapter (candidates to check by reading, not asserting:
+      Ch.2 Changing State of the Climate System; Ch.9 Ocean/Cryosphere/Sea Level; TS) and
+      cite THAT statement with the paragraph label read off the page. If no chapter states
+      "tropical SST" rise cleanly, fall back to citing observed tropical-Pacific/Indo-Pacific
+      SST trend from a primary obs source (e.g. HadSST/ERSST literature). Do NOT paste a
+      section label from memory (burned twice on section numbers 16 Jul). WG1 ≠ WG3 (WG3
+      Ch.9 = Buildings). Bounded; blocks fn 1 until the exact sentence is read.
+- [ ] **B.2** Read Saji et al. 1999 before citing 1997–98 positive-IOD co-occurrence (gated on Lit Session 2). Clean PDF re-uploaded to project 16 Jul (parses; corrupted copy replaced). On read, confirm against the text (not Claude): (i) 1997 was a positive IOD, (ii) the independence-from-ENSO framing that licenses "independent" in the article. [VERIFY] bracket stays in Doc until done.
 - [ ] **B.3** FIGURE 2A CONTRADICTS ITS OWN CITATION (Solander et al. 2020, HESS 24, 2303-2322)
       ✅ NUMBER VERIFIED 14 Jul against the actual Table 3: Cluster 2, OND, 1997-1998 = -0.07 ± 0.03. Cluster 2 = N/NE Amazon + maritime SE Asia. Attribution correct.
       ❌ INTERPRETATION CONTRADICTS THE SOURCE. NB3 cell 5 states maritime zones were "comparatively moist" while mainland SE Asia was dry. Solander concludes the OPPOSITE: the largest, most consistent soil-moisture reductions occurred over "the maritime regions of southeastern Asia, Indonesia and New Guinea" (up to 0.28). 
@@ -115,7 +154,11 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
 
 ## E · 15 July or after — NB3 run (one session, one commit)
 
-- [ ] E.0 DEAD-WINDOW: synthetic validation of NB3 Task 2F (notebook cells 15-20;
+- [x] E.0 ✅ DONE 16 Jul (verified against committed artifact: exec [1..15], GRID CHECK
+      PASS x3, tercile sum 100.0, dim order (F,L,C,Y,X) discovered at runtime, figure
+      watermarked SYNTHETIC). RESIDUE → E.2 precondition: SYNTHETIC=False + delete
+      data_SYNTHETIC.nc on run day. Original item follows for the record.
+      DEAD-WINDOW: synthetic validation of NB3 Task 2F (notebook cells 15-20;
       "Cells 3-6" in old H.6 = Task-2F-local numbering — corrected).
       Run make_synthetic_elr.py -> data/data_SYNTHETIC.nc. SYNTHETIC=True in cell 15.
       Cells added 14 Jul: extraction (C-by-name, runtime dim-order discovery),
@@ -195,7 +238,7 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
   - Subset window (92, -20, 155, 25) = union of all four analysis boxes, NOT
     BOX_SEASIA_FULL — N_AUSTRALIA extends to 20S/155E.
 - Variable: prob [X Y C | L F], percent. Tercile axis C is UNORDERED with ids
-  (Below_Normal) (Normal) (Above_Normal) — select by name in code, never by position.
+  (Below_Normal) (Normal) (Above_Normal) — select by name in code, never by position. (description-page order; runtime differs, extraction resolves by name.)
 - Verified on dataset page 10 Jul 2026: F axis Feb 2017–Jun 2026 (113 pts),
   L axis 1.0–4.0 months, 1° global grid, page expires 14 Jul 2026.
 - AUTH (discovered 10 Jul dry run): IRIDL downloads require a logged-in session
