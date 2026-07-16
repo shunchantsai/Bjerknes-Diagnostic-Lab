@@ -12,10 +12,10 @@
 - **2026-07-13 (4)** — §4, §5, Table 2 read. **V.1, V.6, V.7, V.8 RESOLVED.** Table 2 audited: **the abstract's 80% claim fails for 5 of 19 rows.**
 - **2026-07-13 (5)** — Table 2 rows read by eye. **F.11: the coherence/hit-rate collapse recurred.**
 - **2026-07-13 (6)** — §4f prose was eye-read too → **Claude's "OCR" hypothesis FALSIFIED (F.12).** SSA discrepancy is real. **V.11 opened.**
-- **2026-07-13 (7)** — **V.11 RESOLVED. NAU CONFIRMED by two witnesses (§4b prose states "22 out of 26" verbatim).** **ING has NO prose count — residual exposure → V.12.** **Fig. 17b counted: 16 marked episodes → prose + figure agree; Table 2's SSA row is the outlier.** **⭐ THE THREE-WITNESS STRUCTURE DISCOVERED: every region has a Table 2 row + a §4 prose paragraph + a figure pair. Every number in this paper can be triangulated.** **V.13 opened (the SSA row is internally consistent — 18+1=19 — which is a strange typo; test row-alignment misread vs. genuine erratum).**
+- **2026-07-13 (7)** — **V.11 RESOLVED. NAU CONFIRMED by two witnesses (§4b prose states "22 out of 26" verbatim).** **ING has NO prose count — residual exposure → V.12. [RESOLVED 16 Jul: Fig. 4c counted, 11/12 marked ENSO episodes dry; sense now double-witnessed, season triple.]** **Fig. 17b counted: 16 marked episodes → prose + figure agree; Table 2's SSA row is the outlier.** **⭐ THE THREE-WITNESS STRUCTURE DISCOVERED: every region has a Table 2 row + a §4 prose paragraph + a figure pair. Every number in this paper can be triangulated.** **V.13 opened (the SSA row is internally consistent — 18+1=19 — which is a strange typo; test row-alignment misread vs. genuine erratum).** **[RESOLVED 16 Jul: straightedge confirms 19/18/1; misread falsified; NSA control shows error isolated to SSA row; cause undetermined; SSA counts not relied on.]**
 
 **Phase 1: COMPLETE. Phase 2–3: Batches 1–2 COMPLETE. Batch 3 pending.**
-**Next action: (1) V.12 — count Fig. 4c, close ING's exposure [HIGHEST VALUE]. (2) V.13 — straightedge the SSA row [cheap, timeboxed]. (3) Route ripe items. (4) Batch 3.**
+**Next action: (1) V.13 — straightedge the SSA row [cheap, timeboxed]. (2) Route ripe items. (3) Batch 3.** (V.12 CLOSED 16 Jul.)
 
 ---
 
@@ -38,7 +38,7 @@
 | claim | witness 1 (Table 2) | witness 2 (prose) | witness 3 (figure) | status |
 |---|---|---|---|---|
 | **NAU 22/26** | ✅ | ✅ *"22 out of 26"* (§4b, verbatim) | Fig. 7a *(available)* | **✅ SOLID — two witnesses agree** |
-| **ING 20/25** | ✅ | ❌ **§4a states NO count** | **Fig. 4c — NOT YET COUNTED** | ⚠ **→ V.12** |
+| **ING 20/25** | ✅ | ❌ **§4a states NO count** | **Fig. 4c COUNTED 16 Jul: 11/12 dry** | ✅ **SOLID — Fig. 4c is the second witness** |
 | **Gulf/N. Mex 18/22** | ✅ | ❌ **no RH87 prose — imported from RH86** | ❌ not in RH87 | ⚠ **→ verify in RH86 itself** |
 
 ---
@@ -113,7 +113,7 @@ Worked example — one region, five stations:
 
 > **Grep for "0.8" and you will find the wrong one. Verify the QUANTITY, not the digits.**
 
-5. **⚠️ TABLE 2's SSA ROW DISAGREES WITH ITS OWN PROSE AND FIGURE.** Prose (0.81; 14 wet of 16) and **Fig. 17b (16 bars counted)** agree with each other; Table 2's row (0.82; 19/18/1) does not. **Two witnesses beat one.** → **But V.13 must first rule out a row-alignment misread**, because 18 + 1 = 19 is *internally consistent*, which is a strange thing for a typo to be.
+5. **⚠️ TABLE 2's SSA ROW DISAGREES WITH ITS OWN PROSE AND FIGURE.** Prose (0.81; 14 wet of 16) and **Fig. 17b (16 bars counted)** agree at 16 episodes; Table 2's row (0.82; 19/18/1) does not. **✅ V.13 CLOSED 16 Jul: straightedge confirmed 19/18/1 — the misread hypothesis is FALSIFIED. NSA control (its row matches its prose exactly) shows the error is isolated to the SSA row. Cause undetermined. Not article-load-bearing — SSA cited for sense+season only.**
 
 6. **⭐ THE THREE-WITNESS STRUCTURE** (see the standing section). **Every number in this paper can be triangulated. Use it.**
 
@@ -147,7 +147,7 @@ Worked example — one region, five stations:
 - **[S3]** Evidence hierarchy. — **ANSWERED: the tally.**
 - **[S4]** Mechanism vs. observation: proves or cites? — **Batch 3. *(Provisional: cites.)***
 - **[S5]** Scope of absence: Fig. 21's white space. — **Batch 3 · §5's two limitations.**
-- **[S6]** **Table 2's reliability, given the SSA anomaly.** — **RESOLVED (V.11): the anomaly is isolated; NAU is double-witnessed; ING needs Fig. 4c (V.12).**
+- **[S6]** **Table 2's reliability, given the SSA anomaly.** — **RESOLVED (V.11 + V.12): the anomaly is isolated; NAU is double-witnessed; ING confirmed 11/12 via Fig. 4c (16 Jul).**
 
 ### Parked (→ Sessions 2–4)
 - **[P1]** How has the literature updated RH87 since 1987? · **[P2]** Have the coherent regions shifted?
@@ -181,12 +181,12 @@ Worked example — one region, five stations:
   - **✅ NAU — CONFIRMED, two witnesses.** §4b, verbatim: *"The precipitation percentile time series for NAU for the Sep(0) to Mar(+) season (Fig. 7a) confirms that the overwhelming majority of ENSO episodes, **22 out of 26**, are associated with dry conditions in this region."* **Matches Table 2 exactly. Tracker item (a) is fully verified.**
   - **⚠ ING — NO PROSE COUNT EXISTS.** §4a describes ING qualitatively (*"highly consistent occurrences of negative precipitation departures"*) and never states 20/25. **The article's most important citation currently rests on Table 2 alone — the same artifact that failed for SSA.**
     - **Partial internal corroboration (F.10):** §4a's closing sentence — *"the precipitation departures are in the direction indicated by the ENSO composites for **at least 80% of the ENSO episodes for each of the core areas**"* — is a constraint on **all six** Pacific rows. **ING is exactly 80.0% — the binding minimum, the row that makes that sentence just barely true.** If ING were really 18/25 (72%), §4a would be false. **So Table 2's ING row and §4a's prose are jointly consistent.** Real evidence — not conclusive.
-    - **→ V.12: count Fig. 4c. This closes it.**
+    - **→ V.12 CLOSED 16 Jul: Fig. 4c shows 11/12 marked episodes dry — the second witness §4a lacked. ING no longer rests on the 80.0% binding minimum alone.**
   - **⚠ Gulf/N. Mexico — no RH87 prose count at all.** Imported wholesale from RH86. **Checkable only against RH86 itself** — which the footnote already points to. **→ verify there when writing the flood case.**
 
 ### ⚠️ OPEN
 
-- **V.12 — ⭐ COUNT FIG. 4c (ING's time series). [HIGHEST VALUE — do this first]**
+- **V.12 — ✅ RESOLVED 16 Jul. COUNT FIG. 4c (ING's time series): 11 of 12 marked ENSO episodes fall below the 50th-percentile line. Dry sense confirmed episode-by-episode; not a monster-episode artifact.**
   Figure 4 is the Pacific Basin's time-series set (same figure type as Figs. 7, 17, 20): century-long percentile bars with **ENSO episodes marked as dark bars**. **ING is panel (c).**
   - **Expect: 25 marked episodes, of which 20 fall below the median line.**
   - **This gives ING its second witness and closes the article's largest residual exposure.**
@@ -196,16 +196,17 @@ Worked example — one region, five stations:
 
   | witness | coherence | episodes |
   |---|---|---|
-  | **Table 2 (eye-read)** | 0.82 | 19 total, 18 wet, 1 dry (94.7%) |
+  | **Table 2 (straightedge, 16 Jul)** | 0.82 | 19 total, 18 wet, 1 dry (94.7%) — CONFIRMED, not a misread |
   | **§4f prose (eye-read)** | **0.81** | **"14 wet episodes out of 16 ENSOs"** (87.5%) |
   | **Fig. 17b (bars counted)** | — | **16 marked episodes** ✅ |
 
-  - **Prose + figure agree. Two witnesses beat one.**
-  - **⚠ BUT THE PUZZLE: 18 + 1 = 19.** Table 2's SSA row is **internally consistent**. *A typesetter garbling three numbers such that they still sum correctly is a strange failure.* **The competing hypothesis is a row-alignment misread on a dense 19-row table.**
-  - **THE CHEAP TEST:** put a **straightedge** under the SSA row and read it again. **Then scan the whole table for `16 | 14 | 2`** (14 + 2 = 16, consistent with prose + figure).
-    - If `16 | 14 | 2` **is** SSA's row → it was a misread; the paper is clean; delete Headline Finding #5.
-    - If the row really reads `19 | 18 | 1` and `16 | 14 | 2` appears nowhere → **a genuine erratum in a citation-of-record paper, propagated for four decades.** Worth **one footnote** in the article's notes. Nothing more.
-  - **SCOPE: SSA is not one of the article's regions. Timebox this. V.12 comes first.**
+  - **✅ RESOLVED 16 Jul — CONFIRMED DISCREPANCY (all 3 witnesses reassembled & legible).** Straightedge upheld 19/18/1; **misread hypothesis FALSIFIED.** Prose + figure agree at 16; Table 2 is the outlier at 19.
+  - **⭐ NSA CONTROL is the decisive evidence.** The adjacent NSA row (17/1/16) matches its own prose *exactly* — §4f states "16 dry of 17 ENSOs **(Table 2)**", citing the table by name, and the table agrees. So the authors intended table = prose, and it holds for NSA. It fails only for SSA ⇒ the error is **isolated to the SSA row**, not a methodology difference (which would have thrown NSA off too).
+  - **Two minor corroborating inconsistencies in the same SSA entry:** coherence differs (prose 0.81 vs table 0.82), and the Fig. 17 caption reads "Nov(0) to Feb(0)" vs table/prose "Feb(**+**)" — a near-certain caption typo (a Nov-start season reaches the *following* February). Both reinforce "this entry is unreliable"; neither touches the article.
+  - **CAUSE UNDETERMINED** (transcription slip vs. one-row computation error) — do not overclaim a mechanism. **Sense (wet) + season (Nov–Feb⁺) are consistent across all three witnesses.** **DO NOT rely on Table 2's SSA counts.**
+  - **CONCLUSION (was "Headline Finding #5"):** Table 2's SSA row (19/18/1) is anomalous vs. §4f prose and Fig. 17b (both 16 episodes); NSA is a clean control, so the error is isolated to SSA. Cause undetermined. **NOT article-load-bearing** — SSA is cited (footnote 7) for sense + season only, not counts. Worth one footnote's mention, nothing more.
+  - **PROVENANCE CHECK (direct):** confirmed by eye that Table 2's "Gulf and N Mexico" row carries "**\* From Ropelewski and Halpert, 1986**" — the Gulf/N-Mexico wet signal is an R&H **1986** import. Any article footnote touching it cites 1986, not 1987.
+  - **SCOPE:** SSA *is* cited in the article (footnote 7) for sense + season, not counts — so this discrepancy is bounded and does not gate the article.
 
 ---
 
@@ -222,7 +223,7 @@ Worked example — one region, five stations:
 
 **The article — bounded, and mostly reassuring.**
 - **NAU 22/26 — solid.** Two witnesses agree.
-- **ING 20/25 — one bounded action (V.12: count Fig. 4c).**
+- **ING 20/25 — ✅ SOLID. V.12 closed 16 Jul: Fig. 4c 11/12 dry.**
 - **Gulf/N. Mexico 18/22 — one bounded action (verify in RH86 itself).** The footnote already points there.
 - **The SSA finding earns at most ONE footnote** in the article's notes, if you want to show the working. **Do not make it a feature.** *(It is a nice signal of rigor to a CAT-modelling or admissions reader — and an obvious over-reach if you lean on it.)*
 
@@ -239,7 +240,7 @@ Worked example — one region, five stations:
 | **Pacific Basin** | | | | | | | |
 | Central Pacific (CP) | May(0)–Apr(+) | 0.98 | 8 | 7 | 1 | wet | 87.5 |
 | S. Central Pacific (SCP) | Jul(0)–Jun(+) | 0.88 | 8 | 8 | 0 | wet | 100.0 |
-| **Indonesia–New Guinea (ING)** ✅ | **Jun(0)–Nov(0)** | 0.82 | **25** | 5 | **20** | **dry** | **80.0** ← *binding minimum for §4a's claim; **needs Fig. 4c (V.12)*** |
+| **Indonesia–New Guinea (ING)** ✅ | **Jun(0)–Nov(0)** | 0.82 | **25** | 5 | **20** | **dry** | **80.0** ← *binding minimum for §4a's claim; **Fig. 4c confirms: 11/12 dry (V.12 closed 16 Jul)***|
 | Fiji–New Caledonia (FNC) | Oct(0)–Mar(+) | 0.95 | 11 | 2 | 9 | dry | 81.8 |
 | Micronesia–W. Pacific (MWP) | Oct(0)–May(+) | 0.91 | 13 | 1 | 12 | dry | 92.3 |
 | Hawaiian (HAW) | Nov(0)–May(+) | 0.88 | 11 | 2 | 9 | dry | 81.8 |
@@ -257,7 +258,7 @@ Worked example — one region, five stations:
 | Southeast Africa (SEA) | Nov(0)–May(+) | 0.90 | 22 | 5 | 17 | dry | ⚠ 77.3 |
 | **South America** | | | | | | | |
 | Northeastern SA (NSA) | Jul(0)–Mar(+) | 0.91 | 17 | 1 | 16 | dry | 94.1 |
-| **Southeastern SA (SSA)** ❗ | Nov(0)–Feb(+) | **0.82** | **19** | **18** | **1** | wet | **94.7** ← ***prose says 0.81 and 14/16; Fig. 17b shows 16 bars — V.13*** |
+| **Southeastern SA (SSA)** ❗ | Nov(0)–Feb(+) | **0.82** | **19** | **18** | **1** | wet | **94.7** ← ***Table 2 outlier; prose 0.81 & 14/16 + Fig. 17b 16 bars agree; V.13 CLOSED 16 Jul — confirmed discrepancy, isolated to this row, counts not relied on*** |
 | **Central America** | | | | | | | |
 | Central America–Caribbean (CEN) | Jul(0)–Oct(0) | **0.77** | 19 | 5 | 14 | dry | ⚠ 73.7 |
 | **North America \*** | | | | | | | |
@@ -371,10 +372,10 @@ Worked example — one region, five stations:
 - **(e) ARTICLE RULE — cite the row, not the abstract.** Five of 19 rows fall below 80%. **STATUS: ✅ RIPE.**
 - **(f) ARTICLE RULE — no significance language.** §5: *"such tests are not appropriate to the a posteriori results presented here."* **STATUS: ✅ RIPE.**
 - **(g) ⭐ NEW RULE — TWO WITNESSES MINIMUM.** Every number entering the article needs a second, independent witness in the source — **preferably the figure, because a bar chart cannot be mis-typeset.** **STATUS: ✅ RIPE.**
-- **(h) SSA anomaly.** **STATUS: OPEN — pending V.13.** *Not article-blocking. Worth at most one footnote.*
+- **(h) SSA anomaly.** **STATUS: ✅ CLOSED 16 Jul (V.13).** Confirmed discrepancy — Table 2 (19/18/1) is the outlier vs prose+figure (16); NSA clean control isolates it to the SSA row; cause undetermined. *Not article-blocking; footnote 7 handles it (sense+season only, counts not relied on).*
 
 ### Article Sources Ledger
-- **ING mechanism citation.** Jun(0)–Nov(0), **20/25 dry (80.0%)**, coherence 0.82. Canonical citation for the SE Asia drought mechanism claim; maps to NB3's ASO/SON/OND panels; for 2026 = **Jun–Nov 2026**. **STATUS: ⚠ ONE WITNESS ONLY — pending V.12 (count Fig. 4c).** *(It sits exactly ON the 80% line. Do not round up.)*
+- **ING mechanism citation.** Jun(0)–Nov(0), **20/25 dry (80.0%)**, coherence 0.82. Canonical citation for the SE Asia drought mechanism claim; maps to NB3's ASO/SON/OND panels; for 2026 = **Jun–Nov 2026**. **STATUS: ✅ TWO WITNESSES — Table 2 (20/25, 80.0%) + Fig. 4c (11/12 marked episodes dry, counted 16 Jul). Season triple-witnessed (caption + Table 2 + Fig. 4 caption).** *(Still sits exactly ON the 80% line in Table 2 — do not round up.)*
 - **"Not exhaustive" caveat.** §5's two limitations. **STATUS: ✅ RIPE.**
 
 ### NB4 spec inputs → Block B
