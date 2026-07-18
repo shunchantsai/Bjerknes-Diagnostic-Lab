@@ -63,24 +63,8 @@ spot the *other* kind of work, log it and move on — don't do it now.
 ## Three living artifacts (canonical home: this file — Article_Writing_Workflow.md, section below).
 
 ### A. Sources Ledger — every load-bearing claim maps to a source
-| Claim (short) | Value in text | Source (full citation + URL) | Status | Last verified |
-|---|---|---|---|---|
-| latest Niño 3.4 (TONI) | +1.7 °C (wk of 17 Jun) | IRI Quick Look, Jun 2026 | CONFIRMED | 2026-07-07 |
-
-### B. Hold List — facts pending, with a trigger
-| Item | Current placeholder in text | Source to check | Trigger |
-|---|---|---|---|
-| very-strong probability | `[HELD: %]` | CPC ENSO Strength Probabilities (live) | July diagnostic ~9–10 |
-| 97–98% NDJ persistence | `[HELD: confirm figure]` | IRI/CPC | July diagnostic ~9–10 |
-| 1997/2015 analog magnitude | `[HELD: analog value at equiv. date]` | CPC ONI history | when Niño 3.4 pinned |
-| "~1 °C warmer than 1997" | `[HELD: exact tropical warming]` | ERSST/OISST | with RONI number |
-
-### C. Revision Log — the article's CHANGELOG
-| Date | Session type | Section | What changed |
-|---|---|---|---|
-| 2026-07-07 | VERIFY | Intro | updated Niño 3.4 to +1.7 °C; added TONI/RONI hook; moved 4 items to Hold List |
-| 2026-07-17 | VERIFY | Intro fn 1 | [VERIFY] retired: tropical-SST citation built from AR6 Ch.9 §9.2.1.1 + SPM A.1/A.1.6, read off the page |
-| 2026-07-17 | VERIFY | §2 fns 14–19 | GSCU figures, 11 Jun convection wording, +0.94/+1.7 verified vs archived sources; fn dates/URLs corrected; monthly/weekly bases labeled |
+| Claim (short) | ... |
+[...all three tables...]
 
 ---
 
@@ -108,7 +92,7 @@ Some facts have a shelf-life — current Niño 3.4, forecast probabilities, grai
 
 - After each session, **name a version** in File → Version history (e.g., "2026-07-07 VERIFY Intro").
 - Draft in **Suggesting mode**; accept a suggestion only once its `[verify]` is resolved.
-- Keep the three artifacts (Ledger / Hold List / Log) in an appendix or a companion doc so they travel with the article.
+- The Doc appendix holds a MIRROR of the three artifacts so they travel with the article; edit article_ledger.md first, then regenerate the mirror.
 
 ## Between sessions / while holding
 
