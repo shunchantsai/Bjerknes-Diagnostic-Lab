@@ -1,6 +1,6 @@
 # Task B3 Tracker — 2026–27 Probabilistic Outlook
 **Repo location:** `revision_notes/task_B3_tracker.md`
-**Created:** 2026-07-09 · **Updated:** 2026-07-14 · **Owner:** Shun-Chan
+**Created:** 2026-07-09 · **Updated:** 2026-07-18 · **Owner:** Shun-Chan
 **Rule:** work top to bottom. One checkbox at a time. Nothing here needs to be held in your head.
 **Rule:** every sitting ends with a two-minute reconcile pass — tick what's done, amend what changed, log the session.
 ---
@@ -28,6 +28,9 @@
 ## B · Deferred but blocks publication
 
 - [ ] **B.1** FOOTNOTE AUDIT — ESCALATED 14 Jul. Not a "re-verification sitting": an audit of four footnotes found FOUR DEFECTS. Assume nothing is verified until it is.
+⚠ FN NUMBERS DRIFT when footnotes are inserted/deleted. Rule: tracker records claim
+      TEXT; numbers re-verified by content search after any fn insertion/deletion. Never
+      renumber by arithmetic (disproven 17 Jul).
 - [ ] B.1.n  Sections 3–6 are BRIEF, not prose. Brief embeds unsourced numbers that MUST
       be verified at primary source before promotion to prose: rice production (2 Mt gain
       1997–98 / 15 Mt loss 2015–16 / 400,000 ha Indonesia — candidate sources: FAO, IRRI,
@@ -42,12 +45,25 @@
       ASMC Seasonal Forecast Jul–Sep 2026 (updated 6 Jul) — states >6 models predict
       below-normal as dominant tercile over southern ASEAN region. Footnote label updated
       Jun–Aug → Jul–Sep 2026; archived PDF confirmed = this version.
-- [ ] B.1.n+2  fn 12/16 (WMO GSCU: ~+2.0°C by JAS, narrow spread; IOD +0.6°C JAS) — verify
-      against WMO GSCU page/PDF, archive copy.
-- [ ] B.1.n+3  fn 15 (11 Jun discussion: near/below-avg convection over Indonesia) — verify
-      against archived June discussion.
-- [ ] B.1.n+4  fn 2 weekly Niño values (+0.94 May → ~+1.7 wk of 17 Jun traditional) — verify
-      against CPC .for/.txt series.
+- [x] B.1.n+2  CLOSED 17 Jul. All three claims verified against WMO GSCU JAS 2026 page:
+      "~2.0 °C for the seasonal average" ✓; "Spread among the individual forecast systems
+      is generally narrow during JAS 2026" ✓; IOD "JAS 2026 seasonal mean value of 0.6 °C" ✓.
+      Page shows "19 June 2026, updated 3 July 2026" — fns 14/19 dated accordingly.
+      PDF archived 17 Jul; archive note added to fns 14 and 19.
+- [x] B.1.n+3  CLOSED 17 Jul. 11 Jun discussion text verified from archived PDF:
+      "Convection ... was near or below average over Indonesia (Fig. 5)" — article's
+      "near- to below-average" paraphrase FAITHFUL; fn 18 holds as written. fn 18 archive
+      URL fixed .shtml→.php; 11 Jun + 9 Jul PDFs archived locally; archive note added to
+      fn 18. NOTED for optional freshness pass: 9 Jul discussion upgrades wording to
+      "suppressed over Indonesia" — article may cite the stronger July language later,
+      but the dated June citation is accurate as-is.
+- [x] B.1.n+4  CLOSED 17 Jul. Both values verified at source: +0.94 °C = MONTHLY May 2026
+      anomaly, stated verbatim in fn 3 (IRI June 2026 Quick Look, pub. 22 Jun, PDF
+      archived); +1.7 °C = weekly, wk centred 17 Jun, confirmed in BOTH the Quick Look
+      and wksst9120.for (traditional; May weeks 0.8–1.0, one decimal — 0.94 is monthly,
+      not weekly). Old tracker ref "fn 2" was stale; true home fn 3, CPC series fn 4.
+      Doc tweak APPLIED: "from a monthly mean of +0.94 °C in May to approximately
+      +1.7 °C in the week centred on 17 June" — bases now labeled.
 - [x] B.1.n+5  fn 5 75% NDJ re-verified on live strengths page 16 Jul (user check) — update
       access date in fn 5 to 16 Jul; archive page PDF.
 - [x] B.1.n+6  fn 11 (81% OND) provenance VERIFIED 16 Jul: figure appears in 9 Jul discussion
@@ -79,16 +95,20 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
       stands (SST + loss sentences under fn 1 + fn 2); the old unsplit "...raised mean tropical
       SST, shifted loss distributions, amplified extremes... [3]" sentence is gone. Old fn 3
       renumbered — current fn 3 is the IRI Quick Look.
-- [ ] B.1.n+9  fn 1 IPCC AR6 — [VERIFY] live. DECISION MADE 16 Jul: KEEP "tropical SST"
-      (path b). The SPM headline ("...warmed the atmosphere, ocean, and land") is too
-      general — it supports "ocean," not "tropical SST" specifically. ACTION: read the
-      SST-specific statement in a WG1 chapter (candidates to check by reading, not asserting:
-      Ch.2 Changing State of the Climate System; Ch.9 Ocean/Cryosphere/Sea Level; TS) and
-      cite THAT statement with the paragraph label read off the page. If no chapter states
-      "tropical SST" rise cleanly, fall back to citing observed tropical-Pacific/Indo-Pacific
-      SST trend from a primary obs source (e.g. HadSST/ERSST literature). Do NOT paste a
-      section label from memory (burned twice on section numbers 16 Jul). WG1 ≠ WG3 (WG3
-      Ch.9 = Buildings). Bounded; blocks fn 1 until the exact sentence is read.
+- [x] B.1.n+9  fn 1 IPCC AR6 — CLOSED 17 Jul, Doc edit applied. KEEP "tropical" upheld.
+      Ch.2 walked: NEGATIVE (global-mean statements only, §2.3.1.1.3 p. 324; §2.3.3.1).
+      Ch.9 walked: POSITIVE — §9.2.1.1 (p. 1221): "tropical ocean has been warming faster
+      than other regions since 1950," fastest in tropical Indian and W Pacific; global mean
+      SST +0.88 [0.68–1.01] °C 1850–1900→2011–2020 (very likely). Summary p. 1223: very
+      high confidence Indian Ocean + W equatorial Pacific warmed faster than global avg;
+      E equatorial Pacific slower or slightly cooled.
+      ATTRIBUTION LEG: Ch.9 is observations — pair with SPM A.1 (p. 4: "unequivocal that
+      human influence has warmed the atmosphere, ocean and land") and/or A.1.6 (p. 5:
+      human influence extremely likely the main driver of upper-ocean 0–700 m warming
+      since the 1970s). Wording verified against SPM copy 17 Jul.
+      SCOPE GUARD: citation licenses MEAN tropical rise, NOT Niño-region absolute baselines
+      (E eq. Pacific caveat, p. 1223).
+      TICKED 17 Jul: footnote replaced in Doc, [VERIFY] marker confirmed gone by search.
 - [ ] **B.2** Read Saji et al. 1999 before citing 1997–98 positive-IOD co-occurrence (gated on Lit Session 2). Clean PDF re-uploaded to project 16 Jul (parses; corrupted copy replaced). On read, confirm against the text (not Claude): (i) 1997 was a positive IOD, (ii) the independence-from-ENSO framing that licenses "independent" in the article. [VERIFY] bracket stays in Doc until done.
 - [ ] **B.3** FIGURE 2A CONTRADICTS ITS OWN CITATION (Solander et al. 2020, HESS 24, 2303-2322)
       ✅ NUMBER VERIFIED 14 Jul against the actual Table 3: Cluster 2, OND, 1997-1998 = -0.07 ± 0.03. Cluster 2 = N/NE Amazon + maritime SE Asia. Attribution correct.
