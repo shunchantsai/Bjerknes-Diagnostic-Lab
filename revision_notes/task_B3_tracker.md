@@ -33,7 +33,7 @@ NB3's production run takes the sitting. Everything below is dead-window work.
    WHY: current figure clips at 5°S (excludes Java/Bali/Timor — the regions Solander
    names driest) and plots absolutes, which can't show drought. Recompute turns the
    article's weakest figure into its strongest.
-   HOW: ~114 files, Maritime box 95/−10/150/7.5; OND 1997 anomaly vs stated
+   HOW: ~108 files, Maritime box 95/−10/150/7.5; OND 1997 anomaly vs stated
    climatology; GLDAS validity mask.
 
 5. B.3 step 5 — Solander units check (Table 3 volumetric?).
@@ -173,26 +173,80 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
       (E eq. Pacific caveat, p. 1223).
       TICKED 17 Jul: footnote replaced in Doc, [VERIFY] marker confirmed gone by search.
 - [ ] **B.2** Read Saji et al. 1999 before citing 1997–98 positive-IOD co-occurrence (gated on Lit Session 2). Clean PDF re-uploaded to project 16 Jul (parses; corrupted copy replaced). On read, confirm against the text (not Claude): (i) 1997 was a positive IOD, (ii) the independence-from-ENSO framing that licenses "independent" in the article. [VERIFY] bracket stays in Doc until done.
-- [ ] **B.3** FIGURE 2A CONTRADICTS ITS OWN CITATION (Solander et al. 2020, HESS 24, 2303-2322)
-      ✅ NUMBER VERIFIED 14 Jul against the actual Table 3: Cluster 2, OND, 1997-1998 = -0.07 ± 0.03. Cluster 2 = N/NE Amazon + maritime SE Asia. Attribution correct.
-      ❌ INTERPRETATION CONTRADICTS THE SOURCE. NB3 cell 5 states maritime zones were "comparatively moist" while mainland SE Asia was dry. Solander concludes the OPPOSITE: the largest, most consistent soil-moisture reductions occurred over "the maritime regions of southeastern Asia, Indonesia and New Guinea" (up to 0.28). 
-      CAUSE: Figure 2A plots RAW absolute soil moisture (cells 2-4), not an anomaly, so it renders CLIMATOLOGY (mainland is naturally drier than rainforest) and is being read as DROUGHT. Cell 5's prose must be struck.
-      ⇒ ACTION: compute the TRUE anomaly vs a stated GLDAS climatology period, or relabel Figure 2A as an absolute-value map and delete every drought inference drawn from it.
-      Option A (anomaly) is correct — it satisfies the notebook's own opening principle ("every number you cite should be one you've computed or verified yourself").
-      ⇒ FOLDS IN Q.3: the GLDAS box clips at 5°S, excluding Java/Bali/Timor — exactly the maritime regions Solander names as driest. The re-pull to 10°S and the anomaly computation are ONE job.
-      ⚠ GLDAS V2.0 MAY NOT REACH 2016. NB3 cell 1 asserts "1948-2015"; verify on the GES DISC product page. If V2.0 ends ~2014, Solander's 1979-2016 climatology CANNOT be rebuilt from V2.0 alone, and splicing V2.1 introduces a discontinuity at the join (which is why Solander bias-corrected). RESOLUTION: use whatever period V2.0 covers, STATE IT, and present the result as an INDEPENDENT estimate — not a replication.
-      ⚠ BIAS CORRECTION: a raw-GLDAS anomaly is NOT the same quantity as Solander's -0.07. They report bias correction shifts values by ~±0.05 — on a -0.07 signal that is up to ±70%. Never claim the two numbers are directly comparable.
-      ⚠ EARTHDATA re-activated 14 Jul (account appears to have lapsed). TEST the bearer-token flow on ONE file before queuing ~114 (38 yrs × OND months).
-      ⚠ UNITS: NB3's /100 conversion (kg/m² → m³/m³ for a 10 cm layer) is arithmetically right, but Solander's Table 3 gives no units. Confirm volumetric in their methods.
-      ⇒ DIFFERENT FAILURE CLASS from fn 1/4/6/7: the citation is correct and the FIGURE is wrong. A verified number can still sit under a false claim. Verifying the source is necessary and NOT sufficient — verify that the artifact computes what the prose says.
-- 15 Jul UPDATE:
-      - The article's Fig 2A paragraph STILL mislocates the drought (says "driest over
-        mainland" as a drought finding, while Solander's -0.07 is the MARITIME Cluster 2
-        anomaly). Raw map shows climatology, not drought. Paragraph rewrite required (below).
-      - ⚠ VERIFY BEFORE SHIPPING: the article claims -0.07 is "consistent across 1997-98 and
-        2015-16." Solander Table 3 Cluster 2 OND = -0.07 (1997-98) vs -0.17 (2015-16). NOT
-        consistent — differ >2x. If that's the row, the "stable across events" claim is FALSE.
-      - Notebook cell 5 prose already corrected 15 Jul; article Doc must match.
+
+- [ ] **B.3** — Figure 2A: raw map read as drought (Solander et al. 2020, HESS 24, 2303–2322)
+
+STATUS: open. Blocked only on the anomaly recompute + re-plot (see ACTIONS).
+All verification sub-questions below are now CLOSED.
+
+CORE DEFECT (diagnosed 14 Jul): Fig 2A plots raw absolute soil moisture (cells 2–4),
+not an anomaly. A raw field renders CLIMATOLOGY (mainland naturally drier than
+rainforest), which was being misread as DROUGHT. Cell-5 prose originally claimed
+maritime zones were "comparatively moist / mainland dry" — the OPPOSITE of Solander,
+who finds the largest, most consistent OND soil-moisture reductions over maritime
+SE Asia, Indonesia, New Guinea (up to 0.28). Notebook cell-5 prose corrected 15 Jul;
+article Doc paragraph corrected (old step 7, confirmed applied 18 Jul).
+Failure class: citation correct, FIGURE wrong. Verifying a source is necessary,
+not sufficient — verify the artifact computes what the prose says.
+
+CLOSED verification facts:
+- NUMBER (14 Jul): Table 3, Cluster 2, OND 1997–98 = −0.07 ± 0.03. Cluster 2 =
+  N/NE Amazon + maritime SE Asia. Attribution correct.
+- "STABLE ACROSS EVENTS" CLAIM: FALSE and removed. Cluster 2 OND is −0.07 (1997–98)
+  vs −0.17 (2015–16) — differ >2×. Now stated as "stable in sign, not size" (fn 11).
+- V2.0 COVERAGE (18 Jul, GES DISC product page): Jan 1948 – Dec 2014. OND 2015/2016
+  do NOT exist in V2.0. Our climatology is therefore 1979–2014 (OURS), stated as an
+  independent estimate, never a replication of Solander's 1979–2016.
+- UNITS (18 Jul): Solander Table 3 is unit-silent; established m³/m³ via Figs. 2–4
+  axis labels, Fig. 5 colorbar ±0.25 + Discussion "up to 0.28" (p.2315), 0–10 cm
+  layer (p.2305) ⇒ kg/m² ÷ 100 exact. Eq. 1's "(%)" is a source-internal
+  inconsistency, not a doubt about Table 3. Our /100 conversion stands.
+
+COMPARABILITY GUARD (two legs, both mandatory, for the caption rewrite):
+Our anomaly is (a) NOT bias-corrected — Solander regresses GLDAS against 16 in-situ
+sites (Eq. 1); (b) Noah-only 1.0° — Solander uses the 4-LSM ensemble mean
+(VIC, CLM, Noah, Mosaic). Never present the two numbers as directly comparable;
+Solander is corroboration of sign/pattern only.
+
+ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
+[x] Test Earthdata bearer token on ONE file — CLOSED 18 Jul 2026. Oct 1997 subset
+    returned HDF5 (magic-byte check via `file`), 30K.
+[x] Pull — CLOSED 18 Jul 2026. 108 files, OND 1979–2014, box 95/−10/150/7.5 verified
+    on file (lat −9.5 to 7.5; 1° cells are half-degree-centred, so −9.5 is the
+    southernmost centre inside a −10 boundary). units "kg m-2" read from
+    SoilMoi0_10cm_inst attrs, confirming the /100 conversion premise off the data.
+    (Old box clipped at 5°S, excluding Java/Bali/Timor — the maritime zones
+    Solander names driest. New box reaches 10°S.)
+[ ] Compute OND 1997 anomaly vs 1979–2014 climatology; apply GLDAS validity mask.
+    NOTE: cell index 2 hardcodes three open_dataset calls — rewrite as a stack over
+    all 108 (open_mfdataset or glob) before the anomaly can be computed.
+[ ] Re-plot Fig 2A as anomaly; rewrite caption with the two-leg guard; swap into
+    Doc; delete the "recompute pending" hedge. Closes B.3 + Q.3.
+    STAGED CAPTION TEXT (do not apply until the anomaly figure exists):
+
+    NB3 cell index 5 replacement:
+    Figure 2A shows the OND 1997 soil-moisture **anomaly** over the Maritime Continent,
+    computed here from GLDAS Noah V2.0 (0–10 cm) as the departure of OND 1997 from the
+    1979–2014 OND climatology. Negative values (browns) mark drying relative to the
+    region's own baseline; the maritime zone — Sumatra, Java, Borneo, and the islands
+    east to New Guinea — shows the coherent negative signal expected during a strong
+    El Niño.
+
+    This is an **independent estimate, not a replication** of Solander et al. (2020).
+    Two differences forbid a direct number-to-number comparison: our field is Noah-only,
+    whereas Solander uses the four-model GLDAS ensemble mean (VIC, CLM, Noah, Mosaic);
+    and ours is raw, whereas Solander bias-corrects GLDAS against 16 in-situ sites.
+    Solander's Table 3 reports the OND 1997–98 anomaly for their maritime-inclusive
+    Cluster 2 as −0.07 ± 0.03 m³/m³. We cite that as corroboration of the **sign and
+    spatial pattern** of maritime drying — not as a value our map should reproduce.
+
+    Doc Fig 2A caption:
+    Figure 2A. OND 1997 soil-moisture anomaly over the Maritime Continent (GLDAS Noah
+    V2.0, 0–10 cm, departure from the 1979–2014 OND climatology). Browns indicate drying
+    relative to baseline. Computed independently for this article; not directly comparable
+    to the bias-corrected four-model ensemble anomaly of Solander et al. (2020), whose
+    Cluster 2 OND 1997–98 value (−0.07 ± 0.03 m³/m³) corroborates the sign and pattern of
+    maritime drying shown here.
 
 ## C · CPC July discussion + perishable snapshots
 
