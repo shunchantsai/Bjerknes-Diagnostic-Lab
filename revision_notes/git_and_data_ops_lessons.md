@@ -1,6 +1,36 @@
 
+## 17/07/26
+
+— Footnote references rot. Inserting/deleting a footnote renumbers everything
+after it, silently invalidating every numeric fn reference in the tracker. Locate
+footnotes by CLAIM CONTENT, never by arithmetic: the "obvious" −1 shift was predicted,
+applied, and disproven the same day. Rule: tracker records claim text + number; re-run
+the content mapping after ANY fn insertion or deletion.
+
+— Claude's bookkeeping assertions are not sources either. A predicted fn
+mapping was pasted into the tracker as if verified; the Doc check showed it wrong. The
+epistemic standard applies to metadata (numbers, filenames, dates) exactly as to
+scientific claims.
+
+— Live URLs that host superseded issuances (CPC ensodisc.shtml) make "accessed
+<date>" ambiguous: the date may postdate the cited issuance. Archive a PDF at read time
+and cite issuance date + archive note. Corollary caught today: publication date ≠ access
+date — a citation claiming "accessed 19 June" for a page updated 3 July is self-refuting.
+
+— Unlike quantities compared unlabeled: "+0.94 in May" (monthly, two decimals,
+ERSSTv5-style) vs "+1.7 wk of 17 Jun" (weekly, one decimal). Decimal precision is a
+provenance fingerprint — a two-decimal value cannot come from the one-decimal weekly file.
+Label the basis of every number in a comparison.
+
+— Existence claims about files get checked with ls, same as everything else:
+yesterday's closing note denied self_audit.md existed; the repo contained it (5b0f915).
+
+— When a source doesn't state your claim at your claim's scope (Ch.2: global
+SST only, not tropical), check the sibling chapter before weakening the wording: Ch.9
+§9.2.1.1 carried "tropical" cleanly. Document negative reads — they're reusable.
 
 ## 15/07/26 — decouple the deliverable from the blocked dependency
+
 When NB3's data access stalled with no ETA, the reflex was "wait for approval." Better:
 ask what the deliverable actually depends on. The article's CLAIMS rest on RH87 base
 rates + mechanism (in hand); the IRI forecast fills one section whose FRAMING (live
