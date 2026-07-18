@@ -60,7 +60,7 @@ spot the *other* kind of work, log it and move on — don't do it now.
 
 ---
 
-## Three living artifacts (keep in an appendix of the doc, or a companion "Article-notes" doc)
+## Three living artifacts (canonical home: this file — Article_Writing_Workflow.md, section below).
 
 ### A. Sources Ledger — every load-bearing claim maps to a source
 | Claim (short) | Value in text | Source (full citation + URL) | Status | Last verified |
@@ -79,6 +79,8 @@ spot the *other* kind of work, log it and move on — don't do it now.
 | Date | Session type | Section | What changed |
 |---|---|---|---|
 | 2026-07-07 | VERIFY | Intro | updated Niño 3.4 to +1.7 °C; added TONI/RONI hook; moved 4 items to Hold List |
+| 2026-07-17 | VERIFY | Intro fn 1 | [VERIFY] retired: tropical-SST citation built from AR6 Ch.9 §9.2.1.1 + SPM A.1/A.1.6, read off the page |
+| 2026-07-17 | VERIFY | §2 fns 14–19 | GSCU figures, 11 Jun convection wording, +0.94/+1.7 verified vs archived sources; fn dates/URLs corrected; monthly/weekly bases labeled |
 
 ---
 
@@ -115,6 +117,7 @@ Some facts have a shelf-life — current Niño 3.4, forecast probabilities, grai
 - **Do not draft ahead of a scheduled co-draft session** — prep the ground; write together.
 
 ## Citation verification protocol
+
 *Adopted 2026-07-14, after an audit found four of four sampled footnotes defective.*
 
 ### A citation is a premise. Own it.
@@ -161,3 +164,11 @@ Every failure in this project — the generated questions, the machine-transcrib
 fabricated footnotes, the figure cell written but never inserted, the raw-values map read as
 an anomaly — is the same failure: **something entered an artifact without a witness.**
 The fix is never a new tool. It is: *own the premise.*
+
+### Footnote references rot (added 2026-07-17)
+Footnote numbers in the tracker/ledger are invalidated by any insertion or deletion in
+the Doc. Record claim TEXT alongside the number; after any footnote add/delete, re-map
+numbers by content search (never renumber by arithmetic — the "obvious" offset was
+predicted, applied, and disproven within one sitting). "Accessed <date>" on a live URL
+that hosts superseded issuances is ambiguous: archive a PDF at read time; cite issuance
+date + archive date. Publication date ≠ access date.
