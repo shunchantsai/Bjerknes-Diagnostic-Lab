@@ -4,6 +4,9 @@
      Close: tick or annotate (blocked-because-X), commit, push, audit.sh. -->
 
 ## NOW (today — pick 1–3 at open, declare session type)
+- [ ] NOTE (not a task): NB3 baked outputs + committed Fig 2A PNG predate the 18 Jul
+      re-pull — a Restart & Run All now yields a different mean/extent than the prose
+      says. Resolves at the anomaly recompute (NEXT 3–4). Do not re-run before then.
 - [ ] Doc: DELETE the prematurely-applied Fig 2A anomaly caption (figure is still
       absolute-values; caption stays staged in tracker B.3 until re-plot). Revision Log line.
 - [ ] Doc: fix "from from" typo (intro); eyeball fns 14/19 opening quotes + fn 18 tail → close cosmetics.
@@ -40,8 +43,11 @@
 10. [ ] Capstone exam (10 Qs, closed book) + fault map; article-touching errors = fn-risk flags.
 
 ## WAITING (gated — trigger noted)
-- IRI licence `f8725d…` → PREEMPTS EVERYTHING: Task 2F production run same day
-  (full sequence: tracker G/H). Clock: IRIDL shutdown ~end Oct 2026.
+- IRI licence → PREEMPTS EVERYTHING: Task 2F production run same day (sequence: tracker G/H).
+  Two refs from re-registration: f8725d9d… (10 Jul), 6fbac555… (14 Jul). Emailed Aaron 19 Jul
+  asking which is cleaner + whether a lighter-weight non-commercial read route exists.
+  AWAITING REPLY — no chasing (IRI short-staffed; email said no rush).
+  Clock: IRIDL shutdown ~end Oct 2026.
 - Post-run chain: Q.1 close-read (convection claim, fn 18 by content; RH86 rule for
   Gulf/N-Mexico) → Section 3 (EM-DAT + EP curves) → Sections 4–6 (gated on B.1.n:
   rice tonnages, 20–30% price rise, World Bank GDP drag — cite off page or delete)
