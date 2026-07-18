@@ -1,3 +1,19 @@
+## 18/07/26
+
+- GES DISC / curl -LJO: a failed request (e.g. 401) has no Content-Disposition header,
+so -J falls back to the URL's last path segment — the file saves as HTTP_services.cgi,
+not under the expected LABEL name. Batch failures therefore accumulate as
+HTTP_services.cgi.N rather than as missing data filenames. Always verify a batch by
+BOTH counting expected .nc4 files AND confirming zero HTTP_services.cgi* exist.
+Magic-byte check (`file`) distinguishes the 401 page from real netCDF.
+
+- curl -J refuses to OVERWRITE an existing local file: it aborts with
+"curl: (23) client returned ERROR on write" and leaves the stale copy in place.
+A re-pull into a populated directory therefore keeps old files silently while the
+file COUNT still verifies correct. Count alone is not sufficient — check mtimes
+(`ls -lh`) so stale files can't hide inside an otherwise-correct batch. Fix: delete
+the offenders and re-fetch only those URLs.
+
 
 ## 17/07/26
 
