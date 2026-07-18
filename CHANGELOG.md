@@ -2,6 +2,23 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-17]
+
+**Session type:** Verify (article footnote audit + IPCC bounded read).
+
+- B.1 audit: n+9 closed (fn 1 — "tropical SST" upheld via AR6 WG1 Ch.9 §9.2.1.1 p. 1221
+  after a negative Ch.2 walk; attribution leg = SPM A.1/A.1.6, all read off the page).
+- B.1 audit: n+2/n+3/n+4 closed — WMO GSCU (+2.0 °C JAS, narrow spread, IOD +0.6 °C),
+  11 Jun CPC convection wording, and +0.94 monthly / +1.7 weekly Niño values, each
+  verified against an archived primary source; footnote dates/URLs corrected in Doc
+  (fns 14/18/19); +0.94 sentence relabeled monthly-vs-weekly.
+- Tracker: fn-drift guard added (numbers located by claim content, never arithmetic)
+  after the audit lines' footnote numbers were found stale post-renumbering.
+- git_and_data_ops_lessons.md: six 17 Jul entries (fn-reference rot; bookkeeping
+  assertions need witnesses; superseded-URL citation practice; decimal precision as
+  provenance fingerprint; ls for existence claims; sibling-chapter check before
+  weakening wording).
+
 ## [2026-07-14]
 
 - NB3 Task 2F: added extraction, GRID CHECK, stats loop, four-panel figure, sentence
