@@ -375,7 +375,11 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
    ⇒ The dry run would have FAILED EVEN WITH VALID DATA. Validate via synthetic .nc (E.0).
 7. RUN-DAY CHECK 3: be logged in to iridl.ldeo.columbia.edu BEFORE downloading;
    verify file starts with CDF/HDF magic bytes, not <!DOCTYPE (login page).
-8. 14 JUL UPDATE — LICENCE NOT CLEARED. Confirmed BY TEST, not inference: pasted the
+8. 19 Jul: both refs cited to IRI (Aaron) in one email — f8725d9d… (10 Jul) and 6fbac555…
+(14 Jul), described as arising from a re-registration. Also asked whether a lighter-weight
+read route exists for non-commercial research. Ref ambiguity is now IRI's to resolve;
+do not pick one unilaterally. The 14 Jul "no witness" finding stands as a record of what
+was verifiable then, not as a claim that f8725d… is fictitious. 14 JUL UPDATE — LICENCE NOT CLEARED. Confirmed BY TEST, not inference: pasted the
    Jun-2026 download URL into a logged-in browser and was redirected to
    /auth/credential?...&realm=iri.columbia.edu/terms/forecast/1. The terms gate, not
    the login. Re-registered → SECOND ref 6fbac555e6d443f7ca25ef719632ff1e24acc573
