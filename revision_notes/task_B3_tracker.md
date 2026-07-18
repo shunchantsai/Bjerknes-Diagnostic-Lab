@@ -313,7 +313,8 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
 - [ ] E.4 Paste computed sentence into Google Doc at [COMPUTED FIGURE SLOT] + footnote
       (IRI forecast, issued 15 July 2026, dataset URL, accessed run date).
 - [ ] E.5 Test the brief's "northern Australia" claim against the NDJ 2026–27 panel (closest to the
-      brief's original DJF target; see H.2)
+      brief's original DJF target; see H.2). Literature side: RH87 NAU Sep(0)–Mar(+), 22/26 dry,
+      double-witnessed — NDJ sits inside the season (2026-07-12_lit_session1_RH87_notes.md).
 - [ ] E.6 Commit (single scope: "NB3 Task B3: IRI tercile computation + figure"), CHANGELOG,
       tick tracker, replace project-folder PDF again if article text changed.
 
@@ -347,9 +348,13 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
 
 - [ ] **Q.1** STUDY SESSION: full close-read of the 9 July ENSO Diagnostic Discussion, every
       figure — comprehend → note → test against article claims → decide framing implications.
-      Schedule: after the 15 July NB3 run, before drafting the Southern US flood case (the
-      winter-outlook figures are load-bearing there). Includes: check July convection language
-      vs fn 12's June claim.
+      Schedule: after the NB3 production run (slips to licence approval day; H.9), before
+      drafting the Southern US flood case (the winter-outlook figures are load-bearing there).
+      Includes: check July convection language vs fn 12's June claim. Fn-12 references here and
+      in the B.1 sweep are located by CLAIM CONTENT (drift rule): the sweep closes the Annex C
+      numbers only; the convection-language check closes HERE — don't double-close.
+      Provenance rule for the flood case: the Gulf/N-Mexico wet signal (18/22) cites
+      Ropelewski & Halpert 1986 (MWR 114), never 1987 — see lit_session1 notes V.6.
 - [ ] **Q.2** CONTENT: incorporate ASEANCOF-26 **Annex C (ESCAP impact-based forecast)**
       exposure statistics into the rice/compound paragraphs — Indonesia ≈95.4% (50.8 M t) of
       rice production exposed to below-normal rainfall (90.2% of total production in moderate
