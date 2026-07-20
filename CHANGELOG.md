@@ -2,6 +2,30 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-20]
+
+**Session type:** Data acquisition + compute (NB3 Task 2A).
+
+- GLDAS V2.0 coverage corrected in NB3 from "1948–2015" to Jan 1948 – Dec 2014, read off the
+  GES DISC product page; source route corrected from NOAA PSL FTP to GES DISC OTF subsetter.
+- Earthdata bearer-token flow proven on one file (magic-byte check) before batch; 108-file OND
+  1979–2014 pull with the corrected Maritime box (95/−10/150/7.5, reaching 10°S — the old box
+  clipped at 5°S, excluding Java/Bali/Timor). Links list committed to data_provenance/.
+- NB3 Task 2A rewritten: 108-file stack with pre-arithmetic assertions (n, months, years,
+  extent, units); OND 1997 anomaly vs the 1979–2014 OND climatology. Figure 2A replaced —
+  absolute-value map → anomaly map on a diverging scale. Box mean −0.020 m³/m³, min −0.105,
+  max +0.008 (no meaningful wetting anywhere in the domain).
+- Solander et al. (2020) units established as m³/m³ (Table 3 is unit-silent); /100 conversion
+  upheld. Comparability guard now three legs: no bias correction, single-model vs 4-LSM
+  ensemble, whole-box mean vs k-means cluster mean.
+- Recorded, not resolved: our field is near-neutral over New Guinea where Solander lists it
+  among the most consistent decreases.
+- Repo: TODO.md added as canonical plan; three article artifacts split into
+  revision_notes/article_ledger.md; figures/ and revision_notes/sessions/ created; audit.sh
+  gained a TODAY section.
+- git_and_data_ops_lessons.md: two curl -LJO failure modes (401 filename fallback; refusal to
+  overwrite masks stale files behind a correct file count).
+
 ## [2026-07-17]
 
 **Session type:** Verify (article footnote audit + IPCC bounded read).
