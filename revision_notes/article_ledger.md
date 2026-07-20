@@ -26,6 +26,7 @@ Rules:
 | SE Asia OND soil-moisture anomaly: stable in sign, not size | −0.07 ± 0.03 (1997–98) vs −0.17 ± 0.03 (2015–16), Cluster 2 | Solander et al. 2020, HESS 24, 2303–2322, Table 3 | CONFIRMED (values verbatim; units m³/m³ established — tracker B.3 closed facts) | 2026-07-18 |
 | ING dry / SSA wet: sense + season only | ING dry Jun(0)–Nov(0); SSA wet Nov(0)–Feb(+); episode counts NOT relied on (SSA table row anomalous) | Ropelewski & Halpert 1987, MWR 115(8), 1606–1626 | CONFIRMED (three-witness method — lit_session1 notes) | 2026-07-16 |
 | Gulf/N-Mexico wet signal (southern-US case, NOT YET DRAFTED) | 18/22 wet | **Ropelewski & Halpert 1986, MWR 114 — never 1987** (Table 2 asterisk + §5 + §4g) | PRE-STAGED provenance rule | 2026-07-16 |
+| SE Asia OND 1997 soil-moisture anomaly (Fig 2A) | box mean −0.020, min −0.105, max +0.008 m³/m³ vs 1979–2014 OND climatology | Computed for this article: GLDAS Noah V2.0 0–10 cm, 108 OND files 1979–2014, box 95/−10/150/7.5; NB3 Task 2A, commit c275cd5 | CONFIRMED (own computation; assertions on n, months, years, extent, units all passed) | 2026-07-20 |
 
 <!-- Add rows as [verify] tags resolve: Saji 1999 (Session 2), Cai 2021 (Session 4),
      Singh 2022 / Sarhadi 2018 / Abrams / ASEANCOF (B.1 sweep), CPC 9 Jul DD (Q.1). -->
@@ -53,5 +54,5 @@ Rules:
 | 2026-07-07 | VERIFY | Intro | updated Niño 3.4 to +1.7 °C; added TONI/RONI hook; moved 4 items to Hold List |
 | 2026-07-17 | VERIFY | Intro fn 1 | [VERIFY] retired: tropical-SST citation built from AR6 Ch.9 §9.2.1.1 + SPM A.1/A.1.6, read off the page |
 | 2026-07-17 | VERIFY | §2 GSCU/convection/index fns | GSCU figures, 11 Jun convection wording, +0.94/+1.7 verified vs archived sources; fn dates/URLs corrected; monthly/weekly bases labeled |
-<!-- Next expected entry: RESTRUCTURE · §2 Fig 2A · reverted prematurely-applied anomaly
-     caption (figure still absolute-values; caption re-staged in tracker until re-plot) -->
+| 2026-07-20 | DRAFT | §2 Fig 2A | replaced absolute-values figure with computed OND 1997 anomaly map (to 10°S); rewrote surrounding paragraph and caption with three-leg comparability guard; added New Guinea divergence sentence; deleted pending-recompute hedge |
+| 2026-07-20 | VERIFY | Intro | "from from" typo fixed; fns 14/19 opening quotes and fn 18 tail confirmed clean |

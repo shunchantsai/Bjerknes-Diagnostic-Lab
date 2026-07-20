@@ -193,7 +193,10 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
     all 108 (open_mfdataset or glob) before the anomaly can be computed.
 [x] Re-plot Fig 2A as anomaly; rewrite caption with the two-leg guard; swap into
     Doc; delete the "recompute pending" hedge. Closes B.3 + Q.3.
-    STAGED CAPTION TEXT (do not apply until the anomaly figure exists):
+    STAGED CAPTION TEXT — APPLIED 20 Jul, SUPERSEDED. The text below predates the computation
+    and carries no numbers. What shipped in the Doc and NB3 cell 6 is the authoritative 
+    version (box mean −0.020, min −0.105, max +0.008; three-leg guard incl. cluster-vs-box). 
+    Kept only as a record of what was designed before the numbers existed. Do NOT re-apply.
 
     Caption MUST state the climatology period explicitly (1979–2014 OND) — the period is
     what makes the anomaly auditable; an unstated baseline is an unfalsifiable number.
