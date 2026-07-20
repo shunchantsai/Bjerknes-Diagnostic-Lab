@@ -30,6 +30,12 @@
        tracker note from "unresolved"; 4b: ToE rainfall-before-SST → cites the uncited
        "intensifying extremes" sentence). Ledger row.
 6. [ ] Capstone exam (10 Qs, closed book) + fault map; article-touching errors = fn-risk flags.
+7. [ ] Obsidian trial (SYSTEM, non-blocking): install → "Open folder as vault" on the repo
+       root (the vault IS the repo, not a copy) → `printf '.obsidian/\n' >> .gitignore` and
+       commit → disable core plugins Graph/Canvas/Daily-notes/Backlinks/Outgoing-links.
+       Then read TODO.md and article_ledger.md rendered. Resist plugins/tags/second-brain —
+       it's a Markdown reader, nothing changes in the pipeline. Adopt [[wikilinks]] only once
+       comfortable. Abandon if it becomes tuning-instead-of-writing.
 
 ## WAITING (gated — trigger noted)
 - IRI licence → PREEMPTS EVERYTHING: Task 2F production run same day (sequence: tracker G/H).
