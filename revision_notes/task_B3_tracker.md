@@ -146,6 +146,23 @@ sites (Eq. 1); (b) Noah-only 1.0° — Solander uses the 4-LSM ensemble mean
 (VIC, CLM, Noah, Mosaic). Never present the two numbers as directly comparable;
 Solander is corroboration of sign/pattern only.
 
+BASELINE CONSTRUCTION (third leg, added 19 Jul — inferred, not stated):
+Our climatology is OND-only (36 OND seasons, 1979–2014), which is the correct baseline:
+an all-months annual mean would be dominated by the seasonal cycle and would render OND —
+a wet-season quarter over the Maritime Continent — as a large positive departure, burying
+the drought signal. Solander's Eq. (2) does not state which construction they use: it
+divides by "the total number of monthly estimates used in the analysis from 1979 to 2016,"
+which reads as either 114 (OND only) or 456 (all months). Their maritime SE Asia values are
+NEGATIVE, which is coherent only with an OND-only baseline — so we infer OND-only and record
+that it is INFERRED FROM SIGN COHERENCE, not read off the page. If the article ever leans on
+Solander's baseline construction (as opposed to their reported values), this must be resolved
+against the paper or the claim dropped. Note: their 114 = 38 yrs × 3 months over 1979–2016 —
+the origin of this task's original "~114 files" figure, corrected to 108 for our 1979–2014.
+
+Also note (pooled vs per-year): mean of all 108 monthly fields and mean of the 36 per-year
+OND means are algebraically identical for a balanced 36×3 panel. NB3 cell computes both and
+asserts their difference ≈ 0 — a panel-balance check, not a methodological choice.
+
 ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
 [x] Test Earthdata bearer token on ONE file — CLOSED 18 Jul 2026. Oct 1997 subset
     returned HDF5 (magic-byte check via `file`), 30K.
@@ -161,6 +178,9 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
 [ ] Re-plot Fig 2A as anomaly; rewrite caption with the two-leg guard; swap into
     Doc; delete the "recompute pending" hedge. Closes B.3 + Q.3.
     STAGED CAPTION TEXT (do not apply until the anomaly figure exists):
+
+    Caption MUST state the climatology period explicitly (1979–2014 OND) — the period is
+    what makes the anomaly auditable; an unstated baseline is an unfalsifiable number.
 
     NB3 cell index 5 replacement:
     Figure 2A shows the OND 1997 soil-moisture **anomaly** over the Maritime Continent,
@@ -185,6 +205,20 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
     to the bias-corrected four-model ensemble anomaly of Solander et al. (2020), whose
     Cluster 2 OND 1997–98 value (−0.07 ± 0.03 m³/m³) corroborates the sign and pattern of
     maritime drying shown here.
+[ ] Pin NB3's dependencies in requirements.txt — GATED on the re-plot, deliberately deferred.
+    WHY DEFERRED (19 Jul): requirements.txt currently pins numpy + matplotlib only, and says
+    so explicitly — its scope comment names cartopy/netCDF4/xarray/pandas as NB3's additional
+    dependencies and commits to pinning them "when it is finalized." The file's central claim
+    is that the listed versions were VERIFIED to run the notebooks end-to-end in a fresh venv.
+    Adding pins before NB3 is final would make that claim false — a documented deferral is
+    honest; an unverified pin is a fabricated verification. NB3 is not final while the anomaly
+    recompute and re-plot are open.
+    DONE MEANS: (1) capture real versions from the working environment, never typed from
+    memory — `pip freeze | grep -iE "^(xarray|netCDF4|cartopy|pandas|numpy|matplotlib)=="`;
+    (2) append under the existing pins; (3) update the scope comment from "complete for
+    notebooks 01–02" to 01–03; (4) create a fresh venv, `pip install -r requirements.txt`,
+    and Restart & Run All on NB3 — the claim is only true once witnessed;
+    (5) commit as its own scope.
 
 ## C · CPC July discussion + perishable snapshots
 
@@ -288,9 +322,11 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
       figure — comprehend → note → test against article claims → decide framing implications.
       Schedule: after the NB3 production run (slips to licence approval day; H.9), before
       drafting the Southern US flood case (the winter-outlook figures are load-bearing there).
-      Includes: check July convection language vs fn 12's June claim. Fn-12 references here and
-      in the B.1 sweep are located by CLAIM CONTENT (drift rule): the sweep closes the Annex C
-      numbers only; the convection-language check closes HERE — don't double-close.
+      Includes: check the 9 Jul discussion's convection language against the article's
+      "near- to below-average convection over Indonesia" sentence (currently cites the 11 Jun
+      discussion — fn 18 at last mapping, 19 Jul; locate by CLAIM CONTENT per drift rule).
+      Distinct from the B.1 sweep's ASEANCOF Annex C rice-exposure numbers (fn 12 at last
+      mapping) — two different footnotes, don't double-close.
       Provenance rule for the flood case: the Gulf/N-Mexico wet signal (18/22) cites
       Ropelewski & Halpert 1986 (MWR 114), never 1987 — see lit_session1 notes V.6.
 - [ ] **Q.2** CONTENT: incorporate ASEANCOF-26 **Annex C (ESCAP impact-based forecast)**
@@ -309,6 +345,19 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
       RH87_notes.md`, Outputs Queue item c). Skeleton file exists locally, UNCOMMITTED —
       intentional, awaiting design session. Tick when the Block B STRUCTURAL design session
       is held and NB4 gets its own notes file + CHANGELOG entry.
+- [ ] **Q.7** SECTION 3 HOOK — the baseline period is itself a non-stationarity decision.
+      A 1979–2014 climatology contains the warming trend, so a recent dry event is measured
+      against a baseline that has already shifted: the computed anomaly UNDERSTATES the
+      departure relative to an early-period baseline. This is structurally the same argument
+      as Section 3's EP-curve claim — loss modifiers derived from a full historical record are
+      calibrated against a climate state that no longer exists — but one level lower, inside
+      the hazard metric rather than the loss model. Two candidate uses: (a) one clause in the
+      Fig 2A caption noting the direction of the bias; (b) a paragraph in Section 3 Part 1
+      using the article's own figure as the worked example of the calibration problem it
+      diagnoses. NOT to be asserted quantitatively without computing it — the honest version
+      is a stated direction, not a magnitude, unless an early-baseline anomaly is also
+      computed (cheap: same 108 files, e.g. 1979–1996 vs 1997–2014 climatologies).
+      Gated on: B.3 re-plot complete. Do not expand into a new analysis before Section 2 ships.
 
 ## G · Data access
 
