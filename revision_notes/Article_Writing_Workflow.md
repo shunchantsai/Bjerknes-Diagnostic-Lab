@@ -60,11 +60,10 @@ spot the *other* kind of work, log it and move on — don't do it now.
 
 ---
 
-## Three living artifacts (canonical home: this file — Article_Writing_Workflow.md, section below).
+## Three living artifacts
 
-### A. Sources Ledger — every load-bearing claim maps to a source
-| Claim (short) | ... |
-[...all three tables...]
+Sources Ledger · Hold List · Revision Log — canonical home is
+`revision_notes/article_ledger.md`. This file is protocol only.
 
 ---
 
@@ -92,7 +91,7 @@ Some facts have a shelf-life — current Niño 3.4, forecast probabilities, grai
 
 - After each session, **name a version** in File → Version history (e.g., "2026-07-07 VERIFY Intro").
 - Draft in **Suggesting mode**; accept a suggestion only once its `[verify]` is resolved.
-- The Doc appendix holds a MIRROR of the three artifacts so they travel with the article; edit article_ledger.md first, then regenerate the mirror.
+- The Doc appendix holds a MIRROR of the three artifacts; edit article_ledger.md first, then regenerate the mirror.
 
 ## Between sessions / while holding
 
