@@ -6,13 +6,6 @@
      (a) you state they're done at the next sitting, or (b) a fresh PDF export is reviewed.
      Tick a Doc item only after (a) or (b) — never on intent. Tracker 0.1 governs the export. -->
 
-## WARNINGS (not tasks — delete when resolved)
-- NB3's baked outputs and the committed Fig 2A PNG predate the 18 Jul re-pull. A Restart &
-  Run All now yields a different mean and extent than the prose and PNG claim. Do not re-run
-  before the anomaly recompute (NEXT 3). Resolves when NEXT 4 closes.
-- The Doc's Fig 2A currently carries an anomaly CAPTION over an absolute-values FIGURE.
-  Live false claim until NOW item 1 is done.
-
 ## NOW (today — pick 1–3 at open, declare session type)
 - [ ] Doc: DELETE the prematurely-applied Fig 2A anomaly caption (figure is still
       absolute-values; caption stays staged in tracker B.3 until re-plot). Revision Log line.
@@ -29,10 +22,10 @@
        section (queue lives HERE now) → split Ledger/Hold List/Revision Log out of
        Article_Writing_Workflow.md into revision_notes/article_ledger.md → audit.sh
        "TODAY" section.
-3. [ ] B.3 anomaly compute: rewrite NB3 cell idx 2 (3 hardcoded open_dataset → stack over
+3. [x] B.3 anomaly compute: rewrite NB3 cell idx 2 (3 hardcoded open_dataset → stack over
        108, open_mfdataset/glob); OND 1997 anomaly vs 1979–2014 climatology; validity mask.
        (0.322 prose + PNG annotation die here.)
-4. [ ] B.3 re-plot + caption swap: regenerate Fig 2A (check Java/Bali/Timor visible, −10°S);
+4. [x] B.3 re-plot + caption swap: regenerate Fig 2A (check Java/Bali/Timor visible, −10°S);
        apply staged captions (two-leg guard); swap into Doc; delete pending hedge; merge
        duplicate ELR placeholder if touching that block. Closes B.3 + Q.3. Then: pin NB3 deps
        in requirements.txt (tracker B.3 ACTIONS, last item — needs a fresh-venv verification 
