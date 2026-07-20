@@ -6,22 +6,22 @@
      (a) you state they're done at the next sitting, or (b) a fresh PDF export is reviewed.
      Tick a Doc item only after (a) or (b) — never on intent. Tracker 0.1 governs the export. -->
 
-## NOW (today — pick 1–3 at open, declare session type)
-- [ ] Doc: DELETE the prematurely-applied Fig 2A anomaly caption (figure is still
-      absolute-values; caption stays staged in tracker B.3 until re-plot). Revision Log line.
-- [ ] Doc: fix "from from" typo (intro); eyeball fns 14/19 opening quotes + fn 18 tail → close cosmetics.
-- [ ] Tracker: fix Q.1 stale fn number (June convection = fn 18 by content, NOT fn 12); commit
-      tracker edits (E.5 literature line + Q.1 block already applied locally, uncommitted).
+## NOW (pick 1–3 at open, declare session type)
+- [ ] B.1 fast sweep — fns 2, 9/10, 12, 15, 17, 20, each ticked with a quoted source line
+      (n+2 pattern). Every source already archived. fn 12 = Annex C numbers ONLY; the
+      convection-language check belongs to Q.1. Carried since 18 Jul.
+- [ ] requirements.txt: pin NB3 deps — UNBLOCKED as of 20 Jul (NB3 is final). Spec and
+      "done means" in tracker B.3 ACTIONS, last item. Needs a fresh venv + full run, not an edit.
 
 ## NEXT (ordered)
-1. [ ] Bookkeeping batch: (a) Ledger rows — Solander 2020 (−0.07/−0.17, Table 3, CONFIRMED
-       18 Jul) + R&H 1987 (ING/SSA sense+season, three-witness); (b) CHANGELOG entry for
-       2026-07-18 (coverage fix, 108-file pull, tracker restructure, 2 curl lessons);
-       (c) paste capstone 10-question set into lit_session1 notes; (d) Jupyter guide triage.
-2. [ ] System migration, one commit each: add this TODO.md → delete tracker's live-queue
-       section (queue lives HERE now) → split Ledger/Hold List/Revision Log out of
-       Article_Writing_Workflow.md into revision_notes/article_ledger.md → audit.sh
-       "TODAY" section.
+1. [ ] Bookkeeping remainder: (c) paste capstone 10-question set into
+       revision_notes/sessions/2026-07-12_lit_session1_RH87_notes.md — it currently lives only
+       in chat scroll; (d) Jupyter_Mac_GitHub_Workflow_Guide.md triage (commit as docs, or 
+       keep local — it is untracked and will otherwise flag in audit section E forever).
+       [(a) Ledger rows and (b) CHANGELOG entry: DONE 20 Jul, commits 0dd5b20 / 4b2e71c]
+2. [x] System migration — DONE 19–20 Jul. TODO.md is canonical plan; tracker's live-queue
+       removed; three artifacts split into revision_notes/article_ledger.md; audit.sh TODAY
+       section added; figures/ and revision_notes/sessions/ created.
 3. [x] B.3 anomaly compute: rewrite NB3 cell idx 2 (3 hardcoded open_dataset → stack over
        108, open_mfdataset/glob); OND 1997 anomaly vs 1979–2014 climatology; validity mask.
        (0.322 prose + PNG annotation die here.)

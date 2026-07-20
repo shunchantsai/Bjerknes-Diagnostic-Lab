@@ -1,3 +1,20 @@
+## 20/07/26
+
+- An empty stage is silent. `git commit` with nothing staged prints a status block and exits 0
+— no error, no commit. Chaining `git diff --staged --stat && git commit` does NOT catch it,
+because git diff exits 0 whether or not a diff exists. Three commits in one session were lost
+this way and only surfaced at the closing audit. Use `git status --short` before committing: it
+prints NOTHING when nothing is staged (unmissable) and M/A lines when there is.
+
+- Staged text applied before its gate creates the defect the staging existed to prevent. The
+Fig 2A anomaly caption was written in advance, marked "do not apply until the anomaly figure
+exists", then pasted into the Doc over the OLD absolute-values figure — where it sat for a day
+asserting an anomaly that had not been computed. Same failure class as ticking an undone task,
+arriving from the opposite direction: not a record ahead of the artifact, but prose ahead of it.
+Fix that worked: the gate travels INSIDE the staged text, and the staged block is marked
+SUPERSEDED the moment real text ships, so no future reader can re-apply a pre-computation draft.
+Corollary: a figure and its caption are one artifact — swap both or neither.
+
 ## 18/07/26
 
 - GES DISC / curl -LJO: a failed request (e.g. 401) has no Content-Disposition header,
