@@ -19,30 +19,17 @@
        in chat scroll; (d) Jupyter_Mac_GitHub_Workflow_Guide.md triage (commit as docs, or 
        keep local — it is untracked and will otherwise flag in audit section E forever).
        [(a) Ledger rows and (b) CHANGELOG entry: DONE 20 Jul, commits 0dd5b20 / 4b2e71c]
-2. [x] System migration — DONE 19–20 Jul. TODO.md is canonical plan; tracker's live-queue
-       removed; three artifacts split into revision_notes/article_ledger.md; audit.sh TODAY
-       section added; figures/ and revision_notes/sessions/ created.
-3. [x] B.3 anomaly compute: rewrite NB3 cell idx 2 (3 hardcoded open_dataset → stack over
-       108, open_mfdataset/glob); OND 1997 anomaly vs 1979–2014 climatology; validity mask.
-       (0.322 prose + PNG annotation die here.)
-4. [x] B.3 re-plot + caption swap: regenerate Fig 2A (check Java/Bali/Timor visible, −10°S);
-       apply staged captions (two-leg guard); swap into Doc; delete pending hedge; merge
-       duplicate ELR placeholder if touching that block. Closes B.3 + Q.3. Then: pin NB3 deps
-       in requirements.txt (tracker B.3 ACTIONS, last item — needs a fresh-venv verification 
-       run, not just an edit).
-5. [ ] B.1 fast sweep: fns 2, 9/10, 12, 15, 17, 20 — quoted source line each (n+2 pattern).
-       fn 12 = Annex C numbers ONLY; convection language stays with Q.1.
-6. [ ] NB4 (Q.6): commit-or-hold decision on 04_*.ipynb; then build per spec (tracker Q.6 +
+2. [ ] NB4 (Q.6): commit-or-hold decision on 04_*.ipynb; then build per spec (tracker Q.6 +
        lit_session1 notes). Timebox 2–4 sessions; a 5th wanted = STOP. Then S1 Phase-5 exam.
-7. [ ] Lit Session 2 — Saji 1999 (closes B.2, retires last [VERIFY]). Nuance: independent
+3. [ ] Lit Session 2 — Saji 1999 (closes B.2, retires last [VERIFY]). Nuance: independent
        mode ≠ never co-occurring (1972, 1997); Oct phase-locking stacks on SON/OND panels.
        Ledger row on completion.
-8. [ ] Lit Session 3 — Solander re-read, Discussion only (2015–16 puzzle = event diversity;
+4. [ ] Lit Session 3 — Solander re-read, Discussion only (2015–16 puzzle = event diversity;
        SM vs P/ET mechanism; analog failure runs both directions). Ledger row.
-9. [ ] Lit Session 4 — Cai 2021, two sittings (4a: Walker-trend reconciliation → update
+5. [ ] Lit Session 4 — Cai 2021, two sittings (4a: Walker-trend reconciliation → update
        tracker note from "unresolved"; 4b: ToE rainfall-before-SST → cites the uncited
        "intensifying extremes" sentence). Ledger row.
-10. [ ] Capstone exam (10 Qs, closed book) + fault map; article-touching errors = fn-risk flags.
+6. [ ] Capstone exam (10 Qs, closed book) + fault map; article-touching errors = fn-risk flags.
 
 ## WAITING (gated — trigger noted)
 - IRI licence → PREEMPTS EVERYTHING: Task 2F production run same day (sequence: tracker G/H).
