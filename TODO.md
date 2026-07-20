@@ -2,11 +2,18 @@
 <!-- Rules: pick NOW items at sitting open; declare session type; discoveries get ONE
      line in NEXT/WAITING, not action. Detail/evidence lives in the tracker, not here.
      Close: tick or annotate (blocked-because-X), commit, push, audit.sh. -->
+<!-- Doc items (Google Doc) are NOT visible in the repo. They are certified one of two ways:
+     (a) you state they're done at the next sitting, or (b) a fresh PDF export is reviewed.
+     Tick a Doc item only after (a) or (b) — never on intent. Tracker 0.1 governs the export. -->
+
+## WARNINGS (not tasks — delete when resolved)
+- NB3's baked outputs and the committed Fig 2A PNG predate the 18 Jul re-pull. A Restart &
+  Run All now yields a different mean and extent than the prose and PNG claim. Do not re-run
+  before the anomaly recompute (NEXT 3). Resolves when NEXT 4 closes.
+- The Doc's Fig 2A currently carries an anomaly CAPTION over an absolute-values FIGURE.
+  Live false claim until NOW item 1 is done.
 
 ## NOW (today — pick 1–3 at open, declare session type)
-- [ ] NOTE (not a task): NB3 baked outputs + committed Fig 2A PNG predate the 18 Jul
-      re-pull — a Restart & Run All now yields a different mean/extent than the prose
-      says. Resolves at the anomaly recompute (NEXT 3–4). Do not re-run before then.
 - [ ] Doc: DELETE the prematurely-applied Fig 2A anomaly caption (figure is still
       absolute-values; caption stays staged in tracker B.3 until re-plot). Revision Log line.
 - [ ] Doc: fix "from from" typo (intro); eyeball fns 14/19 opening quotes + fn 18 tail → close cosmetics.
@@ -27,7 +34,9 @@
        (0.322 prose + PNG annotation die here.)
 4. [ ] B.3 re-plot + caption swap: regenerate Fig 2A (check Java/Bali/Timor visible, −10°S);
        apply staged captions (two-leg guard); swap into Doc; delete pending hedge; merge
-       duplicate ELR placeholder if touching that block. Closes B.3 + Q.3.
+       duplicate ELR placeholder if touching that block. Closes B.3 + Q.3. Then: pin NB3 deps
+       in requirements.txt (tracker B.3 ACTIONS, last item — needs a fresh-venv verification 
+       run, not just an edit).
 5. [ ] B.1 fast sweep: fns 2, 9/10, 12, 15, 17, 20 — quoted source line each (n+2 pattern).
        fn 12 = Annex C numbers ONLY; convection language stays with Q.1.
 6. [ ] NB4 (Q.6): commit-or-hold decision on 04_*.ipynb; then build per spec (tracker Q.6 +
