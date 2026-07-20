@@ -139,12 +139,28 @@ CLOSED verification facts:
   axis labels, Fig. 5 colorbar ±0.25 + Discussion "up to 0.28" (p.2315), 0–10 cm
   layer (p.2305) ⇒ kg/m² ÷ 100 exact. Eq. 1's "(%)" is a source-internal
   inconsistency, not a doubt about Table 3. Our /100 conversion stands.
+- NEW GUINEA DIVERGENCE (20 Jul, from our own computation): Solander lists "maritime
+  southeastern Asia, Indonesia and New Guinea" among the strongest, most consistent OND
+  decreases. Our field over New Guinea is near-neutral; our drying core is the southern arc
+  (S Sumatra, Java, Bali, Lesser Sundas, S Kalimantan). Candidate causes, none tested:
+  single-model vs 4-LSM ensemble; 1° grid over high orography; cluster-boundary vs box
+  averaging. STATUS: recorded, not resolved. Do not assert a cause in the article. Reporting
+  the divergence is the honest move and is itself the epistemic signal; explaining it would
+  require work not currently scoped (candidate: compare against V2.1 or a second LSM).
 
 COMPARABILITY GUARD (two legs, both mandatory, for the caption rewrite):
 Our anomaly is (a) NOT bias-corrected — Solander regresses GLDAS against 16 in-situ
 sites (Eq. 1); (b) Noah-only 1.0° — Solander uses the 4-LSM ensemble mean
 (VIC, CLM, Noah, Mosaic). Never present the two numbers as directly comparable;
 Solander is corroboration of sign/pattern only.
+
+(c) SPATIAL-AGGREGATION MISMATCH — added 20 Jul, after the computation. Ours is a mean over
+the whole Maritime box (95/−10/150/7.5); Solander's −0.07 is a mean over k-means Cluster 2,
+i.e. the subset of pixels selected for the most consistent drying. A box mean includes
+neutral pixels the cluster excludes by construction, so ours is diluted by design. The
+apples-to-apples comparison is their cluster mean against our drying core: their −0.07 sits
+inside our range (box mean −0.020, min −0.105). This is an aggregation difference, not only
+a processing one — three legs now, all mandatory in any caption.
 
 BASELINE CONSTRUCTION (third leg, added 19 Jul — inferred, not stated):
 Our climatology is OND-only (36 OND seasons, 1979–2014), which is the correct baseline:
@@ -172,10 +188,10 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
     SoilMoi0_10cm_inst attrs, confirming the /100 conversion premise off the data.
     (Old box clipped at 5°S, excluding Java/Bali/Timor — the maritime zones
     Solander names driest. New box reaches 10°S.)
-[ ] Compute OND 1997 anomaly vs 1979–2014 climatology; apply GLDAS validity mask.
+[x] Compute OND 1997 anomaly vs 1979–2014 climatology; apply GLDAS validity mask.
     NOTE: cell index 2 hardcodes three open_dataset calls — rewrite as a stack over
     all 108 (open_mfdataset or glob) before the anomaly can be computed.
-[ ] Re-plot Fig 2A as anomaly; rewrite caption with the two-leg guard; swap into
+[x] Re-plot Fig 2A as anomaly; rewrite caption with the two-leg guard; swap into
     Doc; delete the "recompute pending" hedge. Closes B.3 + Q.3.
     STAGED CAPTION TEXT (do not apply until the anomaly figure exists):
 
@@ -205,7 +221,8 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
     to the bias-corrected four-model ensemble anomaly of Solander et al. (2020), whose
     Cluster 2 OND 1997–98 value (−0.07 ± 0.03 m³/m³) corroborates the sign and pattern of
     maritime drying shown here.
-[ ] Pin NB3's dependencies in requirements.txt — GATED on the re-plot, deliberately deferred.
+    APPLIED 20 Jul — superseded by shipped text
+[x] Pin NB3's dependencies in requirements.txt — GATED on the re-plot, deliberately deferred.
     WHY DEFERRED (19 Jul): requirements.txt currently pins numpy + matplotlib only, and says
     so explicitly — its scope comment names cartopy/netCDF4/xarray/pandas as NB3's additional
     dependencies and commits to pinning them "when it is finalized." The file's central claim
@@ -219,6 +236,7 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
     notebooks 01–02" to 01–03; (4) create a fresh venv, `pip install -r requirements.txt`,
     and Restart & Run All on NB3 — the claim is only true once witnessed;
     (5) commit as its own scope.
+    APPLIED 20 Jul — superseded by shipped text
 
 ## C · CPC July discussion + perishable snapshots
 
