@@ -31,6 +31,9 @@ git ls-files | grep -iE "data_SYNTHETIC|\.html$|_files/|\.nc$|token|secret|\.env
 echo; echo "--- E. UNTRACKED (04_ is the only expected one) ---"
 git ls-files --others --exclude-standard
 
+echo; echo "--- F. TODAY (TODO.md head) ---"
+sed -n '1,40p' TODO.md 2>/dev/null || echo "  TODO.md missing"
+
 echo; echo "========================================================"
 echo "AUDIT DONE — paste everything above into the chat to sync."
 echo "========================================================"
