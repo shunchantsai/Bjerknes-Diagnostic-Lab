@@ -12,25 +12,25 @@
       convection-language check belongs to Q.1. Carried since 18 Jul.
 - [ ] requirements.txt: pin NB3 deps — UNBLOCKED as of 20 Jul (NB3 is final). Spec and
       "done means" in tracker B.3 ACTIONS, last item. Needs a fresh venv + full run, not an edit.
+- [ ] Tracker B.3 line 228: un-tick + update requirements.txt entry (marked [x]/gated; actually unblocked 20 Jul, not yet done).
 
-## NEXT (ordered)
-1. [ ] Bookkeeping remainder: (c) paste capstone 10-question set into
-       revision_notes/sessions/2026-07-12_lit_session1_RH87_notes.md — it currently lives only
-       in chat scroll; (d) Jupyter_Mac_GitHub_Workflow_Guide.md triage (commit as docs, or 
-       keep local — it is untracked and will otherwise flag in audit section E forever).
-       [(a) Ledger rows and (b) CHANGELOG entry: DONE 20 Jul, commits 0dd5b20 / 4b2e71c]
-2. [ ] NB4 (Q.6): commit-or-hold decision on 04_*.ipynb; then build per spec (tracker Q.6 +
-       lit_session1 notes). Timebox 2–4 sessions; a 5th wanted = STOP. Then S1 Phase-5 exam.
-3. [ ] Lit Session 2 — Saji 1999 (closes B.2, retires last [VERIFY]). Nuance: independent
+1. [ ] NB4 (Q.6): build session 1 per spec (tracker Q.6 + lit_session1 notes §NB4 spec
+       inputs): generator module + tests green; rank → percentile → 24-month composite.
+       [Commit-or-hold DECIDED 21 Jul: HOLD — 04_*.ipynb is title-only, stays untracked
+       until build session 1 produces content.] Timebox 2–4 sessions; a 5th wanted = STOP.
+       Then S1 Phase-5 exam.
+2. [ ] Lit Session 2 — Saji 1999 (closes B.2, retires last [VERIFY]). Nuance: independent
        mode ≠ never co-occurring (1972, 1997); Oct phase-locking stacks on SON/OND panels.
        Ledger row on completion.
-4. [ ] Lit Session 3 — Solander re-read, Discussion only (2015–16 puzzle = event diversity;
+
+## NEXT (ordered)
+1. [ ] Lit Session 3 — Solander re-read, Discussion only (2015–16 puzzle = event diversity;
        SM vs P/ET mechanism; analog failure runs both directions). Ledger row.
-5. [ ] Lit Session 4 — Cai 2021, two sittings (4a: Walker-trend reconciliation → update
+2. [ ] Lit Session 4 — Cai 2021, two sittings (4a: Walker-trend reconciliation → update
        tracker note from "unresolved"; 4b: ToE rainfall-before-SST → cites the uncited
        "intensifying extremes" sentence). Ledger row.
-6. [ ] Capstone exam (10 Qs, closed book) + fault map; article-touching errors = fn-risk flags.
-7. [ ] Obsidian trial (SYSTEM, non-blocking): install → "Open folder as vault" on the repo
+3. [ ] Capstone exam (10 Qs, closed book) + fault map; article-touching errors = fn-risk flags.
+4. [ ] Obsidian trial (SYSTEM, non-blocking): install → "Open folder as vault" on the repo
        root (the vault IS the repo, not a copy) → `printf '.obsidian/\n' >> .gitignore` and
        commit → disable core plugins Graph/Canvas/Daily-notes/Backlinks/Outgoing-links.
        Then read TODO.md and article_ledger.md rendered. Resist plugins/tags/second-brain —

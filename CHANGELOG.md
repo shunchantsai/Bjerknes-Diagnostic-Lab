@@ -2,6 +2,12 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-21]
+- lit s1 (RH87): capstone 10-question set finalised in session notes — Q7–Q10 added to
+  the six candidates; Phase 5 exam remains deferred until NB4 runs end-to-end (5bd3a63)
+- docs: Jupyter-Mac-GitHub workflow reference guide committed at repo root — moved from
+  outside the repo; reference-manual role, complements git_and_data_ops_lessons.md (79ce4ff)
+
 ## [2026-07-20]
 
 **Session type:** Data acquisition + compute (NB3 Task 2A).
