@@ -408,13 +408,19 @@ Worked example — one region, five stations:
 **Closed-book against the PAPER, not against Claude's answers.** *(See "HOW TO WEIGHT CLAUDE": 0 for 4.)*
 **⚠ F.11 makes this exam non-optional.**
 
-### Candidate questions
+### Capstone question set (10) — finalised 21 Jul 2026
+> *Provenance note: the "capstone set" referenced in TODO/chat was never actually generated — Q1–Q6 below existed as candidates; Q7–Q10 drafted 21 Jul. Nothing was lost.*
+
 - **Q1 (conceptual):** State the coherence formula. **What is its denominator summed over?** Say what it does **not** measure, and name the statistic that does.
 - **Q2 (trap):** RH87 contains **five** numbers near 0.8. Name each, give its formula and pipeline stage, and say which — if any — is enforced as a selection rule.
 - **Q3 (structural):** Name the four stages of the pipeline. For each, give a region *or* a synthetic cluster that fails **at that stage**.
 - **Q4 (article-facing):** ING's hit rate is 80.0%; EAU's is 76.9%. Explain why the abstract can say "at least 80% in almost every region" and why **you** may not.
 - **Q5 (provenance):** Where in RH87 is the Gulf/N. Mexico signal attributed to RH86 — and why can't that attribution be read off Table 2's columns?
 - **Q6 (method):** Name the three independent witnesses RH87 provides for every region, and explain why the figure is the strongest of them.
+- **Q7 (notation → article):** Define the (0) and (+) year labels. For the 2026–27 episode, which calendar months does ING's Jun(0)–Nov(0) span, and which of NB3's four panels (ASO/SON/OND/NDJ) fall inside it?
+- **Q8 (payload + F.13):** Name Table 2's exact columns. Why must the wet/dry *sense* be derived from the counts rather than hardcoded — and cite the row proving that a table can satisfy `wet + dry = total` and still be wrong.
+- **Q9 (figure convention):** Describe Fig. 5's vector clock: the four anchor months and their positions, what solid vs. dashed outlines encode, and the phase-inversion trap — which side of the composite do harmonic vectors point to, and how does a dry region read?
+- **Q10 (synthesis):** RH87's epistemology is a screening diagnostic followed by per-episode verification. Map both stages onto the article's Section 2: which claim rests on the empirical base rate, which on the per-episode probability (NB3's ELR terciles), and why must the prose keep those two evidence types distinct?
 
 ---
 
