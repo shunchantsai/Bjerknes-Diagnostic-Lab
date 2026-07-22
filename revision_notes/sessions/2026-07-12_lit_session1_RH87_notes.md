@@ -16,6 +16,8 @@
 
 - **2026-07-22** — **Phase 1 RESTARTED** (original stopping point lost). §1 and §2 re-read. Legend added; the false "Phase 1 COMPLETE" status corrected. **[C10] answered** — §1 inversion caught: RH87's regions are **DERIVED, not pre-judged**. **[G8] logged, [G3] extended.** **⚠️ V.12 REOPENED — the 16 Jul closure is VOID** (the count failed its own pre-registration; panel identity never confirmed). **V.14 opened** (§2's 25-episode span vs. NAU's 26). **V.15 opened — §4b's verbatim quote in V.11 was mis-transcribed as "22 out of 25"; the page reads 26.** **F.14, F.15, F.16 added.** Coherence ≠ hit rate recovered from scratch and re-tested 5/5. **Next: read §3.**
 
+  **⚠️ Reorg verdict pending** — revision_notes was split/reorganised 22 Jul; judge whether the split actually helps on re-entry at the next lit sitting, not before.
+
 ## Legend (what the labels mean)
 **Phases** (lit-course workflow): 1 = solo read + catalogue questions · 2–3 = work
 answers with Claude · 3.5 = verify vs. the page (the V-queue) · 5 = closed-book exam
