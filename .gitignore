@@ -1,20 +1,20 @@
-# PDFs — article draft (unpublished) and source paper (copyright)
+# PDFs — source papers and article draft (unpublished/copyright); named explicitly,
+# not by blanket *.pdf, so a future non-PDF dropped into these folders isn't silently tracked
+sources/
+article/
 *.pdf
 
 # Jupyter / Python cruft
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+.pytest_cache/
 .DS_Store
-
 .Rhistory
 
 # Downloaded datasets — never committed; provenance documented in notebooks/tracker
 data/
 
-# Local source archive — third-party material (bulletins, discussion figures, web snapshots); cited, not redistributed
-references/
-*.html
-*_files/
+# Build artifacts
 *.html
 *_files/
