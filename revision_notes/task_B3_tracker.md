@@ -361,11 +361,14 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
       or literature read at source.
 - [ ] **Q.5** Publication-day freshness pass: latest weekly indices for the wedge sentence
       (labeled traditional AND relative), latest discussion issuance, all access dates.
-- [ ] **Q.6** PROPOSED BUILD: NB4 — `04_Ropelewski_Halpert_Atlas_Method.ipynb`, synthetic-first
-      RH87 method replication (spec inputs + rationale: `revision_notes/2026-07-12_lit_session1_
-      RH87_notes.md`, Outputs Queue item c). Skeleton file exists locally, UNCOMMITTED —
-      intentional, awaiting design session. Tick when the Block B STRUCTURAL design session
-      is held and NB4 gets its own notes file + CHANGELOG entry.
+- [ ] **Q.6** BUILD: NB4 — `04_Ropelewski_Halpert_Atlas_Method.ipynb`, synthetic-first
+      RH87 method replication. **Spec + build order + open questions now live in
+      `revision_notes/sessions/2026-07-22_nb4_build_notes.md`** (relocated 22 Jul from the
+      RH87 reading notes, where a build spec did not belong — the old pointer to "Outputs
+      Queue item c" is dead). Skeleton file exists locally, **title-only and intentionally
+      UNCOMMITTED** (commit-or-hold decided 22 Jul: HOLD until build session 1 produces
+      content). Timebox 2–4 sessions; a wanted 5th = STOP. Tick when the pipeline runs
+      end-to-end + CHANGELOG entry.
 - [ ] **Q.7** SECTION 3 HOOK — the baseline period is itself a non-stationarity decision.
       A 1979–2014 climatology contains the warming trend, so a recent dry event is measured
       against a baseline that has already shifted: the computed anomaly UNDERSTATES the
