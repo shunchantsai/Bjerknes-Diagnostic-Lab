@@ -2,6 +2,24 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-22]
+
+### Changed
+- `revision_notes/` reorganised. The RH87 literature-session notes had absorbed four other
+  files' jobs (verification ledger, build spec, article claims, transferable lessons) and
+  reached 562 lines. Split along the decision rule in `revision_notes/README.md`: the build
+  spec moved to a new NB4 arc file, transferable faults to `lessons.md`, article claims left
+  to `article_ledger.md`, resolved verifications collapsed to one line each.
+- `git_and_data_ops_lessons.md` renamed to `lessons.md` — over half its entries were already
+  epistemics and workflow rather than git, and the old name was misrouting new content.
+- `revision_notes/README.md` gained rule 0: a routed item must leave its outbox. Every
+  duplication found in the audit came from that one mechanism.
+
+### Fixed
+- The ING source-ledger row was resting partly on a verification that had been closed against
+  the wrong figure panel. Reopened, re-dated, and the claim restated on the witnesses that
+  actually support it.
+
 ## [2026-07-21]
 - lit s1 (RH87): capstone 10-question set finalised in session notes — Q7–Q10 added to
   the six candidates; Phase 5 exam remains deferred until NB4 runs end-to-end (5bd3a63)
