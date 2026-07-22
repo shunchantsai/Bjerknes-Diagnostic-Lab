@@ -29,7 +29,8 @@
 2. [ ] Lit Session 4 — Cai 2021, two sittings (4a: Walker-trend reconciliation → update
        tracker note from "unresolved"; 4b: ToE rainfall-before-SST → cites the uncited
        "intensifying extremes" sentence). Ledger row.
-3. [ ] Capstone exam (10 Qs, closed book) + fault map; article-touching errors = fn-risk flags.
+3. [ ] Course-capstone exam (10 Qs, closed book — synthesis across all 4 papers; distinct
+       from the per-session Phase-5 exams) + fault map; article-touching errors = fn-risk flags.
 4. [ ] Obsidian trial (SYSTEM, non-blocking): install → "Open folder as vault" on the repo
        root (the vault IS the repo, not a copy) → `printf '.obsidian/\n' >> .gitignore` and
        commit → disable core plugins Graph/Canvas/Daily-notes/Backlinks/Outgoing-links.
