@@ -476,7 +476,7 @@ was verifiable then, not as a claim that f8725d… is fictitious. 14 JUL UPDATE 
    N=113; page "Last updated: 15 Jun 2026" → IRI posts ~the 15th). So even an approved
    licence would not have enabled a 14 Jul run.
    DEAD-WINDOW WORK, in priority order: E.0 (synthetic validation of NB3) → B.1 (footnote
-   audit + Figure 2A) → Q.6 (NB4). NB4 IS LAST. See Section F.
+   audit + Figure 2A) → Q.6 (NB4). NB4 IS LAST. See Section F. [STILL WAITING as of 23 Jul].
 10. LICENCE HAS NO ETA (IRI short-staffed, confirmed 14 Jul — prior estimates void).
     The article is now LICENCE-INDEPENDENT: its claims rest on RH87 base rates + mechanism
     (in hand), not the IRI forecast. NB3 production is an indefinite background wait, drop-in
