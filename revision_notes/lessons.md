@@ -1,3 +1,59 @@
+# Lessons — transferable rules, learned the hard way
+
+*Reverse-chronological. Renamed from `git_and_data_ops_lessons.md` on 22 Jul 2026: the file
+had long since outgrown that name — over half its entries are epistemics and workflow, not
+git. **Test for entry: would this rule help on a different project, with different data?**
+If it is specific to one source or one task, it belongs in the tracker or the session notes.*
+
+## 22/07/26 — verification epistemics (from the RH87 literature session)
+
+- **Matching digits are not a matching claim.** Searching for "0.80" surfaced "at least 80% of
+episodes" and it was marked VERIFIED. But that 80% is a *hit rate* (a verification statistic);
+the claim under test was a *coherence threshold* (a screening statistic). The premise turned out
+true anyway — **which is worse**, because a correct conclusion from wrong evidence still carries
+a VERIFIED tag downstream. Rule: state what a number should MEAN — formula, units, pipeline
+stage — BEFORE going to look for it.
+
+- **A verification that fails its own pre-registered expectation is not a closure.** An item
+predicted "25 marked episodes, 20 below the median"; the count returned 12 and 11; it was marked
+RESOLVED regardless, because the *direction* was right. The pre-registration exists to fire an
+alarm on mismatch — do not let the desired conclusion overwrite it. If a count contradicts its
+prediction, the item stays OPEN and **the discrepancy itself becomes the finding**.
+
+- **A `[VERIFIED]` tag protects a claim from re-examination. That is its danger.** A quoted
+figure was transcribed as "22 out of 25" next to a table reading 26, annotated "matches exactly."
+It did not match, and it sat inside a verified block unread for nine days — because verified items
+are precisely the ones you stop re-reading. Nine days later it corrupted a fresh count: I recounted
+*expecting* 25, "found" 25, and nearly edited a correctly double-witnessed number down to match my
+own typo. **Rule: when transcribing a quote containing a number, check it against the table in the
+same motion. "Matches exactly" must be computed at the moment it is written, never asserted.**
+**Corollary: a wrong number in notes is not inert — it does its damage later, by corrupting the
+expectation you bring to the next measurement.**
+
+- **Internal consistency is a form of verification.** Where a source is ambiguous, the resolution
+tool is often the source's own other sentences: if reading A makes the paper's next claim false,
+reading A is wrong. Used three times in one session. Formalised as the **three-witness rule** —
+every number entering an artifact needs a second independent witness in the source.
+
+- **An artifact can be internally consistent and still wrong.** A table satisfying its own
+arithmetic (`wet + dry = total`) still disagreed with the prose and figure it summarised. An
+internal-consistency check is necessary, **not sufficient**. → A pipeline that *prints* its
+intermediate counts makes this visible; one that merely balances them does not.
+
+- **A figure is immune to typesetting error, not to reading error.** Bar charts were adopted as
+the strongest witness because "a bar chart cannot be mis-typeset" — true, and it misled. Bars near
+the median are near-zero length and unresolvable at scan resolution. **A figure is a strong witness
+for SENSE and SEASON, a weak one for TOTALS.** Where a table and prose agree verbatim, a discordant
+bar count is evidence about your counting.
+
+- **An assistant's claims about what a source says are hypotheses, not findings.** Tally over one
+session: source-content claims 0 for 5; derivations from stated premises, correct every time
+checked. Use the reasoning; verify every assertion about the page.
+
+*(Not repeated here: one-scope-per-commit and `git mv`/`git rm` — already in `self_audit.md`
+§Commit discipline and in the 10/07/26 entry below. The "shortcut migrates" pattern lives in
+`Article_Writing_Workflow.md` §The migration pattern.)*
+
 ## 20/07/26
 
 - An empty stage is silent. `git commit` with nothing staged prints a status block and exits 0
