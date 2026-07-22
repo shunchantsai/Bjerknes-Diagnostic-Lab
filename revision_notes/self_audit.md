@@ -8,6 +8,18 @@ an `exec` count that isn't `null`, a `git status` that's clean. Each is a witnes
 **When to run.** Group A every sitting-close. Groups B–D whenever a structural edit was made
 (a checkbox ticked, a cell added, a block moved, a file staged).
 
+**Recommended order within a sitting:**
+- **At open:** run `audit.sh` (Group A + auto-generic parts of B–D). Cheap, generic, tells you
+  whether the tree is honest before you touch anything.
+- **During the sitting, right after each specific structural edit** (not saved up for later):
+  go to Group B or C below, substitute today's real phrase / checkbox ID for the placeholder,
+  and run that one command by hand.
+- **Whenever `.gitignore` changes, or a file moves near an ignore boundary:** run Group D's
+  `git check-ignore -v` spot-check on the moved/new path. This has no automated equivalent in
+  `audit.sh` — it is easy to skip and easy to be wrong about without it.
+- **At close:** run `audit.sh` again, then skim Commit discipline and Known artifacts below
+  as a final check before pushing.
+
 Run all from the repo root.
 
 ---
