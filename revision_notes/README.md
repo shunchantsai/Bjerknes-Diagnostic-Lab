@@ -37,11 +37,15 @@ evidence line: what was checked, against which source, on what date.
 **Note:** the Doc's appendix holds a *mirror* so the artifacts travel with the article.
 Edit here first, then regenerate the mirror.
 
-### `git_and_data_ops_lessons.md`
+### `lessons.md`
 **What:** transferable rules learned the hard way. Reverse-chronological, dated.
+*(Renamed from `git_and_data_ops_lessons.md` on 22 Jul 2026 — over half its entries were
+already epistemics and workflow, not git, and the old name was actively misrouting content:
+"coherence is not a hit rate" is a verification lesson, and nobody would look for it in a
+git-named file.)*
 **Write when:** something went wrong in a way that will recur.
 **Test:** would this rule help on a different project, with different data? If it is
-specific to one source or one task, it belongs in the tracker instead.
+specific to one source or one task, it belongs in the tracker or the session notes instead.
 **Example that belongs here:** "curl -J refuses to overwrite; a re-pull silently keeps
 stale files while the file count still verifies correct."
 **Example that does not:** "Solander Table 3 is unit-silent" — that is one source, so
@@ -108,8 +112,15 @@ staged) → single-scope commit → push → `audit.sh` → paste output.
 | A change an outside reader should know about | CHANGELOG.md |
 | A change to how you work | Article_Writing_Workflow.md |
 | Reading notes, comprehension, design thinking | sessions/<arc>.md |
+| A build spec for a notebook | the build's own sessions/<arc>_build_notes.md (never a reading file) |
 
 **Two standing rules that override everything:**
+
+0. *A routed item must leave its outbox.* When something is copied from a session file into
+   the tracker, the ledger, or the lessons file, **delete it from the session file in the same
+   sitting.** Every duplication found in the 22 Jul audit came from one mechanism: items marked
+   RIPE were routed and then left in place, so two copies drifted apart. Check with
+   `git grep "<distinctive phrase>"` before deleting — but delete.
 
 1. *Designed edits are not done edits.* "Done" means committed and pushed, confirmed by
    `git status` and `git log` — not edited, not intended, not described in chat.
