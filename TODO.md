@@ -22,6 +22,8 @@
 2. [ ] Lit Session 2 — Saji 1999 (closes B.2, retires last [VERIFY]). Nuance: independent
        mode ≠ never co-occurring (1972, 1997); Oct phase-locking stacks on SON/OND panels.
        Ledger row on completion.
+3. [ ] Lit s1 (RH87): resume Phase 1 at §3 (global precipitation patterns) — pipeline
+       mechanics NB4 depends on. Anchor + stopping point logged in session notes.
 
 ## NEXT (ordered)
 1. [ ] Lit Session 3 — Solander re-read, Discussion only (2015–16 puzzle = event diversity;
