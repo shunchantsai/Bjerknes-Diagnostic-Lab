@@ -5,6 +5,16 @@ had long since outgrown that name — over half its entries are epistemics and w
 git. **Test for entry: would this rule help on a different project, with different data?**
 If it is specific to one source or one task, it belongs in the tracker or the session notes.*
 
+## 24/07/26 — check which signal the skill is scoring
+
+A forecast can be genuinely, verifiably skilful on the wrong variable — ASMC's
+temperature panel scores well because it is detecting a warming trend against an
+ageing 1991–2020 baseline, not because it has skill on ENSO. Skill on one panel
+lends no credibility to the panel beside it. Related: agreement ≠ skill — shared
+parameterisations and initialisation data produce consensus without independence,
+so only hindcast verification (ROC) arbitrates. Same shape as the coherence/hit-rate
+collapse: two statistics sitting at the same level of abstraction until separated.
+
 ## 23/07/26
 
 - pip freeze is not a complete dependency witness in a conda environment — conda-installed packages carry no pip metadata and are silently absent. A pin file built from pip freeze alone can look complete while containing stale, unverified, or wrong entries for exactly those packages. Cross-check against conda list or the running kernel's own __version__ before trusting any pin.

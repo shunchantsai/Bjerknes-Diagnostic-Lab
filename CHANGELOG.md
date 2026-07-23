@@ -2,6 +2,20 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-24]
+### Added
+- `revision_notes/sessions/2026-07-24_enso_asmc_exam_session.md`: comprehension exam
+  against the ASMC JJA 2026 seasonal outlook (5 Q, 25 marks) — mechanism, tercile
+  product literacy, skill structure, hazard→loss chain. Fault map opened.
+- `article_ledger.md`: PRE-STAGED provenance row for 2015 Indonesian haze
+  mortality/economic-loss figures (not yet drafted; no number in text).
+- `lessons.md`: "check which signal the skill is scoring."
+### Changed
+- `TODO.md`: ENSO operational-product literacy items distributed into NEXT (transfer
+  session, Exam Session 2), WAITING (JJA outlook verification, Sept trigger) and
+  PARKED (Niño3.4 barrier diagnostic, axis-discipline figure). Obsidian trial given
+  a hard 20-min cap.
+
 ## [2026-07-23]
 
 - requirements.txt: pinned NB3 deps (xarray, pandas, cartopy, netCDF4), corrected stale
