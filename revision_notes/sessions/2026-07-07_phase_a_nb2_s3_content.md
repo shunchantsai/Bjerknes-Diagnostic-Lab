@@ -1,3 +1,5 @@
+**CLOSED 2026-07-07** — NB2 Phase A complete (Sessions 1–3). Do not edit further; open a new arc file for any subsequent NB2 work.
+
 # Phase A: NB2 — Session 3 (CONTENT)
 
 **Session Anchor:**

@@ -61,7 +61,12 @@ verification protocol.
 ### `sessions/<date>_<arc>_notes.md`
 **What:** one file per **arc** — a unit of work with a finish line (a lit session on one
 paper, a notebook deep-read phase, a build). The filename carries the arc's START date
-and never changes; each sitting appends a dated entry inside.
+and never changes; each sitting appends a dated entry inside. *(Exception: a
+build/structural arc where each sitting's output is fully captured by a short
+deferred-list — not by content the next sitting needs to re-read — may
+reasonably use one file per sitting instead, as NB2 Phase A did before this
+convention was fixed. Comprehension/verification arcs, where later sittings
+depend on earlier findings, should use the single-file pattern.)*
 **Write when:** the notes *are* the deliverable — reading, comprehension, design.
 Ops and verify sittings log to TODO + tracker + CHANGELOG instead and produce no notes file.
 **Rules:** multiple arcs may be open at once (cap: two — one critical-path, one study).

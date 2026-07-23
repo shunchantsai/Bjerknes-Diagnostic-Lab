@@ -1,3 +1,8 @@
+**CLOSED <that-date>** — §13.2 Walker-trend clarity flag (raised in the exam session)
+resolved: rewritten with explicit "unresolved, not corrected" framing, Phase-3.5
+verified with DOIs. See CHANGELOG. Do not edit further; open a new arc file for
+any subsequent NB1 work.
+
 # Phase A: NB1 Deep Read & Comprehension
 
 **Session Anchor:**

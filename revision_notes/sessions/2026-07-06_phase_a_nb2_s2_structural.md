@@ -1,3 +1,5 @@
+**CLOSED 2026-07-07** — superseded by NB2 Phase A completion; see Session 3's notes file. Do not edit further.
+
 # Phase A: NB2 — Session 2 (STRUCTURAL)
 
 **Session Anchor:**
