@@ -7,6 +7,10 @@
      Tick a Doc item only after (a) or (b) — never on intent. Tracker 0.1 governs the export. -->
 
 ## NOW (pick 1–3 at open, declare session type)
+- [x] Docs comprehension pass: read CHANGELOG.md, task_B3_tracker.md fully; verify
+      the four closed NB1/NB2 session files carry a CLOSED tag per README's rule.
+      [PARTIAL — tracker consulted where relevant; CHANGELOG read via targeted greps,
+      not cover-to-cover; CLOSED-tag check done, 2/4 files were missing it, now fixed.]
 - [ ] B.1 fast sweep — fns 2, 9/10, 12, 15, 17, 20, each ticked with a quoted source line
       (n+2 pattern). Every source already archived. fn 12 = Annex C numbers ONLY; the
       convection-language check belongs to Q.1. Carried since 18 Jul.
