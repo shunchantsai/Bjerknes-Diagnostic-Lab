@@ -5,6 +5,10 @@ had long since outgrown that name — over half its entries are epistemics and w
 git. **Test for entry: would this rule help on a different project, with different data?**
 If it is specific to one source or one task, it belongs in the tracker or the session notes.*
 
+## 23/07/26
+
+- pip freeze is not a complete dependency witness in a conda environment — conda-installed packages carry no pip metadata and are silently absent. A pin file built from pip freeze alone can look complete while containing stale, unverified, or wrong entries for exactly those packages. Cross-check against conda list or the running kernel's own __version__ before trusting any pin.
+
 ## 22/07/26 — verification epistemics (from the RH87 literature session)
 
 - **Matching digits are not a matching claim.** Searching for "0.80" surfaced "at least 80% of

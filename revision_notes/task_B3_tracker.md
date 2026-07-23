@@ -69,7 +69,7 @@
       access date in fn 5 to 16 Jul; archive page PDF.
 - [x] B.1.n+6  fn 11 (81% OND) provenance VERIFIED 16 Jul: figure appears in 9 Jul discussion
       text itself.
-- [x] B.1.n+7  fn 6 Singh + fn 7 Sarhadi identities & numbers verified at source 16 Jul;
+- [x] B.1.n+7  fn 9 Singh + fn 10 Sarhadi identities & numbers verified at source 16 Jul;
       fn 7 misattribution repaired by Section 1 paragraph merge (stationarity/22% → Singh,
       severity → Sarhadi).
       - fn 1 (Abrams et al., "Recalibrating Climate Risk", Green Futures Solutions): source REAL, but concerns IAM damage functions / NGFS scenarios — NOT catastrophe models. CATEGORY SLIPPAGE. Sentence over-loaded: makes 3 claims (tropical SST rise / shifted extremes / CAT-model calibration) on one citation. SPLIT the sentence.
@@ -110,6 +110,19 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
       SCOPE GUARD: citation licenses MEAN tropical rise, NOT Niño-region absolute baselines
       (E eq. Pacific caveat, p. 1223).
       TICKED 17 Jul: footnote replaced in Doc, [VERIFY] marker confirmed gone by search.
+- [x] B.1.n+10  B.1 fast sweep (fns 2, 9, 10, 12, 15, 17, 20) — VERIFIED 23 Jul against
+      fresh Doc PDF (uploaded this session; supersedes stale project-folder copy — 0.2
+      still needs re-running to sync the archive).
+      fn 9 + fn 10: content matches B.1.n+7 exactly, only the numbers had drifted.
+      fn 12: Annex C quote confirmed — 95.4% (50.8 Mt) / 90.2% moderate-likelihood,
+      article rounds faithfully. Q.2 can be ticked — Annex C content is in the Doc.
+      fn 15, 17, 20: all three verified verbatim/faithful-paraphrase against the live
+      ASEANCOF-26 bulletin (asmc.asean.org).
+      ⚠ fn 17 ≠ the >6-models claim (that's fn 16, closed B.1.n+1) — different sentence,
+      never previously logged; now verified.
+      fn 2: narrowed-claim fix holds (damage functions, not CAT models) — matches report
+      subtitle. Citation URL: article cites a /2026/01/ path; live report found at
+      /2026/02/...-Final-11-02-26.pdf — confirm Jan URL still resolves or swap it.
 - [ ] **B.2** Read Saji et al. 1999 before citing 1997–98 positive-IOD co-occurrence (gated on Lit Session 2). Clean PDF re-uploaded to project 16 Jul (parses; corrupted copy replaced). On read, confirm against the text (not Claude): (i) 1997 was a positive IOD, (ii) the independence-from-ENSO framing that licenses "independent" in the article. [VERIFY] bracket stays in Doc until done.
 
 - [ ] **B.3** — Figure 2A: raw map read as drought (Solander et al. 2020, HESS 24, 2303–2322)
@@ -225,7 +238,7 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
     Cluster 2 OND 1997–98 value (−0.07 ± 0.03 m³/m³) corroborates the sign and pattern of
     maritime drying shown here.
     APPLIED 20 Jul — superseded by shipped text
-[x] Pin NB3's dependencies in requirements.txt — GATED on the re-plot, deliberately deferred.
+[ ] Pin NB3's dependencies in requirements.txt — GATED on the re-plot, deliberately deferred.
     WHY DEFERRED (19 Jul): requirements.txt currently pins numpy + matplotlib only, and says
     so explicitly — its scope comment names cartopy/netCDF4/xarray/pandas as NB3's additional
     dependencies and commits to pinning them "when it is finalized." The file's central claim
@@ -350,7 +363,7 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
       mapping) — two different footnotes, don't double-close.
       Provenance rule for the flood case: the Gulf/N-Mexico wet signal (18/22) cites
       Ropelewski & Halpert 1986 (MWR 114), never 1987 — see lit_session1 notes V.6.
-- [ ] **Q.2** CONTENT: incorporate ASEANCOF-26 **Annex C (ESCAP impact-based forecast)**
+- [x] **Q.2** CONTENT: incorporate ASEANCOF-26 **Annex C (ESCAP impact-based forecast)**
       exposure statistics into the rice/compound paragraphs — Indonesia ≈95.4% (50.8 M t) of
       rice production exposed to below-normal rainfall (90.2% of total production in moderate
       likelihood); hydropower exposure (97.2% of Indonesia's plants). This is the exposure
@@ -382,6 +395,14 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
       is a stated direction, not a magnitude, unless an early-baseline anomaly is also
       computed (cheap: same 108 files, e.g. 1979–1996 vs 1997–2014 climatologies).
       Gated on: B.3 re-plot complete. Do not expand into a new analysis before Section 2 ships.
+- [ ] Q.8  NB3 stub-task inventory: notebook has always contained Tasks 2B (rasterio/
+      geopandas), 2E (scipy) as import-only stubs never built — pre-existing since
+      founding commit 2826ffe (10 Jul), surfaced 23 Jul by the first genuine
+      Restart & Run All in a clean, correctly-pinned venv. 2B and 2E imports
+      commented out to unblock; 2C/2D survived unchanged (deps already pinned
+      for other reasons). Filename/scope question (03_SEAsia... vs the notebook's
+      own dual-case-study purpose line) still open. Build or retire each task
+      before its imports go live again.
 
 ## G · Data access
 

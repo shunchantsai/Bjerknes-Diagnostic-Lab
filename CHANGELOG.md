@@ -2,6 +2,12 @@
 
 All notable changes to the Bjerknes-Diagnostic-Lab repository are documented here.
 
+## [2026-07-23]
+
+- requirements.txt: pinned NB3 deps (xarray, pandas, cartopy, netCDF4), corrected stale
+  numpy pin (2.5.0 → 1.26.4), verified end-to-end in fresh venv. NB3: commented out
+  unbuilt Task 2B/2E stub imports (rasterio/geopandas, scipy) blocking Restart & Run All.
+
 ## [2026-07-22]
 
 ### Changed
