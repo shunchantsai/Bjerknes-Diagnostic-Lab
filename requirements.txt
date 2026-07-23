@@ -1,12 +1,13 @@
 # Bjerknes-Diagnostic-Lab — pinned runtime dependencies
 #
-# Verified: notebooks 01 and 02 both execute end-to-end (Kernel > Restart &
+# Verified: notebooks 01, 02 and 03 execute end-to-end (Kernel > Restart &
 # Run All, no errors) in a fresh virtual environment on Python 3.12 with
 # exactly these versions.
 #
-# Scope: complete for notebooks 01–02 and both physics modules. Notebook 03
-# (in progress) carries additional geospatial dependencies (cartopy, netCDF4,
-# xarray, pandas, and others); these will be pinned here when it is finalized.
+# Scope: complete for notebooks 01–03 and both physics modules. NB3's
+# geospatial dependencies (cartopy, netCDF4, xarray, pandas) captured 23 Jul
+# from the live kernel (sys.executable) + conda list cross-check, not from
+# pip freeze alone — pip freeze silently misses conda-installed packages.
 # pandas is intentionally not listed for 01–02 — neither notebook imports it.
 #
 # Reproduce a clean environment:
@@ -15,5 +16,9 @@
 #   pip install -r requirements.txt
 #   pip install notebook           # Jupyter itself, to open the notebooks
 
-numpy==2.5.0
-matplotlib==3.11.0
+xarray==2023.6.0
+pandas==2.2.2
+matplotlib==3.10.1
+numpy==1.26.4
+Cartopy==0.25.0
+netCDF4==1.7.4
