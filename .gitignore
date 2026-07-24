@@ -18,3 +18,4 @@ data/
 # Build artifacts
 *.html
 *_files/
+references/
