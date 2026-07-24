@@ -1,6 +1,6 @@
 # Task B3 Tracker — 2026–27 Probabilistic Outlook
 **Repo location:** `revision_notes/task_B3_tracker.md`
-**Created:** 2026-07-09 · **Updated:** 2026-07-18 · **Owner:** Shun-Chan
+**Created:** 2026-07-09 · **Updated:** 2026-07-24 · **Owner:** Shun-Chan
 **Rule:** work top to bottom. One checkbox at a time. Nothing here needs to be held in your head.
 **Rule:** every sitting ends with a two-minute reconcile pass — tick what's done, amend what changed, log the session.
 
@@ -238,21 +238,26 @@ ACTIONS (the re-pull and anomaly are ONE job; folds in Q.3):
     Cluster 2 OND 1997–98 value (−0.07 ± 0.03 m³/m³) corroborates the sign and pattern of
     maritime drying shown here.
     APPLIED 20 Jul — superseded by shipped text
-[ ] Pin NB3's dependencies in requirements.txt — GATED on the re-plot, deliberately deferred.
-    WHY DEFERRED (19 Jul): requirements.txt currently pins numpy + matplotlib only, and says
-    so explicitly — its scope comment names cartopy/netCDF4/xarray/pandas as NB3's additional
-    dependencies and commits to pinning them "when it is finalized." The file's central claim
-    is that the listed versions were VERIFIED to run the notebooks end-to-end in a fresh venv.
-    Adding pins before NB3 is final would make that claim false — a documented deferral is
-    honest; an unverified pin is a fabricated verification. NB3 is not final while the anomaly
-    recompute and re-plot are open.
-    DONE MEANS: (1) capture real versions from the working environment, never typed from
-    memory — `pip freeze | grep -iE "^(xarray|netCDF4|cartopy|pandas|numpy|matplotlib)=="`;
-    (2) append under the existing pins; (3) update the scope comment from "complete for
-    notebooks 01–02" to 01–03; (4) create a fresh venv, `pip install -r requirements.txt`,
-    and Restart & Run All on NB3 — the claim is only true once witnessed;
-    (5) commit as its own scope.
-    APPLIED 20 Jul — superseded by shipped text
+[x] Pin NB3's dependencies in requirements.txt — CLOSED 23 Jul 2026.
+    DONE: xarray 2023.6.0 · pandas 2.2.2 · matplotlib 3.10.1 · numpy 1.26.4 ·
+    Cartopy 0.25.0 · netCDF4 1.7.4. Versions captured from the LIVE KERNEL
+    (sys.executable) cross-checked against `conda list` — NOT from `pip freeze` alone,
+    which silently omits conda-installed packages (lessons.md 23/07/26). Stale numpy
+    pin 2.5.0 → 1.26.4 corrected. Scope comment rewritten "complete for 01–02" →
+    "complete for notebooks 01–03 and both physics modules". Verified end-to-end in a
+    fresh venv; NB3's unbuilt Task 2B/2E stub imports commented out to unblock
+    Restart & Run All (→ Q.8). Commit d20876e; CHANGELOG [2026-07-23].
+
+    ⚠ CORRECTION 24 Jul: the trailing "APPLIED 20 Jul — superseded by shipped text"
+    previously carried on this item was WRONG — it belongs to the staged caption block
+    above and was duplicated here. This item was applied 23 Jul, not 20 Jul. Removed.
+
+    WHY IT WAS DEFERRED (19 Jul) — record of the reasoning, do NOT re-apply:
+    requirements.txt then pinned numpy + matplotlib only and said so explicitly. Its
+    central claim is that the listed versions were VERIFIED to run the notebooks
+    end-to-end in a fresh venv. Pinning before NB3 was final would have made that claim
+    false — a documented deferral is honest; an unverified pin is a fabricated
+    verification.
 
 ## C · CPC July discussion + perishable snapshots
 
