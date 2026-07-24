@@ -64,9 +64,25 @@ grep -c "^9\. \|^10\. " revision_notes/task_B3_tracker.md
 ## D · Did anything unwanted get tracked?
 
 ```bash
-git ls-files | grep -iE "synthetic|\.html$|_files/|\.nc$"   # should be empty
-git check-ignore -v data/data_SYNTHETIC.nc                   # must print a rule
+# Mirrors audit.sh exactly. NOTE: grep data_SYNTHETIC, never bare "synthetic" —
+# make_synthetic_elr.py is INTENTIONALLY tracked (commit the generator, never the
+# output; tracker E.0). A check that cries wolf trains you to skim past it.
+git ls-files | grep -iE "data_SYNTHETIC|\.html$|_files/|\.nc$|token|secret|\.env"
+
+# Ignore rules must cover the FOLDER, not merely the file types currently inside it.
+# Probe each protected folder with a NON-pdf path:
+git check-ignore -v data/data_SYNTHETIC.nc     # must print a rule
+git check-ignore -v references/anything.txt    # must print a rule
+git check-ignore -v sources/anything.txt       # must print a rule
+git check-ignore -v article/anything.txt       # must print a rule
 ```
+
+⚠ **The `*.pdf` trap (found 24 Jul).** `references/` was protected only by the blanket
+`*.pdf` rule — never by a folder rule — so a `.txt`, `.png`, or `.docx` dropped into it
+would have been tracked silently, into a public repo, for third-party material that
+cannot be redistributed. Fixed by adding `references/` to `.gitignore`. The rule that
+generalises: **an ignore keyed to a file extension is not folder protection.** Probe with
+a path whose extension is *not* the one you think is covering you.
 
 ---
 
@@ -82,6 +98,9 @@ git check-ignore -v data/data_SYNTHETIC.nc                   # must print a rule
 
 ## Known artifacts that travel with a fix (don't let the record drift)
 
+- **NB3 trailing empty cell (index 24)** is the whole explanation for Group B's exec-count
+  line ending in `None` for NB3. It is an empty code cell, not an unexecuted step. Delete
+  the cell and the check reads clean; until then, expect and discount that one `None`.
 - **Figure 2A PNG** (`figure_2A_SE_Asia_soil_moisture_OND1997.png`) is the raw-values map with
   the B.3 bug. When the anomaly is recomputed, **regenerate this PNG** or the repo keeps serving
   the wrong image under a corrected caption.
