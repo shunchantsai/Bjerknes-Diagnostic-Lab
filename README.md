@@ -29,8 +29,8 @@ GLDAS soil-moisture analysis of the 1997–98 analog (complete; Figure 2A) and a
 probabilistic precipitation outlook for Southeast Asia from IRI/NMME tercile forecasts
 (pending — the forecast dataset is license-gated, with access approval in progress).
 Unlike Parts 1–2, this notebook processes external observational and forecast data and
-carries additional geospatial dependencies (cartopy, netCDF4, xarray, and others), which
-will be pinned in `requirements.txt` when the notebook is finalized.
+carries additional geospatial dependencies (cartopy, netCDF4, xarray, pandas), pinned in
+`requirements.txt` as of 23 July 2026 and verified end-to-end in a fresh environment.
 
 ## How the two parts connect
 
@@ -136,7 +136,8 @@ mechanistic understanding and an honest, legible account of one causal chain.
 ## Getting Started
 
 Requires **Python 3.12** with the versions pinned in [`requirements.txt`](requirements.txt)
-(`numpy`, `matplotlib` — that is the complete set; nothing else is imported). Set up a clean
+(`numpy`, `matplotlib`, `xarray`, `pandas`, `Cartopy`, `netCDF4`). Notebooks 01–02 need only
+`numpy` and `matplotlib`; the remainder are Notebook 03's geospatial dependencies. Set up a clean
 environment and launch Jupyter:
 
 ```bash
