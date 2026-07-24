@@ -18,4 +18,7 @@ data/
 # Build artifacts
 *.html
 *_files/
+
+# Third-party source material — folder-level rule, not just *.pdf (added 24 Jul 2026):
+# a .txt/.png/.docx dropped here would otherwise be tracked into a public repo.
 references/
