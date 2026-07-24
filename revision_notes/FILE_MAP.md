@@ -1,4 +1,4 @@
-# revision_notes/ — what each file is for
+# revision_notes/FILE_MAP.md — what each file is for
 
 Process documentation for the Bjerknes Diagnostic Lab. The repo root holds things an
 outside reader consumes (notebooks, modules, tests, README, CHANGELOG, TODO); this
@@ -8,7 +8,7 @@ If you are unsure where something goes, use the decision rule at the bottom.
 
 ---
 
-## The seven files
+## The eight entries
 
 ### `../TODO.md` (repo root)
 **What:** the plan. The only place tasks are ordered and picked.

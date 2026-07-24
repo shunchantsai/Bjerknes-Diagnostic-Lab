@@ -15,6 +15,11 @@ All notable changes to the Bjerknes-Diagnostic-Lab repository are documented her
   session, Exam Session 2), WAITING (JJA outlook verification, Sept trigger) and
   PARKED (Niño3.4 barrier diagnostic, axis-discipline figure). Obsidian trial given
   a hard 20-min cap.
+- `revision_notes/README.md` renamed to `revision_notes/FILE_MAP.md`. Two files sharing the
+  basename `README.md` collided during a file replacement on 24 Jul; the distinct name removes
+  the ambiguity. Historical CHANGELOG entries retain the old path deliberately — they describe
+  the repo as it was. Trade-off accepted: GitHub no longer auto-renders this file as the
+  folder's front page.
 
 ## [2026-07-23]
 
