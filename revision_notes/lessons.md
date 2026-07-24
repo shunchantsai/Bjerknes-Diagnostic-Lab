@@ -5,6 +5,30 @@ had long since outgrown that name — over half its entries are epistemics and w
 git. **Test for entry: would this rule help on a different project, with different data?**
 If it is specific to one source or one task, it belongs in the tracker or the session notes.*
 
+## 24/07/26 — an empty `git diff` is a failure signal, not a pass
+
+Replacing a file and then seeing `git diff <path>` print nothing does not mean the
+edit was a no-op. It usually means the replacement landed somewhere other than where
+you looked — a wrong folder, a wrong basename — and git is faithfully reporting no
+change to the file you asked about. Today a corrected `README.md` was dropped into
+`revision_notes/` instead of the repo root: the root file went unfixed and the
+governance map was overwritten wholesale, and both were invisible except in the
+uncommitted diffstat. Rule: after any file replacement, the diff must show the hunks
+you expect; **nothing is a red flag, not a green light.** And read the diffstat's
+FILENAMES, not just its shape — a 269-line change to a file you never touched is the
+only place a misplaced download announces itself.
+
+## 24/07/26 — two files sharing a basename is a collision waiting to happen
+
+`README.md` at the repo root (portfolio front door) and `revision_notes/README.md`
+(governance map) do entirely different jobs under the same name. A download saved to
+the wrong folder silently destroyed 135 lines with no warning from any tool, because
+overwriting a file is a legal operation and only the path distinguishes the two.
+Where a name is structurally meaningful to a tool (GitHub auto-renders any directory's
+`README.md`), the duplication may be worth keeping — but then the *handling* rule has
+to carry the safety: never save a download under a name that exists twice in the repo
+without confirming the destination path first.
+
 ## 24/07/26 — check which signal the skill is scoring
 
 A forecast can be genuinely, verifiably skilful on the wrong variable — ASMC's
