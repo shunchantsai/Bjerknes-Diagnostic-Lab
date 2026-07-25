@@ -28,26 +28,30 @@
 
 
 ## NEXT (ordered)
-1. [ ] NB4 (Q.6): build session 1 per spec (tracker Q.6 + lit_session1 notes §NB4 spec
+1. [ ] B.1.n ACQUISITION — ARTICLE CRITICAL PATH. Locate and read primary sources for the
+       Sections 3–6 brief numbers: rice tonnages, 20–30% price rise 1997–98, World Bank
+       GDP drag. Cite off the page or DELETE the number. Blocks Sections 3–6; nothing else
+       in the queue does. Detail: tracker B.1.n.
+2. [ ] NB4 (Q.6): build session 1 per spec (tracker Q.6 + lit_session1 notes §NB4 spec
        inputs): generator module + tests green; rank → percentile → 24-month composite.
        [Commit-or-hold DECIDED 21 Jul: HOLD — 04_*.ipynb is title-only, stays untracked
        until build session 1 produces content.] Timebox 2–4 sessions; a 5th wanted = STOP.
        Then S1 Phase-5 exam.
-2. [ ] Lit Session 3 — Solander re-read, Discussion only (2015–16 puzzle = event diversity;
+3. [ ] Lit Session 3 — Solander re-read, Discussion only (2015–16 puzzle = event diversity;
        SM vs P/ET mechanism; analog failure runs both directions). Ledger row.
-3. [ ] Lit Session 4 — Cai 2021, two sittings (4a: Walker-trend reconciliation → update
+4. [ ] Lit Session 4 — Cai 2021, two sittings (4a: Walker-trend reconciliation → update
        tracker note from "unresolved"; 4b: ToE rainfall-before-SST → cites the uncited
        "intensifying extremes" sentence). Ledger row.
-4. [ ] Transfer session (CONTENT — no new notebook): one markdown cell each in NB1/NB2
+5. [ ] Transfer session (CONTENT — no new notebook): one markdown cell each in NB1/NB2
        mapping the idealised scenarios onto the operational claim "El Niño → below-normal
        rainfall, Maritime Continent." Fixes the Hadley/Walker axis slip by re-labelling,
        not rebuilding. Source: revision_notes/sessions/2026-07-24_enso_asmc_exam_session.md
-5. [ ] Exam Session 2 — ENSO / SE Asian climate, 5 Qs closed-book. Re-test the fault-map
+6. [ ] Exam Session 2 — ENSO / SE Asian climate, 5 Qs closed-book. Re-test the fault-map
        rows marked *re-test cold* (2026-07-24 session note). GATE: no Threads post and no
        article section on this material until sat.
-6. [ ] Course-capstone exam (10 Qs, closed book — synthesis across all 4 papers; distinct
+7. [ ] Course-capstone exam (10 Qs, closed book — synthesis across all 4 papers; distinct
        from the per-session Phase-5 exams) + fault map; article-touching errors = fn-risk flags.
-7. [ ] Obsidian trial (SYSTEM, non-blocking): install → "Open folder as vault" on the repo
+8. [ ] Obsidian trial (SYSTEM, non-blocking): install → "Open folder as vault" on the repo
        root (the vault IS the repo, not a copy) → `printf '.obsidian/\n' >> .gitignore` and
        commit → disable core plugins Graph/Canvas/Daily-notes/Backlinks/Outgoing-links.
        Then read TODO.md and article_ledger.md rendered. Resist plugins/tags/second-brain —
