@@ -123,7 +123,16 @@ Cite the right product; take the number from a TABLE, never a figure. Attributio
       fn 2: narrowed-claim fix holds (damage functions, not CAT models) — matches report
       subtitle. Citation URL: article cites a /2026/01/ path; live report found at
       /2026/02/...-Final-11-02-26.pdf — confirm Jan URL still resolves or swap it.
-- [ ] **B.2** Read Saji et al. 1999 before citing 1997–98 positive-IOD co-occurrence (gated on Lit Session 2). Clean PDF re-uploaded to project 16 Jul (parses; corrupted copy replaced). On read, confirm against the text (not Claude): (i) 1997 was a positive IOD, (ii) the independence-from-ENSO framing that licenses "independent" in the article. [VERIFY] bracket stays in Doc until done.
+[x] B.2 CLOSED 25 Jul (Lit Session 2). Saji et al. 1999 read.
+    (i) 1997 = positive IOD: CONFIRMED — listed as a strong-ENSO co-occurrence year
+        (p.361, Fig.1 discussion) and one of the six Fig.2 composite events.
+    (ii) "independent" framing: LICENSED but SCOPED. Saji shows the DMI is a distinct
+        mode — weak DMI–Niño3 correlation (<0.35), pure non-ENSO cases (1961/1967/1994) —
+        NOT that it never co-occurs with ENSO. 1997 is explicitly a co-occurrence year.
+        Article's "independent" holds ONLY in the distinct-mode sense; must not imply
+        1997 was a non-ENSO event. Discussion further notes IOD is monsoon-dependent and
+        shares the biennial tendency — independent of ENSO, not of everything.
+    [VERIFY] bracket removed from Doc (see § A ledger row).
 
 - [ ] **B.3** — Figure 2A: raw map read as drought (Solander et al. 2020, HESS 24, 2303–2322)
 

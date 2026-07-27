@@ -28,6 +28,7 @@ Rules:
 | Gulf/N-Mexico wet signal (southern-US case, NOT YET DRAFTED) | 18/22 wet | **Ropelewski & Halpert 1986, MWR 114 — never 1987** (Table 2 asterisk + §5 + §4g) | PRE-STAGED provenance rule | 2026-07-16 |
 | 2015 Indonesian haze: mortality + economic loss (SE Asia hazard section, NOT YET DRAFTED) | [no number in text] | **Must pin a specific study — figures are widely repeated and range widely across estimates; "commonly cited" is not a source** | PRE-STAGED provenance rule | 2026-07-24 |
 | SE Asia OND 1997 soil-moisture anomaly (Fig 2A) | box mean −0.020, min −0.105, max +0.008 m³/m³ vs 1979–2014 OND climatology | Computed for this article: GLDAS Noah V2.0 0–10 cm, 108 OND files 1979–2014, box 95/−10/150/7.5; NB3 Task 2A, commit c275cd5 | CONFIRMED (own computation; assertions on n, months, years, extent, units all passed) | 2026-07-20 |
+| IOD "independent" of ENSO + 1997 co-occurrence | IOD is a distinct mode (weak ENSO correlation), co-occurred with El Niño in 1997 | Saji et al. 1999, Nature 401, 360–363 (abstract; p.361 Fig.1 discussion; Fig.2) | CONFIRMED — scoped to distinct-mode independence, NOT mutual exclusivity | 2026-07-25 |
 
 <!-- Add rows as [verify] tags resolve: Saji 1999 (Session 2), Cai 2021 (Session 4),
      Singh 2022 / Sarhadi 2018 / Abrams / ASEANCOF (B.1 sweep), CPC 9 Jul DD (Q.1). -->
