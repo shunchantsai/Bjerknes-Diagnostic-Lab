@@ -60,5 +60,5 @@ gated on this notebook running end-to-end.
 7. **Then:** S1 Phase-5 exam (closed-book, against the paper — questions are in the RH87 notes).
 
 ## Open questions carried in from RH87 (do not block the build)
-- **V.12** — identify ING's panel in Fig. 4 *by its printed label*, then straightedge-count. Expect 25 marked, 20 below.
+- **V.12 — RESOLVED 27 Jul** (see RH87 notes, 27 Jul entry): ING panel identified by label; counted 25 marked, 20 below — matches Table 2 (25/5/20). Replication's episode-count logic must reproduce this table-vs-figure agreement.
 - **V.14** — §2 says the longest series span 25 episodes; NAU's row is 26. What accounts for the extra one?

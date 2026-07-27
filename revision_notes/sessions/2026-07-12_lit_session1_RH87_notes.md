@@ -19,6 +19,8 @@
 
   **⚠️ Reorg verdict pending** — revision_notes was split/reorganised 22 Jul; judge whether the split actually helps on re-entry at the next lit sitting, not before.
 
+- **2026-07-27 — V.12 RE-CLOSED, this time honouring its own pre-registration.** Fig. 4c (ING; panel identified by printed label "INDONESIA – NEW GUINEA") counted by hand: **25 black bars, 20 below the 50th-percentile line** — matches the spec's pre-registered "expect 25 marked, 20 below" AND Table 2's ING row (Total 25 / Wet 5 / Dry 20). Black bars = ENSO years (Fig. 4 caption); below median = dry. The 16 Jul closure was VOID because it counted 11/12 against a wrong denominator; this count passes the pre-registration the void was raised on. **ING sense + season now legitimately second-witnessed; Fig. 4 readable with confidence.** **V.14 sharpened, still open** — NAU is in Table 2 (Total 26) but absent from Fig. 4 because Fig. 4 shows only the six PACIFIC BASIN panels (NAU is Australia group). The "26 vs stated 25" gap is NOT NAU-specific: NAU/EAU/CAU/IND/MSL all show 26. Narrowed Q: why do the longest-record regions show 26 when §2 states 25? Confirm against §2/§3 text next sitting. **Next: continue §3.**
+
 ## Legend (what the labels mean)
 **Phases** (lit-course workflow): 1 = solo read + catalogue questions · 2–3 = work
 answers with Claude · 3.5 = verify vs. the page (the V-queue) · 5 = closed-book exam
@@ -200,7 +202,7 @@ Worked example — one region, five stations:
 
 ### ⚠️ OPEN
 
-- **V.12 — ~~✅ RESOLVED 16 Jul~~ ⚠️ VOID (superseded by the reopening below).** *Retained for provenance only — this is the closure that failed, not a finding.* Recorded result was: "Fig. 4c (ING's time series): 11 of 12 marked ENSO episodes fall below the 50th-percentile line."
+- **V.12 — ✅ RE-CLOSED 27 Jul (see sitting log). ⚠️ 16 Jul closure VOID — retained for provenance.** *The 16 Jul result — "Fig. 4c: 11 of 12 marked ENSO episodes below the 50th-percentile line" — FAILED its own pre-registration (wrong denominator: 12, not the pre-registered 25) and is kept only as the closure that failed, not a finding.* **The 27 Jul re-count honours the pre-registration: 25 marked bars, 20 below median, = Table 2 ING (25/5/20). ING second witness now valid.**
   Figure 4 is the Pacific Basin's time-series set (same figure type as Figs. 7, 17, 20): century-long percentile bars with **ENSO episodes marked as dark bars**. **ING is panel (c).**
   - **Expect: 25 marked episodes, of which 20 fall below the median line.**
   - **This gives ING its second witness and closes the article's largest residual exposure.**
@@ -255,7 +257,7 @@ Worked example — one region, five stations:
 | **Pacific Basin** | | | | | | | |
 | Central Pacific (CP) | May(0)–Apr(+) | 0.98 | 8 | 7 | 1 | wet | 87.5 |
 | S. Central Pacific (SCP) | Jul(0)–Jun(+) | 0.88 | 8 | 8 | 0 | wet | 100.0 |
-| **Indonesia–New Guinea (ING)** ✅ | **Jun(0)–Nov(0)** | 0.82 | **25** | 5 | **20** | **dry** | **80.0** ← *binding minimum for §4a's claim; ⚠ V.12 REOPENED 22 Jul — the Fig. 4c count is VOID; no second witness yet***|
+| **Indonesia–New Guinea (ING)** ✅ | **Jun(0)–Nov(0)** | 0.82 | **25** | 5 | **20** | **dry** | **80.0** ← *binding minimum for §4a's claim; V.12 RE-CLOSED 27 Jul — Fig. 4c 25/20 per pre-registration; second witness valid|
 | Fiji–New Caledonia (FNC) | Oct(0)–Mar(+) | 0.95 | 11 | 2 | 9 | dry | 81.8 |
 | Micronesia–W. Pacific (MWP) | Oct(0)–May(+) | 0.91 | 13 | 1 | 12 | dry | 92.3 |
 | Hawaiian (HAW) | Nov(0)–May(+) | 0.88 | 11 | 2 | 9 | dry | 81.8 |
